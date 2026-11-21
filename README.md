@@ -2,7 +2,7 @@
 
 A university-project prototype that helps Hong Kong birdwatchers plan trips, identify birds from photographs, and learn about species.
 
-> **Prototype status:** everything the site shows is **mock (sample) data**. No model is connected yet, so nothing on the site is a real prediction.
+> **Prototype status:** the **Plan a trip** screen uses our trained bird occurrence model (see [docs/model/](docs/model/)). **Identify** and the **Assistant** still show mock (sample) data. Predictions are estimates, not guarantees.
 
 The full project brief is in [docs/project_brief.md](docs/project_brief.md).
 
@@ -76,8 +76,13 @@ Then open <http://localhost:4173/>.
 ```
 birdquest/
 ├── docs/                  Project documents that are safe to share (brief, notes)
+│   └── model/             The prediction model's evaluation report and hand-over notes
 ├── private/               Ignored by Git: personal documents, IDs, etc.
 ├── public/                Static files copied as-is (favicon)
+│   └── model/             The prediction model, made by scripts/prepare-model.mjs
+├── scripts/
+│   ├── prepare-model.mjs  Prepares a new model file for the website (removes private locations)
+│   └── weather-effects.mjs  Measures how much each weather input changes predictions
 ├── index.html             The HTML page Vite serves
 └── src/
     ├── main.jsx           Starts React
@@ -87,7 +92,8 @@ birdquest/
     ├── screens/           One component per page
     ├── components/        Pieces reused across screens
     ├── mock-data/         Sample data, clearly marked as mock
-    └── services/          The only code screens use to get data
+    ├── services/          The only code screens use to get data
+    └── vendor/            Code copied in unchanged (the model's predictor)
 ```
 
 ### How data flows
@@ -97,15 +103,53 @@ screen  ──calls──▶  service  ──reads──▶  mock-data   (today)
                               ──calls──▶  real model / API  (later)
 ```
 
-Screens never import from `mock-data/` directly. Each service returns an object with `isMock: true` while it uses sample data. To connect something real later (for example the Teachable Machine classifier in `services/identificationService.js`), change only the inside of that service, keep its return shape, and set `isMock: false`.
+Screens never import from `mock-data/` directly. Each service returns an object with `isMock: true` while it uses sample data. The trip planner service already uses the real model, so it returns `isMock: false`. To connect something real later (for example the Teachable Machine classifier in `services/identificationService.js`), change only the inside of that service, keep its return shape, and set `isMock: false`.
 
 ### Navigation
 
 The site uses the end of the address for navigation: `#/`, `#/plan`, `#/identify`, `#/assistant`. The browser back button works and no extra library is needed. The screen list lives in `src/navigation.js`.
 
+## The prediction model (Plan a trip)
+
+The **Plan a trip** screen answers two questions with the BirdQuest occurrence model:
+
+- **What can I see?** Choose a place, date and time (and optionally a target bird). You get the most likely birds, each with its chance of being recorded, plus other hotspots at the same time.
+- **Where can I see it?** Choose a bird and up to 7 days. You get the best places and 2-hour visit times.
+
+How it works:
+
+- The model runs **in the browser**. About 850 KB loads the first time you open Plan a trip, and nothing is uploaded.
+- It covers 60 common species and 98 public eBird hotspots, trained on complete eBird checklists from Hong Kong (October 2025 to September 2026). Data: eBird, Cornell Lab of Ornithology.
+- Tides aren't included, and there's only one year of data. See [docs/model/evaluation-report.md](docs/model/evaluation-report.md) for the full evaluation (in Chinese).
+
+### Live weather forecasts (off)
+
+Without forecasts, the model uses typical weather for the month, and every prediction's reliability is one level lower. To use real forecasts, set `USE_LIVE_WEATHER = true` in `src/services/tripPlannerService.js`. The browser will then contact [Open-Meteo](https://open-meteo.com/), an external weather service that's free and needs no key. If you do, add an Open-Meteo credit to the site, because their data licence requires it.
+
+### Setting the weather yourself (for demonstrations)
+
+Both questions have a **Weather** section. Leave it on **Typical for the month**, or choose **Set it myself (demo)** to adjust the 10 weather inputs the model uses: temperature, wind direction, wind speed, sunshine, humidity, temperature change since yesterday, cloud cover, pressure change since yesterday, and rain over 3 days and today. Quick settings fill in *Sunny*, *Rainy* or *Cold northerly winds* on top of the month's typical weather.
+
+The controls are listed from biggest to smallest effect on the predictions. See [docs/model/weather-effects.md](docs/model/weather-effects.md) for the measurements and some good examples to demonstrate. Results with chosen weather are a what-if, not a forecast, and the site says so.
+
+### Updating the model after retraining
+
+The original model file also contains 19 private eBird locations (people's homes and balconies), so **never copy it straight into `public/`**. Run the preparation script instead. It removes them and checks that nothing private is left:
+
+```bash
+node scripts/prepare-model.mjs path/to/new/birdquest_model.json
+```
+
+If the predictor code changed too, replace `src/vendor/birdquest-predictor.js` with the new version and keep the comment at the top. Then re-measure the weather effects and update `docs/model/weather-effects.md` (and, if the order changed, the order of `WEATHER_CONTROLS` in `src/services/tripPlannerService.js`):
+
+```bash
+node scripts/weather-effects.mjs
+```
+
 ## Not included yet
 
-- No external APIs, model or assistant connected
+- The photo classifier (Teachable Machine) and the assistant aren't connected
+- Live weather forecasts are off (see above)
 - No login, payments or database
 - Not deployed anywhere
 

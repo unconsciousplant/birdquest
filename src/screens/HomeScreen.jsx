@@ -7,7 +7,7 @@ const FEATURES = [
   {
     hash: '#/plan',
     title: 'Plan a trip',
-    text: 'Choose a place, date and time to see which birds you might find and where to look.',
+    text: 'See which birds you might find at a place and time, or where and when to look for a particular bird.',
   },
   {
     hash: '#/identify',
@@ -44,8 +44,8 @@ export default function HomeScreen({ onAskAboutSpecies }) {
           species.
         </p>
         <p className="prototype-note">
-          University project prototype. Features are still being built and everything shown is
-          sample data.
+          University project prototype. Trip planning uses our trained prediction model;
+          identification and the assistant still use sample data.
         </p>
       </section>
 

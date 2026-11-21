@@ -448,6 +448,308 @@ a {
   font-size: 0.95rem;
 }
 
+/* ---------- Forms ---------- */
+
+.planner-form {
+  display: grid;
+  gap: 14px;
+}
+
+.field {
+  display: grid;
+  gap: 4px;
+}
+
+.field label {
+  font-weight: 600;
+}
+
+.field-optional,
+.field-hint {
+  font-weight: 400;
+  color: var(--color-muted);
+}
+
+.field-hint {
+  margin: 0;
+  font-size: 0.9rem;
+}
+
+.field-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+}
+
+.field input,
+.field select {
+  width: 100%;
+  min-height: 44px;
+  padding: 8px 10px;
+  border: 1px solid var(--color-border);
+  border-radius: 8px;
+  background: var(--color-surface);
+  color: var(--color-text);
+  font: inherit;
+}
+
+.planner-form > .button {
+  justify-self: start;
+}
+
+/* ---------- Weather picker ---------- */
+
+.weather-picker {
+  margin: 0;
+  padding: 12px 14px 14px;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  display: grid;
+  gap: 12px;
+}
+
+.weather-picker legend {
+  padding: 0 6px;
+  font-weight: 600;
+}
+
+.choice-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px 16px;
+}
+
+.choice {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  min-height: 44px;
+  cursor: pointer;
+}
+
+.choice input {
+  width: 18px;
+  height: 18px;
+  margin: 0;
+  accent-color: var(--color-accent);
+}
+
+.weather-controls {
+  display: grid;
+  gap: 14px;
+}
+
+.preset-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.button-small {
+  padding: 6px 14px;
+  font-size: 0.9rem;
+}
+
+.slider-label {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 12px;
+}
+
+.slider-label output {
+  flex-shrink: 0;
+  font-weight: 700;
+  color: var(--color-accent-strong);
+}
+
+.field input[type='range'] {
+  min-height: 44px; /* comfortable tap target */
+  padding: 0;
+  border: 0;
+  background: transparent;
+  accent-color: var(--color-accent);
+}
+
+.weather-summary {
+  margin: 0;
+  padding: 8px 12px;
+  border-radius: 8px;
+  background: var(--color-accent-soft);
+  font-size: 0.9rem;
+}
+
+/* ---------- Trip planner ---------- */
+
+.mode-switch {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+}
+
+.mode-button {
+  display: grid;
+  gap: 2px;
+  min-height: 44px;
+  padding: 10px 12px;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  background: var(--color-surface);
+  color: var(--color-text);
+  font: inherit;
+  text-align: left;
+  cursor: pointer;
+}
+
+.mode-button[aria-pressed='true'] {
+  border: 2px solid var(--color-accent);
+  background: var(--color-accent-soft);
+}
+
+.mode-title {
+  font-weight: 700;
+}
+
+.mode-hint {
+  font-size: 0.85rem;
+  color: var(--color-muted);
+}
+
+.planner-results {
+  display: grid;
+  gap: 10px;
+}
+
+.planner-results > .button {
+  justify-self: start;
+}
+
+.results-summary {
+  margin: 0;
+  font-size: 1.05rem;
+}
+
+.results-meta {
+  margin: 0;
+  color: var(--color-muted);
+  font-size: 0.95rem;
+}
+
+.subsection-title {
+  margin: 12px 0 0;
+  font-size: 1.05rem;
+}
+
+.prediction-card {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.prediction-card .button {
+  align-self: flex-start;
+  margin-top: 4px;
+}
+
+.prediction-card-top {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.prediction-heading {
+  margin: 0;
+  font-size: 1.05rem;
+}
+
+.prediction-subheading {
+  margin: 0;
+  font-style: italic;
+  color: var(--color-muted);
+}
+
+.prediction-details {
+  margin: 0;
+  font-size: 0.95rem;
+}
+
+.likelihood {
+  flex-shrink: 0;
+  padding: 2px 10px;
+  border-radius: 999px;
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+
+.likelihood-likely {
+  background: var(--color-accent-soft);
+  color: var(--color-accent-strong);
+}
+
+.likelihood-possible {
+  background: var(--color-mock-bg);
+  color: var(--color-mock-text);
+}
+
+.likelihood-unlikely {
+  background: var(--color-bg);
+  color: var(--color-muted);
+}
+
+.reliability {
+  margin: 0;
+  font-size: 0.95rem;
+}
+
+.reliability-reasons {
+  margin: 0;
+  padding-left: 1.2em;
+  font-size: 0.9rem;
+  color: var(--color-muted);
+}
+
+.place-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 8px;
+}
+
+.place-row {
+  display: grid;
+  gap: 4px;
+  padding: 12px var(--space);
+}
+
+.place-row p {
+  margin: 0;
+}
+
+.place-row-name {
+  font-weight: 600;
+}
+
+.guide-list {
+  margin: 0;
+  display: grid;
+  gap: 10px;
+}
+
+.guide-list dt {
+  font-weight: 700;
+}
+
+.guide-list dd {
+  margin: 0;
+  color: var(--color-muted);
+}
+
+.error-message .button {
+  margin-top: 8px;
+}
+
 /* ---------- Wider screens (tablets and computers) ---------- */
 
 @media (min-width: 720px) {
@@ -491,7 +793,12 @@ a {
   }
 
   .grid,
-  .match-list {
+  .match-list,
+  .place-list {
     grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  }
+
+  .planner-form {
+    max-width: 560px;
   }
 }

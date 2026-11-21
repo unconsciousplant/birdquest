@@ -27,8 +27,8 @@ export default function AssistantScreen({ selectedSpecies, onClearSpecies }) {
           </div>
         ) : (
           <p>
-            None yet. Pick one with <em>Ask the assistant</em> on the <a href="#/">Home</a> or{' '}
-            <a href="#/identify">Identify</a> screen.
+            None yet. Pick one with <em>Ask the assistant</em> on the <a href="#/">Home</a>,{' '}
+            <a href="#/plan">Plan a trip</a> or <a href="#/identify">Identify</a> screen.
           </p>
         )}
       </section>

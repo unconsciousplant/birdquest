@@ -28,7 +28,7 @@ export default function App() {
   let screen
   switch (route.id) {
     case 'plan':
-      screen = <TripPlannerScreen />
+      screen = <TripPlannerScreen onAskAboutSpecies={handleAskAboutSpecies} />
       break
     case 'identify':
       screen = <IdentifyScreen onAskAboutSpecies={handleAskAboutSpecies} />
@@ -63,7 +63,8 @@ export default function App() {
       </main>
 
       <footer className="app-footer">
-        BirdQuest · University project prototype · Sample data only, no real predictions
+        BirdQuest · University project prototype · Trip predictions are estimates; identification
+        and the assistant use sample data
       </footer>
     </div>
   )

@@ -1,12 +1,12 @@
-// Shows the model's confidence for one match.
+// Shows a model's number for one result as a percentage and a bar.
 //   value: a number from 0 to 1, or null when no model is connected.
-// What the number means is explained once, above the list of matches.
-export default function ConfidenceIndicator({ value }) {
+//   label: what the number is, e.g. "Confidence" or "Chance of recording".
+// What the number means is explained once, near the list of results.
+export default function ConfidenceIndicator({ value, label = 'Confidence' }) {
   if (value === null || value === undefined) {
     return (
       <p className="confidence">
-        <span className="confidence-label">Confidence:</span> not available (no model connected
-        yet)
+        <span className="confidence-label">{label}:</span> not available (no model connected yet)
       </p>
     )
   }
@@ -21,7 +21,7 @@ export default function ConfidenceIndicator({ value }) {
   return (
     <div className="confidence">
       <p>
-        <span className="confidence-label">Confidence:</span> {text}
+        <span className="confidence-label">{label}:</span> {text}
       </p>
       {/* Visual bar only; the percentage above is what screen readers read. */}
       <div className="confidence-bar" aria-hidden="true">
