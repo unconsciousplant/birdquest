@@ -9,6 +9,6 @@
 
 export const TEAM = {
   name: 'Team 2',
-  // As written in the team's project proposal.
-  members: ['Hu Xinhan', 'YIP Wai Lam (Justina)', 'Gong Yu (Aria)', 'Kaicheng SHI'],
+  // Surname in capitals, then given name.
+  members: ['HU Xinhan', 'YIP Wai Lam (Justina)', 'GONG Yu (Aria)', 'SHI Kaicheng'],
 }
