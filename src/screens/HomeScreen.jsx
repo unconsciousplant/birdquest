@@ -44,8 +44,8 @@ export default function HomeScreen({ onAskAboutSpecies }) {
           species.
         </p>
         <p className="prototype-note">
-          University project prototype. Trip planning uses our trained prediction model;
-          identification and the assistant still use sample data.
+          University project prototype. Trip planning and photo identification use trained models,
+          and the assistant answers from checked facts about 61 Hong Kong species.
         </p>
       </section>
 

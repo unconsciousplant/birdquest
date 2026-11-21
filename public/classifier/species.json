@@ -1,0 +1,2986 @@
+[
+ {
+  "id": "sp_Abroscopus_albogularis",
+  "scientificName": "Abroscopus albogularis",
+  "commonName": "Rufous-faced Warbler",
+  "chineseName": "棕脸鹟莺",
+  "inaturalistTaxonId": 116786,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Accipiter_nisus",
+  "scientificName": "Accipiter nisus",
+  "commonName": "Eurasian Sparrowhawk",
+  "chineseName": "雀鹰",
+  "inaturalistTaxonId": 5106,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Acridotheres_cristatellus",
+  "scientificName": "Acridotheres cristatellus",
+  "commonName": "Crested Myna",
+  "chineseName": "八哥",
+  "inaturalistTaxonId": 14872,
+  "inTripPlanner": true
+ },
+ {
+  "id": "sp_Acridotheres_tristis",
+  "scientificName": "Acridotheres tristis",
+  "commonName": "Common Myna",
+  "chineseName": "家八哥",
+  "inaturalistTaxonId": 204454,
+  "inTripPlanner": true
+ },
+ {
+  "id": "sp_Acrocephalus_bistrigiceps",
+  "scientificName": "Acrocephalus bistrigiceps",
+  "commonName": "Black-browed Reed Warbler",
+  "chineseName": "黑眉苇莺",
+  "inaturalistTaxonId": 116795,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Acrocephalus_orientalis",
+  "scientificName": "Acrocephalus orientalis",
+  "commonName": "Oriental Reed Warbler",
+  "chineseName": "东方大苇莺",
+  "inaturalistTaxonId": 144928,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Actinodura_cyanouroptera",
+  "scientificName": "Actinodura cyanouroptera",
+  "commonName": "Blue-winged Minla",
+  "chineseName": "蓝翅希鹛",
+  "inaturalistTaxonId": 339876,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Actitis_hypoleucos",
+  "scientificName": "Actitis hypoleucos",
+  "commonName": "Common Sandpiper",
+  "chineseName": "矶鹬",
+  "inaturalistTaxonId": 3978,
+  "inTripPlanner": true
+ },
+ {
+  "id": "sp_Aegithalos_caudatus",
+  "scientificName": "Aegithalos caudatus",
+  "commonName": "Long-tailed Tit",
+  "chineseName": "北长尾山雀",
+  "inaturalistTaxonId": 7278,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Aegithalos_concinnus",
+  "scientificName": "Aegithalos concinnus",
+  "commonName": "Black-throated Tit",
+  "chineseName": "红头长尾山雀",
+  "inaturalistTaxonId": 7277,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Aegithalos_glaucogularis",
+  "scientificName": "Aegithalos glaucogularis",
+  "commonName": "Silver-throated Tit",
+  "chineseName": "银喉长尾山雀",
+  "inaturalistTaxonId": 339693,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Aethopyga_christinae",
+  "scientificName": "Aethopyga christinae",
+  "commonName": "Fork-tailed Sunbird",
+  "chineseName": "叉尾太阳鸟",
+  "inaturalistTaxonId": 13428,
+  "inTripPlanner": true
+ },
+ {
+  "id": "sp_Aethopyga_gouldiae",
+  "scientificName": "Aethopyga gouldiae",
+  "commonName": "Mrs. Gould's Sunbird",
+  "chineseName": "蓝喉太阳鸟",
+  "inaturalistTaxonId": 13418,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Aethopyga_siparaja",
+  "scientificName": "Aethopyga siparaja",
+  "commonName": "Crimson Sunbird",
+  "chineseName": "黄腰太阳鸟",
+  "inaturalistTaxonId": 204458,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Agropsar_sturninus",
+  "scientificName": "Agropsar sturninus",
+  "commonName": "Daurian Starling",
+  "chineseName": "北椋鸟",
+  "inaturalistTaxonId": 547201,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Aix_galericulata",
+  "scientificName": "Aix galericulata",
+  "commonName": "Mandarin Duck",
+  "chineseName": "鸳鸯",
+  "inaturalistTaxonId": 7106,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Alauda_gulgula",
+  "scientificName": "Alauda gulgula",
+  "commonName": "Oriental Skylark",
+  "chineseName": "小云雀",
+  "inaturalistTaxonId": 7350,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Alcedo_atthis",
+  "scientificName": "Alcedo atthis",
+  "commonName": "Common Kingfisher",
+  "chineseName": "普通翠鸟",
+  "inaturalistTaxonId": 2599,
+  "inTripPlanner": true
+ },
+ {
+  "id": "sp_Alcippe_davidi",
+  "scientificName": "Alcippe davidi",
+  "commonName": "David's Fulvetta",
+  "chineseName": "灰眶雀鹛",
+  "inaturalistTaxonId": 339817,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Alcippe_hueti",
+  "scientificName": "Alcippe hueti",
+  "commonName": "Huet's Fulvetta",
+  "chineseName": "淡眉雀鹛",
+  "inaturalistTaxonId": 339818,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Alophoixus_pallidus",
+  "scientificName": "Alophoixus pallidus",
+  "commonName": "Puff-throated Bulbul",
+  "chineseName": "白喉冠鹎",
+  "inaturalistTaxonId": 14635,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Amaurornis_phoenicurus",
+  "scientificName": "Amaurornis phoenicurus",
+  "commonName": "White-breasted Waterhen",
+  "chineseName": "白胸苦恶鸟",
+  "inaturalistTaxonId": 199,
+  "inTripPlanner": true
+ },
+ {
+  "id": "sp_Anarhynchus_alexandrinus",
+  "scientificName": "Anarhynchus alexandrinus",
+  "commonName": "Kentish Plover",
+  "chineseName": "环颈鸻",
+  "inaturalistTaxonId": 1505620,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Anarhynchus_leschenaultii",
+  "scientificName": "Anarhynchus leschenaultii",
+  "commonName": "Greater Sand-Plover",
+  "chineseName": "铁嘴沙鸻",
+  "inaturalistTaxonId": 1505629,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Anas_acuta",
+  "scientificName": "Anas acuta",
+  "commonName": "Northern Pintail",
+  "chineseName": "针尾鸭",
+  "inaturalistTaxonId": 6933,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Anas_crecca",
+  "scientificName": "Anas crecca",
+  "commonName": "Green-winged Teal",
+  "chineseName": "绿翅鸭",
+  "inaturalistTaxonId": 6937,
+  "inTripPlanner": true
+ },
+ {
+  "id": "sp_Anas_platyrhynchos",
+  "scientificName": "Anas platyrhynchos",
+  "commonName": "Mallard",
+  "chineseName": "绿头鸭",
+  "inaturalistTaxonId": 6930,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Anas_zonorhyncha",
+  "scientificName": "Anas zonorhyncha",
+  "commonName": "Eastern Spot-billed Duck",
+  "chineseName": "斑嘴鸭",
+  "inaturalistTaxonId": 72504,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Anastomus_oscitans",
+  "scientificName": "Anastomus oscitans",
+  "commonName": "Asian Openbill",
+  "chineseName": "钳嘴鹳",
+  "inaturalistTaxonId": 4775,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Anser_albifrons",
+  "scientificName": "Anser albifrons",
+  "commonName": "Greater White-fronted Goose",
+  "chineseName": "白额雁",
+  "inaturalistTaxonId": 7019,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Anser_anser",
+  "scientificName": "Anser anser",
+  "commonName": "Greylag Goose",
+  "chineseName": "灰雁",
+  "inaturalistTaxonId": 7018,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Anser_cygnoides",
+  "scientificName": "Anser cygnoides",
+  "commonName": "Swan Goose",
+  "chineseName": "鸿雁",
+  "inaturalistTaxonId": 7014,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Anser_indicus",
+  "scientificName": "Anser indicus",
+  "commonName": "Bar-headed Goose",
+  "chineseName": "斑头雁",
+  "inaturalistTaxonId": 7008,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Anser_serrirostris",
+  "scientificName": "Anser serrirostris",
+  "commonName": "Tundra Bean Goose",
+  "chineseName": "短嘴豆雁",
+  "inaturalistTaxonId": 144423,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Anthus_cervinus",
+  "scientificName": "Anthus cervinus",
+  "commonName": "Red-throated Pipit",
+  "chineseName": "红喉鹨",
+  "inaturalistTaxonId": 13721,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Anthus_hodgsoni",
+  "scientificName": "Anthus hodgsoni",
+  "commonName": "Olive-backed Pipit",
+  "chineseName": "树鹨",
+  "inaturalistTaxonId": 13724,
+  "inTripPlanner": true
+ },
+ {
+  "id": "sp_Anthus_japonicus",
+  "scientificName": "Anthus japonicus",
+  "commonName": "Siberian Pipit",
+  "chineseName": "黄腹鹨",
+  "inaturalistTaxonId": 1580267,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Anthus_richardi",
+  "scientificName": "Anthus richardi",
+  "commonName": "Richard's Pipit",
+  "chineseName": "理氏鹨",
+  "inaturalistTaxonId": 13726,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Anthus_roseatus",
+  "scientificName": "Anthus roseatus",
+  "commonName": "Rosy Pipit",
+  "chineseName": "粉红胸鹨",
+  "inaturalistTaxonId": 13731,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Anthus_spinoletta",
+  "scientificName": "Anthus spinoletta",
+  "commonName": "Water Pipit",
+  "chineseName": "水鹨",
+  "inaturalistTaxonId": 13713,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Apus_apus",
+  "scientificName": "Apus apus",
+  "commonName": "Common Swift",
+  "chineseName": "普通雨燕",
+  "inaturalistTaxonId": 6638,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Apus_nipalensis",
+  "scientificName": "Apus nipalensis",
+  "commonName": "House Swift",
+  "chineseName": "小白腰雨燕",
+  "inaturalistTaxonId": 6633,
+  "inTripPlanner": true
+ },
+ {
+  "id": "sp_Aquila_chrysaetos",
+  "scientificName": "Aquila chrysaetos",
+  "commonName": "Golden Eagle",
+  "chineseName": "金雕",
+  "inaturalistTaxonId": 5074,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Ardea_alba",
+  "scientificName": "Ardea alba",
+  "commonName": "Great Egret",
+  "chineseName": "大白鹭",
+  "inaturalistTaxonId": 144455,
+  "inTripPlanner": true
+ },
+ {
+  "id": "sp_Ardea_cinerea",
+  "scientificName": "Ardea cinerea",
+  "commonName": "Gray Heron",
+  "chineseName": "苍鹭",
+  "inaturalistTaxonId": 4954,
+  "inTripPlanner": true
+ },
+ {
+  "id": "sp_Ardea_coromanda",
+  "scientificName": "Ardea coromanda",
+  "commonName": "Eastern Cattle-Egret",
+  "chineseName": "牛背鹭",
+  "inaturalistTaxonId": 1585373,
+  "inTripPlanner": true
+ },
+ {
+  "id": "sp_Ardea_intermedia",
+  "scientificName": "Ardea intermedia",
+  "commonName": "Medium Egret",
+  "chineseName": "中白鹭",
+  "inaturalistTaxonId": 558445,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Ardea_purpurea",
+  "scientificName": "Ardea purpurea",
+  "commonName": "Purple Heron",
+  "chineseName": "草鹭",
+  "inaturalistTaxonId": 4951,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Ardeola_bacchus",
+  "scientificName": "Ardeola bacchus",
+  "commonName": "Chinese Pond-Heron",
+  "chineseName": "池鹭",
+  "inaturalistTaxonId": 4990,
+  "inTripPlanner": true
+ },
+ {
+  "id": "sp_Arenaria_interpres",
+  "scientificName": "Arenaria interpres",
+  "commonName": "Ruddy Turnstone",
+  "chineseName": "翻石鹬",
+  "inaturalistTaxonId": 3938,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Asio_flammeus",
+  "scientificName": "Asio flammeus",
+  "commonName": "Short-eared Owl",
+  "chineseName": "短耳鸮",
+  "inaturalistTaxonId": 20315,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Asio_otus",
+  "scientificName": "Asio otus",
+  "commonName": "Long-eared Owl",
+  "chineseName": "长耳鸮",
+  "inaturalistTaxonId": 20307,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Athene_noctua",
+  "scientificName": "Athene noctua",
+  "commonName": "Little Owl",
+  "chineseName": "纵纹腹小鸮",
+  "inaturalistTaxonId": 19998,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Aythya_baeri",
+  "scientificName": "Aythya baeri",
+  "commonName": "Baer's Pochard",
+  "chineseName": "青头潜鸭",
+  "inaturalistTaxonId": 7053,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Aythya_ferina",
+  "scientificName": "Aythya ferina",
+  "commonName": "Common Pochard",
+  "chineseName": "红头潜鸭",
+  "inaturalistTaxonId": 7045,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Aythya_fuligula",
+  "scientificName": "Aythya fuligula",
+  "commonName": "Tufted Duck",
+  "chineseName": "凤头潜鸭",
+  "inaturalistTaxonId": 7046,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Aythya_nyroca",
+  "scientificName": "Aythya nyroca",
+  "commonName": "Ferruginous Duck",
+  "chineseName": "白眼潜鸭",
+  "inaturalistTaxonId": 7055,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Bambusicola_thoracicus",
+  "scientificName": "Bambusicola thoracicus",
+  "commonName": "Chinese Bamboo-Partridge",
+  "chineseName": "灰胸竹鸡",
+  "inaturalistTaxonId": 1209,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Bombycilla_garrulus",
+  "scientificName": "Bombycilla garrulus",
+  "commonName": "Bohemian Waxwing",
+  "chineseName": "太平鸟",
+  "inaturalistTaxonId": 7429,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Bombycilla_japonica",
+  "scientificName": "Bombycilla japonica",
+  "commonName": "Japanese Waxwing",
+  "chineseName": "小太平鸟",
+  "inaturalistTaxonId": 7432,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Botaurus_sinensis",
+  "scientificName": "Botaurus sinensis",
+  "commonName": "Yellow Bittern",
+  "chineseName": "黄苇鳽",
+  "inaturalistTaxonId": 1583066,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Botaurus_stellaris",
+  "scientificName": "Botaurus stellaris",
+  "commonName": "Eurasian Bittern",
+  "chineseName": "大麻鳽",
+  "inaturalistTaxonId": 5033,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Bubo_bubo",
+  "scientificName": "Bubo bubo",
+  "commonName": "Eurasian Eagle-Owl",
+  "chineseName": "雕鸮",
+  "inaturalistTaxonId": 20059,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Bucephala_clangula",
+  "scientificName": "Bucephala clangula",
+  "commonName": "Common Goldeneye",
+  "chineseName": "鹊鸭",
+  "inaturalistTaxonId": 6990,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Butastur_indicus",
+  "scientificName": "Butastur indicus",
+  "commonName": "Gray-faced Buzzard",
+  "chineseName": "灰脸鵟鹰",
+  "inaturalistTaxonId": 5377,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Buteo_hemilasius",
+  "scientificName": "Buteo hemilasius",
+  "commonName": "Upland Buzzard",
+  "chineseName": "大鵟",
+  "inaturalistTaxonId": 5225,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Buteo_japonicus",
+  "scientificName": "Buteo japonicus",
+  "commonName": "Eastern Buzzard",
+  "chineseName": "普通鵟",
+  "inaturalistTaxonId": 486630,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Butorides_striata",
+  "scientificName": "Butorides striata",
+  "commonName": "Striated Heron",
+  "chineseName": "绿鹭",
+  "inaturalistTaxonId": 62528,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Cairina_moschata",
+  "scientificName": "Cairina moschata",
+  "commonName": "Muscovy Duck",
+  "chineseName": "疣鼻栖鸭",
+  "inaturalistTaxonId": 7120,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Calidris_acuminata",
+  "scientificName": "Calidris acuminata",
+  "commonName": "Sharp-tailed Sandpiper",
+  "chineseName": "尖尾滨鹬",
+  "inaturalistTaxonId": 3844,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Calidris_alba",
+  "scientificName": "Calidris alba",
+  "commonName": "Sanderling",
+  "chineseName": "三趾滨鹬",
+  "inaturalistTaxonId": 3849,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Calidris_alpina",
+  "scientificName": "Calidris alpina",
+  "commonName": "Dunlin",
+  "chineseName": "黑腹滨鹬",
+  "inaturalistTaxonId": 3857,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Calidris_ferruginea",
+  "scientificName": "Calidris ferruginea",
+  "commonName": "Curlew Sandpiper",
+  "chineseName": "弯嘴滨鹬",
+  "inaturalistTaxonId": 3863,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Calidris_pygmaea",
+  "scientificName": "Calidris pygmaea",
+  "commonName": "Spoon-billed Sandpiper",
+  "chineseName": "勺嘴鹬",
+  "inaturalistTaxonId": 979640,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Calidris_ruficollis",
+  "scientificName": "Calidris ruficollis",
+  "commonName": "Red-necked Stint",
+  "chineseName": "红颈滨鹬",
+  "inaturalistTaxonId": 3854,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Calidris_subminuta",
+  "scientificName": "Calidris subminuta",
+  "commonName": "Long-toed Stint",
+  "chineseName": "长趾滨鹬",
+  "inaturalistTaxonId": 3848,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Calidris_temminckii",
+  "scientificName": "Calidris temminckii",
+  "commonName": "Temminck's Stint",
+  "chineseName": "青脚滨鹬",
+  "inaturalistTaxonId": 3837,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Calidris_tenuirostris",
+  "scientificName": "Calidris tenuirostris",
+  "commonName": "Great Knot",
+  "chineseName": "大滨鹬",
+  "inaturalistTaxonId": 3852,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Calliope_calliope",
+  "scientificName": "Calliope calliope",
+  "commonName": "Siberian Rubythroat",
+  "chineseName": "红喉歌鸲",
+  "inaturalistTaxonId": 145064,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Caprimulgus_jotaka",
+  "scientificName": "Caprimulgus jotaka",
+  "commonName": "Gray Nightjar",
+  "chineseName": "普通夜鹰",
+  "inaturalistTaxonId": 367509,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Carpodacus_dubius",
+  "scientificName": "Carpodacus dubius",
+  "commonName": "Chinese White-browed Rosefinch",
+  "chineseName": "白眉朱雀",
+  "inaturalistTaxonId": 145297,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Cecropis_daurica",
+  "scientificName": "Cecropis daurica",
+  "commonName": "Eastern Red-rumped Swallow",
+  "chineseName": "金腰燕",
+  "inaturalistTaxonId": 144792,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Centropus_sinensis",
+  "scientificName": "Centropus sinensis",
+  "commonName": "Greater Coucal",
+  "chineseName": "褐翅鸦鹃",
+  "inaturalistTaxonId": 1677,
+  "inTripPlanner": true
+ },
+ {
+  "id": "sp_Ceryle_rudis",
+  "scientificName": "Ceryle rudis",
+  "commonName": "Pied Kingfisher",
+  "chineseName": "斑鱼狗",
+  "inaturalistTaxonId": 2662,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Chalcophaps_indica",
+  "scientificName": "Chalcophaps indica",
+  "commonName": "Asian Emerald Dove",
+  "chineseName": "绿翅金鸠",
+  "inaturalistTaxonId": 508097,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Chlidonias_hybrida",
+  "scientificName": "Chlidonias hybrida",
+  "commonName": "Whiskered Tern",
+  "chineseName": "灰翅浮鸥",
+  "inaturalistTaxonId": 62148,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Chlidonias_leucopterus",
+  "scientificName": "Chlidonias leucopterus",
+  "commonName": "White-winged Tern",
+  "chineseName": "白翅浮鸥",
+  "inaturalistTaxonId": 4514,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Chloris_sinica",
+  "scientificName": "Chloris sinica",
+  "commonName": "Oriental Greenfinch",
+  "chineseName": "金翅雀",
+  "inaturalistTaxonId": 145361,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Chloropsis_hardwickii",
+  "scientificName": "Chloropsis hardwickii",
+  "commonName": "Orange-bellied Leafbird",
+  "chineseName": "橙腹叶鹎",
+  "inaturalistTaxonId": 12006,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Chroicocephalus_brunnicephalus",
+  "scientificName": "Chroicocephalus brunnicephalus",
+  "commonName": "Brown-headed Gull",
+  "chineseName": "棕头鸥",
+  "inaturalistTaxonId": 144511,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Chroicocephalus_ridibundus",
+  "scientificName": "Chroicocephalus ridibundus",
+  "commonName": "Black-headed Gull",
+  "chineseName": "红嘴鸥",
+  "inaturalistTaxonId": 144510,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Ciconia_boyciana",
+  "scientificName": "Ciconia boyciana",
+  "commonName": "Oriental Stork",
+  "chineseName": "东方白鹳",
+  "inaturalistTaxonId": 4739,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Ciconia_nigra",
+  "scientificName": "Ciconia nigra",
+  "commonName": "Black Stork",
+  "chineseName": "黑鹳",
+  "inaturalistTaxonId": 4736,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Cinclus_pallasii",
+  "scientificName": "Cinclus pallasii",
+  "commonName": "Brown Dipper",
+  "chineseName": "褐河乌",
+  "inaturalistTaxonId": 7642,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Cinnyris_ornatus",
+  "scientificName": "Cinnyris ornatus",
+  "commonName": "Ornate Sunbird",
+  "chineseName": "黄腹花蜜鸟",
+  "inaturalistTaxonId": 1505007,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Circus_cyaneus",
+  "scientificName": "Circus cyaneus",
+  "commonName": "Hen Harrier",
+  "chineseName": "白尾鹞",
+  "inaturalistTaxonId": 559064,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Circus_spilonotus",
+  "scientificName": "Circus spilonotus",
+  "commonName": "Eastern Marsh Harrier",
+  "chineseName": "白腹鹞",
+  "inaturalistTaxonId": 979659,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Cisticola_juncidis",
+  "scientificName": "Cisticola juncidis",
+  "commonName": "Zitting Cisticola",
+  "chineseName": "棕扇尾莺",
+  "inaturalistTaxonId": 7697,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Coccothraustes_coccothraustes",
+  "scientificName": "Coccothraustes coccothraustes",
+  "commonName": "Hawfinch",
+  "chineseName": "锡嘴雀",
+  "inaturalistTaxonId": 9801,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Coloeus_dauuricus",
+  "scientificName": "Coloeus dauuricus",
+  "commonName": "Daurian Jackdaw",
+  "chineseName": "达乌里寒鸦",
+  "inaturalistTaxonId": 1578721,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Columba_livia",
+  "scientificName": "Columba livia",
+  "commonName": "Rock Pigeon",
+  "chineseName": "原鸽",
+  "inaturalistTaxonId": 3017,
+  "inTripPlanner": true
+ },
+ {
+  "id": "sp_Columba_rupestris",
+  "scientificName": "Columba rupestris",
+  "commonName": "Hill Pigeon",
+  "chineseName": "岩鸽",
+  "inaturalistTaxonId": 3039,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Copsychus_malabaricus",
+  "scientificName": "Copsychus malabaricus",
+  "commonName": "White-rumped Shama",
+  "chineseName": "白腰鹊鸲",
+  "inaturalistTaxonId": 204490,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Copsychus_saularis",
+  "scientificName": "Copsychus saularis",
+  "commonName": "Oriental Magpie-Robin",
+  "chineseName": "鹊鸲",
+  "inaturalistTaxonId": 204491,
+  "inTripPlanner": true
+ },
+ {
+  "id": "sp_Corvus_corone",
+  "scientificName": "Corvus corone",
+  "commonName": "Carrion Crow",
+  "chineseName": "小嘴乌鸦",
+  "inaturalistTaxonId": 204496,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Corvus_frugilegus",
+  "scientificName": "Corvus frugilegus",
+  "commonName": "Rook",
+  "chineseName": "秃鼻乌鸦",
+  "inaturalistTaxonId": 8029,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Corvus_macrorhynchos",
+  "scientificName": "Corvus macrorhynchos",
+  "commonName": "Large-billed Crow",
+  "chineseName": "大嘴乌鸦",
+  "inaturalistTaxonId": 8026,
+  "inTripPlanner": true
+ },
+ {
+  "id": "sp_Corvus_torquatus",
+  "scientificName": "Corvus torquatus",
+  "commonName": "Collared Crow",
+  "chineseName": "白颈鸦",
+  "inaturalistTaxonId": 8005,
+  "inTripPlanner": true
+ },
+ {
+  "id": "sp_Crossoptilon_crossoptilon",
+  "scientificName": "Crossoptilon crossoptilon",
+  "commonName": "White Eared-Pheasant",
+  "chineseName": "白马鸡",
+  "inaturalistTaxonId": 979675,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Cuculus_canorus",
+  "scientificName": "Cuculus canorus",
+  "commonName": "Common Cuckoo",
+  "chineseName": "大杜鹃",
+  "inaturalistTaxonId": 1907,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Culicicapa_ceylonensis",
+  "scientificName": "Culicicapa ceylonensis",
+  "commonName": "Grey-headed Canary-Flycatcher",
+  "chineseName": "方尾鹟",
+  "inaturalistTaxonId": 116875,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Cyanoderma_ruficeps",
+  "scientificName": "Cyanoderma ruficeps",
+  "commonName": "Rufous-capped Babbler",
+  "chineseName": "红头穗鹛",
+  "inaturalistTaxonId": 339784,
+  "inTripPlanner": true
+ },
+ {
+  "id": "sp_Cyanopica_cyanus",
+  "scientificName": "Cyanopica cyanus",
+  "commonName": "Azure-winged Magpie",
+  "chineseName": "灰喜鹊",
+  "inaturalistTaxonId": 72785,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Cyanoptila_cyanomelana",
+  "scientificName": "Cyanoptila cyanomelana",
+  "commonName": "Blue-and-white Flycatcher",
+  "chineseName": "白腹蓝鹟",
+  "inaturalistTaxonId": 13258,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Cygnus_atratus",
+  "scientificName": "Cygnus atratus",
+  "commonName": "Black Swan",
+  "chineseName": "黑天鹅",
+  "inaturalistTaxonId": 6914,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Cygnus_columbianus",
+  "scientificName": "Cygnus columbianus",
+  "commonName": "Tundra Swan",
+  "chineseName": "小天鹅",
+  "inaturalistTaxonId": 6917,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Cygnus_cygnus",
+  "scientificName": "Cygnus cygnus",
+  "commonName": "Whooper Swan",
+  "chineseName": "大天鹅",
+  "inaturalistTaxonId": 6916,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Cygnus_olor",
+  "scientificName": "Cygnus olor",
+  "commonName": "Mute Swan",
+  "chineseName": "疣鼻天鹅",
+  "inaturalistTaxonId": 6921,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Cyornis_hainanus",
+  "scientificName": "Cyornis hainanus",
+  "commonName": "Hainan Blue Flycatcher",
+  "chineseName": "海南蓝仙鹟",
+  "inaturalistTaxonId": 12858,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Delichon_dasypus",
+  "scientificName": "Delichon dasypus",
+  "commonName": "Asian House Martin",
+  "chineseName": "烟腹毛脚燕",
+  "inaturalistTaxonId": 11876,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Dendrocitta_formosae",
+  "scientificName": "Dendrocitta formosae",
+  "commonName": "Gray Treepie",
+  "chineseName": "灰树鹊",
+  "inaturalistTaxonId": 8306,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Dendrocopos_major",
+  "scientificName": "Dendrocopos major",
+  "commonName": "Great Spotted Woodpecker",
+  "chineseName": "大斑啄木鸟",
+  "inaturalistTaxonId": 17871,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Dicaeum_cruentatum",
+  "scientificName": "Dicaeum cruentatum",
+  "commonName": "Scarlet-backed Flowerpecker",
+  "chineseName": "朱背啄花鸟",
+  "inaturalistTaxonId": 13386,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Dicaeum_ignipectus",
+  "scientificName": "Dicaeum ignipectus",
+  "commonName": "Fire-breasted Flowerpecker",
+  "chineseName": "红胸啄花鸟",
+  "inaturalistTaxonId": 72808,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Dicrurus_hottentottus",
+  "scientificName": "Dicrurus hottentottus",
+  "commonName": "Hair-crested Drongo",
+  "chineseName": "发冠卷尾",
+  "inaturalistTaxonId": 8267,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Dicrurus_leucophaeus",
+  "scientificName": "Dicrurus leucophaeus",
+  "commonName": "Ashy Drongo",
+  "chineseName": "灰卷尾",
+  "inaturalistTaxonId": 8264,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Dicrurus_macrocercus",
+  "scientificName": "Dicrurus macrocercus",
+  "commonName": "Black Drongo",
+  "chineseName": "黑卷尾",
+  "inaturalistTaxonId": 8277,
+  "inTripPlanner": true
+ },
+ {
+  "id": "sp_Egretta_eulophotes",
+  "scientificName": "Egretta eulophotes",
+  "commonName": "Chinese Egret",
+  "chineseName": "黄嘴白鹭",
+  "inaturalistTaxonId": 4949,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Egretta_garzetta",
+  "scientificName": "Egretta garzetta",
+  "commonName": "Little Egret",
+  "chineseName": "小白鹭",
+  "inaturalistTaxonId": 4943,
+  "inTripPlanner": true
+ },
+ {
+  "id": "sp_Elanus_caeruleus",
+  "scientificName": "Elanus caeruleus",
+  "commonName": "Black-winged Kite",
+  "chineseName": "黑翅鸢",
+  "inaturalistTaxonId": 5275,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Emberiza_aureola",
+  "scientificName": "Emberiza aureola",
+  "commonName": "Yellow-breasted Bunting",
+  "chineseName": "黄胸鹀",
+  "inaturalistTaxonId": 9212,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Emberiza_chrysophrys",
+  "scientificName": "Emberiza chrysophrys",
+  "commonName": "Yellow-browed Bunting",
+  "chineseName": "黄眉鹀",
+  "inaturalistTaxonId": 9187,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Emberiza_cioides",
+  "scientificName": "Emberiza cioides",
+  "commonName": "Meadow Bunting",
+  "chineseName": "三道眉草鹀",
+  "inaturalistTaxonId": 9216,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Emberiza_elegans",
+  "scientificName": "Emberiza elegans",
+  "commonName": "Yellow-throated Bunting",
+  "chineseName": "黄喉鹀",
+  "inaturalistTaxonId": 9207,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Emberiza_fucata",
+  "scientificName": "Emberiza fucata",
+  "commonName": "Chestnut-eared Bunting",
+  "chineseName": "栗耳鹀",
+  "inaturalistTaxonId": 9198,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Emberiza_godlewskii",
+  "scientificName": "Emberiza godlewskii",
+  "commonName": "Godlewski's Bunting",
+  "chineseName": "戈氏岩鹀",
+  "inaturalistTaxonId": 9226,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Emberiza_pallasi",
+  "scientificName": "Emberiza pallasi",
+  "commonName": "Pallas's Bunting",
+  "chineseName": "苇鹀",
+  "inaturalistTaxonId": 9191,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Emberiza_pusilla",
+  "scientificName": "Emberiza pusilla",
+  "commonName": "Little Bunting",
+  "chineseName": "小鹀",
+  "inaturalistTaxonId": 9197,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Emberiza_rustica",
+  "scientificName": "Emberiza rustica",
+  "commonName": "Rustic Bunting",
+  "chineseName": "田鹀",
+  "inaturalistTaxonId": 9188,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Emberiza_spodocephala",
+  "scientificName": "Emberiza spodocephala",
+  "commonName": "Black-faced Bunting",
+  "chineseName": "灰头鹀",
+  "inaturalistTaxonId": 9204,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Emberiza_tristrami",
+  "scientificName": "Emberiza tristrami",
+  "commonName": "Tristram's Bunting",
+  "chineseName": "白眉鹀",
+  "inaturalistTaxonId": 9225,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Enicurus_leschenaulti",
+  "scientificName": "Enicurus leschenaulti",
+  "commonName": "Javan forktail",
+  "chineseName": "白额燕尾",
+  "inaturalistTaxonId": 13092,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Enicurus_schistaceus",
+  "scientificName": "Enicurus schistaceus",
+  "commonName": "Slaty-backed Forktail",
+  "chineseName": "灰背燕尾",
+  "inaturalistTaxonId": 13087,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Enicurus_scouleri",
+  "scientificName": "Enicurus scouleri",
+  "commonName": "Little Forktail",
+  "chineseName": "小燕尾",
+  "inaturalistTaxonId": 13091,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Eophona_migratoria",
+  "scientificName": "Eophona migratoria",
+  "commonName": "Chinese Grosbeak",
+  "chineseName": "黑尾蜡嘴雀",
+  "inaturalistTaxonId": 10534,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Eremophila_alpestris",
+  "scientificName": "Eremophila alpestris",
+  "commonName": "Horned Lark",
+  "chineseName": "角百灵",
+  "inaturalistTaxonId": 7294,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Erpornis_zantholeuca",
+  "scientificName": "Erpornis zantholeuca",
+  "commonName": "White-bellied Erpornis",
+  "chineseName": "白腹凤鹛",
+  "inaturalistTaxonId": 15319,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Erythrogenys_gravivox",
+  "scientificName": "Erythrogenys gravivox",
+  "commonName": "Black-streaked Scimitar-Babbler",
+  "chineseName": "斑胸钩嘴鹛",
+  "inaturalistTaxonId": 1289440,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Eudynamys_scolopaceus",
+  "scientificName": "Eudynamys scolopaceus",
+  "commonName": "Asian Koel",
+  "chineseName": "噪鹃",
+  "inaturalistTaxonId": 204510,
+  "inTripPlanner": true
+ },
+ {
+  "id": "sp_Eumyias_thalassinus",
+  "scientificName": "Eumyias thalassinus",
+  "commonName": "Verditer Flycatcher",
+  "chineseName": "铜蓝鹟",
+  "inaturalistTaxonId": 72848,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Eurystomus_orientalis",
+  "scientificName": "Eurystomus orientalis",
+  "commonName": "Oriental Dollarbird",
+  "chineseName": "三宝鸟",
+  "inaturalistTaxonId": 2293,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Falco_amurensis",
+  "scientificName": "Falco amurensis",
+  "commonName": "Amur Falcon",
+  "chineseName": "红脚隼",
+  "inaturalistTaxonId": 4686,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Falco_cherrug",
+  "scientificName": "Falco cherrug",
+  "commonName": "Saker Falcon",
+  "chineseName": "猎隼",
+  "inaturalistTaxonId": 4691,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Falco_peregrinus",
+  "scientificName": "Falco peregrinus",
+  "commonName": "Peregrine Falcon",
+  "chineseName": "游隼",
+  "inaturalistTaxonId": 4647,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Falco_subbuteo",
+  "scientificName": "Falco subbuteo",
+  "commonName": "Eurasian Hobby",
+  "chineseName": "燕隼",
+  "inaturalistTaxonId": 4643,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Falco_tinnunculus",
+  "scientificName": "Falco tinnunculus",
+  "commonName": "Eurasian Kestrel",
+  "chineseName": "红隼",
+  "inaturalistTaxonId": 472766,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Ficedula_albicilla",
+  "scientificName": "Ficedula albicilla",
+  "commonName": "Taiga Flycatcher",
+  "chineseName": "红喉姬鹟",
+  "inaturalistTaxonId": 68519,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Ficedula_mugimaki",
+  "scientificName": "Ficedula mugimaki",
+  "commonName": "Mugimaki Flycatcher",
+  "chineseName": "鸲姬鹟",
+  "inaturalistTaxonId": 13127,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Ficedula_strophiata",
+  "scientificName": "Ficedula strophiata",
+  "commonName": "Rufous-gorgeted Flycatcher",
+  "chineseName": "橙胸姬鹟",
+  "inaturalistTaxonId": 13110,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Ficedula_zanthopygia",
+  "scientificName": "Ficedula zanthopygia",
+  "commonName": "Yellow-rumped Flycatcher",
+  "chineseName": "白眉姬鹟",
+  "inaturalistTaxonId": 13124,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Fringilla_montifringilla",
+  "scientificName": "Fringilla montifringilla",
+  "commonName": "Brambling",
+  "chineseName": "燕雀",
+  "inaturalistTaxonId": 10069,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Fulica_atra",
+  "scientificName": "Fulica atra",
+  "commonName": "Eurasian Coot",
+  "chineseName": "白骨顶",
+  "inaturalistTaxonId": 482,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Gallinago_gallinago",
+  "scientificName": "Gallinago gallinago",
+  "commonName": "Common Snipe",
+  "chineseName": "扇尾沙锥",
+  "inaturalistTaxonId": 318836,
+  "inTripPlanner": true
+ },
+ {
+  "id": "sp_Gallinula_chloropus",
+  "scientificName": "Gallinula chloropus",
+  "commonName": "Eurasian Moorhen",
+  "chineseName": "黑水鸡",
+  "inaturalistTaxonId": 201282,
+  "inTripPlanner": true
+ },
+ {
+  "id": "sp_Gallus_gallus",
+  "scientificName": "Gallus gallus",
+  "commonName": "Red Junglefowl",
+  "chineseName": "原鸡",
+  "inaturalistTaxonId": 882,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Garrulax_canorus",
+  "scientificName": "Garrulax canorus",
+  "commonName": "Chinese Hwamei",
+  "chineseName": "画眉",
+  "inaturalistTaxonId": 15156,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Garrulus_glandarius",
+  "scientificName": "Garrulus glandarius",
+  "commonName": "Eurasian Jay",
+  "chineseName": "松鸦",
+  "inaturalistTaxonId": 8088,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Gelochelidon_nilotica",
+  "scientificName": "Gelochelidon nilotica",
+  "commonName": "Gull-billed Tern",
+  "chineseName": "鸥嘴噪鸥",
+  "inaturalistTaxonId": 144536,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Glareola_maldivarum",
+  "scientificName": "Glareola maldivarum",
+  "commonName": "Oriental Pratincole",
+  "chineseName": "普通燕鸻",
+  "inaturalistTaxonId": 4601,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Glaucidium_cuculoides",
+  "scientificName": "Glaucidium cuculoides",
+  "commonName": "Asian Barred Owlet",
+  "chineseName": "斑头鸺鹠",
+  "inaturalistTaxonId": 19839,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Gracupica_nigricollis",
+  "scientificName": "Gracupica nigricollis",
+  "commonName": "Black-collared Starling",
+  "chineseName": "黑领椋鸟",
+  "inaturalistTaxonId": 145098,
+  "inTripPlanner": true
+ },
+ {
+  "id": "sp_Grus_grus",
+  "scientificName": "Grus grus",
+  "commonName": "Common Crane",
+  "chineseName": "灰鹤",
+  "inaturalistTaxonId": 41,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Grus_japonensis",
+  "scientificName": "Grus japonensis",
+  "commonName": "Red-crowned Crane",
+  "chineseName": "丹顶鹤",
+  "inaturalistTaxonId": 39,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Grus_nigricollis",
+  "scientificName": "Grus nigricollis",
+  "commonName": "Black-necked Crane",
+  "chineseName": "黑颈鹤",
+  "inaturalistTaxonId": 25,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Gypaetus_barbatus",
+  "scientificName": "Gypaetus barbatus",
+  "commonName": "Bearded Vulture",
+  "chineseName": "胡兀鹫",
+  "inaturalistTaxonId": 5379,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Gyps_himalayensis",
+  "scientificName": "Gyps himalayensis",
+  "commonName": "Himalayan Griffon",
+  "chineseName": "高山兀鹫",
+  "inaturalistTaxonId": 5367,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Haematopus_ostralegus",
+  "scientificName": "Haematopus ostralegus",
+  "commonName": "Eurasian Oystercatcher",
+  "chineseName": "蛎鹬",
+  "inaturalistTaxonId": 4843,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Halcyon_pileata",
+  "scientificName": "Halcyon pileata",
+  "commonName": "Black-capped Kingfisher",
+  "chineseName": "蓝翡翠",
+  "inaturalistTaxonId": 2353,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Halcyon_smyrnensis",
+  "scientificName": "Halcyon smyrnensis",
+  "commonName": "White-throated Kingfisher",
+  "chineseName": "白胸翡翠",
+  "inaturalistTaxonId": 204519,
+  "inTripPlanner": true
+ },
+ {
+  "id": "sp_Hemixos_castanonotus",
+  "scientificName": "Hemixos castanonotus",
+  "commonName": "Chestnut Bulbul",
+  "chineseName": "栗背短脚鹎",
+  "inaturalistTaxonId": 14684,
+  "inTripPlanner": true
+ },
+ {
+  "id": "sp_Heterophasia_desgodinsi",
+  "scientificName": "Heterophasia desgodinsi",
+  "commonName": "Black-headed Sibia",
+  "chineseName": "黑耳奇鹛",
+  "inaturalistTaxonId": 72920,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Himantopus_himantopus",
+  "scientificName": "Himantopus himantopus",
+  "commonName": "Black-winged Stilt",
+  "chineseName": "黑翅长脚鹬",
+  "inaturalistTaxonId": 4835,
+  "inTripPlanner": true
+ },
+ {
+  "id": "sp_Hirundo_rustica",
+  "scientificName": "Hirundo rustica",
+  "commonName": "Barn Swallow",
+  "chineseName": "家燕",
+  "inaturalistTaxonId": 11901,
+  "inTripPlanner": true
+ },
+ {
+  "id": "sp_Horornis_fortipes",
+  "scientificName": "Horornis fortipes",
+  "commonName": "Brownish-flanked Bush Warbler",
+  "chineseName": "强脚树莺",
+  "inaturalistTaxonId": 339710,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Hydrophasianus_chirurgus",
+  "scientificName": "Hydrophasianus chirurgus",
+  "commonName": "Pheasant-tailed Jacana",
+  "chineseName": "水雉",
+  "inaturalistTaxonId": 4589,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Hydroprogne_caspia",
+  "scientificName": "Hydroprogne caspia",
+  "commonName": "Caspian Tern",
+  "chineseName": "红嘴巨燕鸥",
+  "inaturalistTaxonId": 144537,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Hypothymis_azurea",
+  "scientificName": "Hypothymis azurea",
+  "commonName": "Black-naped Monarch",
+  "chineseName": "黑枕王鹟",
+  "inaturalistTaxonId": 204523,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Hypsipetes_leucocephalus",
+  "scientificName": "Hypsipetes leucocephalus",
+  "commonName": "Black Bulbul",
+  "chineseName": "黑短脚鹎",
+  "inaturalistTaxonId": 204524,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Ianthocincla_maxima",
+  "scientificName": "Ianthocincla maxima",
+  "commonName": "Giant Laughingthrush",
+  "chineseName": "大噪鹛",
+  "inaturalistTaxonId": 339834,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Ichthyaetus_ichthyaetus",
+  "scientificName": "Ichthyaetus ichthyaetus",
+  "commonName": "Pallas's Gull",
+  "chineseName": "渔鸥",
+  "inaturalistTaxonId": 144521,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Ictinaetus_malaiensis",
+  "scientificName": "Ictinaetus malaiensis",
+  "commonName": "Black Eagle",
+  "chineseName": "林雕",
+  "inaturalistTaxonId": 367472,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Ithaginis_cruentus",
+  "scientificName": "Ithaginis cruentus",
+  "commonName": "Blood Pheasant",
+  "chineseName": "血雉",
+  "inaturalistTaxonId": 1140,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Ixos_mcclellandii",
+  "scientificName": "Ixos mcclellandii",
+  "commonName": "Mountain Bulbul",
+  "chineseName": "绿翅短脚鹎",
+  "inaturalistTaxonId": 144917,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Jynx_torquilla",
+  "scientificName": "Jynx torquilla",
+  "commonName": "Eurasian Wryneck",
+  "chineseName": "蚁䴕",
+  "inaturalistTaxonId": 18448,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Lalage_melaschistos",
+  "scientificName": "Lalage melaschistos",
+  "commonName": "Black-winged Cuckooshrike",
+  "chineseName": "暗灰鹃鵙",
+  "inaturalistTaxonId": 201112,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Lanius_bucephalus",
+  "scientificName": "Lanius bucephalus",
+  "commonName": "Bull-headed Shrike",
+  "chineseName": "牛头伯劳",
+  "inaturalistTaxonId": 12051,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Lanius_cristatus",
+  "scientificName": "Lanius cristatus",
+  "commonName": "Brown Shrike",
+  "chineseName": "红尾伯劳",
+  "inaturalistTaxonId": 12021,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Lanius_schach",
+  "scientificName": "Lanius schach",
+  "commonName": "Long-tailed Shrike",
+  "chineseName": "棕背伯劳",
+  "inaturalistTaxonId": 12035,
+  "inTripPlanner": true
+ },
+ {
+  "id": "sp_Lanius_sphenocercus",
+  "scientificName": "Lanius sphenocercus",
+  "commonName": "Chinese Grey Shrike",
+  "chineseName": "楔尾伯劳",
+  "inaturalistTaxonId": 12043,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Lanius_tephronotus",
+  "scientificName": "Lanius tephronotus",
+  "commonName": "Grey-backed Shrike",
+  "chineseName": "灰背伯劳",
+  "inaturalistTaxonId": 12037,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Lanius_tigrinus",
+  "scientificName": "Lanius tigrinus",
+  "commonName": "Tiger Shrike",
+  "chineseName": "虎纹伯劳",
+  "inaturalistTaxonId": 12041,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Larus_crassirostris",
+  "scientificName": "Larus crassirostris",
+  "commonName": "Black-tailed Gull",
+  "chineseName": "黑尾鸥",
+  "inaturalistTaxonId": 4370,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Larvivora_sibilans",
+  "scientificName": "Larvivora sibilans",
+  "commonName": "Rufous-tailed Robin",
+  "chineseName": "红尾歌鸲",
+  "inaturalistTaxonId": 145055,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Leiothrix_lutea",
+  "scientificName": "Leiothrix lutea",
+  "commonName": "Red-billed Leiothrix",
+  "chineseName": "红嘴相思鸟",
+  "inaturalistTaxonId": 15560,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Leucogeranus_leucogeranus",
+  "scientificName": "Leucogeranus leucogeranus",
+  "commonName": "Siberian Crane",
+  "chineseName": "白鹤",
+  "inaturalistTaxonId": 144289,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Limosa_lapponica",
+  "scientificName": "Limosa lapponica",
+  "commonName": "Bar-tailed Godwit",
+  "chineseName": "斑尾塍鹬",
+  "inaturalistTaxonId": 3951,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Limosa_limosa",
+  "scientificName": "Limosa limosa",
+  "commonName": "Black-tailed Godwit",
+  "chineseName": "黑尾塍鹬",
+  "inaturalistTaxonId": 3947,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Lonchura_punctulata",
+  "scientificName": "Lonchura punctulata",
+  "commonName": "Scaly-breasted Munia",
+  "chineseName": "斑文鸟",
+  "inaturalistTaxonId": 13893,
+  "inTripPlanner": true
+ },
+ {
+  "id": "sp_Lonchura_striata",
+  "scientificName": "Lonchura striata",
+  "commonName": "White-rumped Munia",
+  "chineseName": "白腰文鸟",
+  "inaturalistTaxonId": 13887,
+  "inTripPlanner": true
+ },
+ {
+  "id": "sp_Lophospiza_trivirgata",
+  "scientificName": "Lophospiza trivirgata",
+  "commonName": "Crested Goshawk",
+  "chineseName": "凤头鹰",
+  "inaturalistTaxonId": 1582801,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Lophura_nycthemera",
+  "scientificName": "Lophura nycthemera",
+  "commonName": "Silver Pheasant",
+  "chineseName": "白鹇",
+  "inaturalistTaxonId": 1096,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Luscinia_svecica",
+  "scientificName": "Luscinia svecica",
+  "commonName": "Bluethroat",
+  "chineseName": "蓝喉歌鸲",
+  "inaturalistTaxonId": 13071,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Machlolophus_spilonotus",
+  "scientificName": "Machlolophus spilonotus",
+  "commonName": "Yellow-cheeked Tit",
+  "chineseName": "黄颊山雀",
+  "inaturalistTaxonId": 513972,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Mareca_falcata",
+  "scientificName": "Mareca falcata",
+  "commonName": "Falcated Duck",
+  "chineseName": "罗纹鸭",
+  "inaturalistTaxonId": 558440,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Mareca_penelope",
+  "scientificName": "Mareca penelope",
+  "commonName": "Eurasian Wigeon",
+  "chineseName": "赤颈鸭",
+  "inaturalistTaxonId": 558441,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Mareca_strepera",
+  "scientificName": "Mareca strepera",
+  "commonName": "Gadwall",
+  "chineseName": "赤膀鸭",
+  "inaturalistTaxonId": 558439,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Megaceryle_lugubris",
+  "scientificName": "Megaceryle lugubris",
+  "commonName": "Crested Kingfisher",
+  "chineseName": "冠鱼狗",
+  "inaturalistTaxonId": 2556,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Mergellus_albellus",
+  "scientificName": "Mergellus albellus",
+  "commonName": "Smew",
+  "chineseName": "斑头秋沙鸭",
+  "inaturalistTaxonId": 7192,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Mergus_merganser",
+  "scientificName": "Mergus merganser",
+  "commonName": "Common Merganser",
+  "chineseName": "普通秋沙鸭",
+  "inaturalistTaxonId": 7004,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Mergus_squamatus",
+  "scientificName": "Mergus squamatus",
+  "commonName": "Scaly-sided Merganser",
+  "chineseName": "中华秋沙鸭",
+  "inaturalistTaxonId": 7002,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Milvus_migrans",
+  "scientificName": "Milvus migrans",
+  "commonName": "Black Kite",
+  "chineseName": "黑鸢",
+  "inaturalistTaxonId": 5268,
+  "inTripPlanner": true
+ },
+ {
+  "id": "sp_Monticola_rufiventris",
+  "scientificName": "Monticola rufiventris",
+  "commonName": "Chestnut-bellied Rock-Thrush",
+  "chineseName": "栗腹矶鸫",
+  "inaturalistTaxonId": 13142,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Monticola_solitarius",
+  "scientificName": "Monticola solitarius",
+  "commonName": "Blue Rock-Thrush",
+  "chineseName": "蓝矶鸫",
+  "inaturalistTaxonId": 13141,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Motacilla_alba",
+  "scientificName": "Motacilla alba",
+  "commonName": "White Wagtail",
+  "chineseName": "白鹡鸰",
+  "inaturalistTaxonId": 13695,
+  "inTripPlanner": true
+ },
+ {
+  "id": "sp_Motacilla_cinerea",
+  "scientificName": "Motacilla cinerea",
+  "commonName": "Gray Wagtail",
+  "chineseName": "灰鹡鸰",
+  "inaturalistTaxonId": 13688,
+  "inTripPlanner": true
+ },
+ {
+  "id": "sp_Motacilla_citreola",
+  "scientificName": "Motacilla citreola",
+  "commonName": "Citrine Wagtail",
+  "chineseName": "黄头鹡鸰",
+  "inaturalistTaxonId": 13687,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Motacilla_tschutschensis",
+  "scientificName": "Motacilla tschutschensis",
+  "commonName": "Eastern Yellow Wagtail",
+  "chineseName": "黄鹡鸰",
+  "inaturalistTaxonId": 145207,
+  "inTripPlanner": true
+ },
+ {
+  "id": "sp_Muscicapa_dauurica",
+  "scientificName": "Muscicapa dauurica",
+  "commonName": "Asian Brown Flycatcher",
+  "chineseName": "北灰鹟",
+  "inaturalistTaxonId": 512431,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Muscicapa_griseisticta",
+  "scientificName": "Muscicapa griseisticta",
+  "commonName": "Gray-streaked Flycatcher",
+  "chineseName": "灰纹鹟",
+  "inaturalistTaxonId": 12988,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Muscicapa_sibirica",
+  "scientificName": "Muscicapa sibirica",
+  "commonName": "Dark-sided Flycatcher",
+  "chineseName": "乌鹟",
+  "inaturalistTaxonId": 12987,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Myophonus_caeruleus",
+  "scientificName": "Myophonus caeruleus",
+  "commonName": "Blue Whistling-Thrush",
+  "chineseName": "紫啸鸫",
+  "inaturalistTaxonId": 68507,
+  "inTripPlanner": true
+ },
+ {
+  "id": "sp_Netta_rufina",
+  "scientificName": "Netta rufina",
+  "commonName": "Red-crested Pochard",
+  "chineseName": "赤嘴潜鸭",
+  "inaturalistTaxonId": 7122,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Nucifraga_hemispila",
+  "scientificName": "Nucifraga hemispila",
+  "commonName": "Southern Nutcracker",
+  "chineseName": "南方星鸦",
+  "inaturalistTaxonId": 1583632,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Numenius_arquata",
+  "scientificName": "Numenius arquata",
+  "commonName": "Eurasian Curlew",
+  "chineseName": "白腰杓鹬",
+  "inaturalistTaxonId": 3896,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Numenius_phaeopus",
+  "scientificName": "Numenius phaeopus",
+  "commonName": "Eurasian Whimbrel",
+  "chineseName": "中杓鹬",
+  "inaturalistTaxonId": 3901,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Nycticorax_nycticorax",
+  "scientificName": "Nycticorax nycticorax",
+  "commonName": "Black-crowned Night Heron",
+  "chineseName": "夜鹭",
+  "inaturalistTaxonId": 4981,
+  "inTripPlanner": true
+ },
+ {
+  "id": "sp_Onychostruthus_taczanowskii",
+  "scientificName": "Onychostruthus taczanowskii",
+  "commonName": "White-rumped Snowfinch",
+  "chineseName": "白腰雪雀",
+  "inaturalistTaxonId": 1506141,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Oriolus_chinensis",
+  "scientificName": "Oriolus chinensis",
+  "commonName": "Black-naped Oriole",
+  "chineseName": "黑枕黄鹂",
+  "inaturalistTaxonId": 7867,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Orthotomus_sutorius",
+  "scientificName": "Orthotomus sutorius",
+  "commonName": "Common Tailorbird",
+  "chineseName": "长尾缝叶莺",
+  "inaturalistTaxonId": 15347,
+  "inTripPlanner": true
+ },
+ {
+  "id": "sp_Otus_lettia",
+  "scientificName": "Otus lettia",
+  "commonName": "Collared Scops-Owl",
+  "chineseName": "领角鸮",
+  "inaturalistTaxonId": 144586,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Otus_sunia",
+  "scientificName": "Otus sunia",
+  "commonName": "Oriental Scops-Owl",
+  "chineseName": "红角鸮",
+  "inaturalistTaxonId": 20234,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Pandion_haliaetus",
+  "scientificName": "Pandion haliaetus",
+  "commonName": "Osprey",
+  "chineseName": "鹗",
+  "inaturalistTaxonId": 116999,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Panurus_biarmicus",
+  "scientificName": "Panurus biarmicus",
+  "commonName": "Bearded Reedling",
+  "chineseName": "文须雀",
+  "inaturalistTaxonId": 117000,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Paradoxornis_gularis",
+  "scientificName": "Paradoxornis gularis",
+  "commonName": "Gray-headed Parrotbill",
+  "chineseName": "灰头鸦雀",
+  "inaturalistTaxonId": 15365,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Paradoxornis_heudei",
+  "scientificName": "Paradoxornis heudei",
+  "commonName": "Reed Parrotbill",
+  "chineseName": "震旦鸦雀",
+  "inaturalistTaxonId": 15374,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Parayuhina_diademata",
+  "scientificName": "Parayuhina diademata",
+  "commonName": "White-collared Yuhina",
+  "chineseName": "白领凤鹛",
+  "inaturalistTaxonId": 1289463,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Parus_cinereus",
+  "scientificName": "Parus cinereus",
+  "commonName": "Asian Tit",
+  "chineseName": "大山雀",
+  "inaturalistTaxonId": 339691,
+  "inTripPlanner": true
+ },
+ {
+  "id": "sp_Parus_monticolus",
+  "scientificName": "Parus monticolus",
+  "commonName": "Green-backed Tit",
+  "chineseName": "绿背山雀",
+  "inaturalistTaxonId": 13596,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Passer_cinnamomeus",
+  "scientificName": "Passer cinnamomeus",
+  "commonName": "Russet Sparrow",
+  "chineseName": "山麻雀",
+  "inaturalistTaxonId": 793321,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Passer_montanus",
+  "scientificName": "Passer montanus",
+  "commonName": "Eurasian Tree Sparrow",
+  "chineseName": "麻雀",
+  "inaturalistTaxonId": 13851,
+  "inTripPlanner": true
+ },
+ {
+  "id": "sp_Pericrocotus_cantonensis",
+  "scientificName": "Pericrocotus cantonensis",
+  "commonName": "Brown-rumped Minivet",
+  "chineseName": "小灰山椒鸟",
+  "inaturalistTaxonId": 7856,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Pericrocotus_solaris",
+  "scientificName": "Pericrocotus solaris",
+  "commonName": "Gray-chinned Minivet",
+  "chineseName": "灰喉山椒鸟",
+  "inaturalistTaxonId": 7850,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Pericrocotus_speciosus",
+  "scientificName": "Pericrocotus speciosus",
+  "commonName": "Scarlet Minivet",
+  "chineseName": "赤红山椒鸟",
+  "inaturalistTaxonId": 339679,
+  "inTripPlanner": true
+ },
+ {
+  "id": "sp_Periparus_ater",
+  "scientificName": "Periparus ater",
+  "commonName": "Coal Tit",
+  "chineseName": "煤山雀",
+  "inaturalistTaxonId": 144823,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Periparus_rubidiventris",
+  "scientificName": "Periparus rubidiventris",
+  "commonName": "Rufous-vented Tit",
+  "chineseName": "黑冠山雀",
+  "inaturalistTaxonId": 144825,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Periparus_venustulus",
+  "scientificName": "Periparus venustulus",
+  "commonName": "Yellow-bellied Tit",
+  "chineseName": "黄腹山雀",
+  "inaturalistTaxonId": 339689,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Pernis_ptilorhynchus",
+  "scientificName": "Pernis ptilorhynchus",
+  "commonName": "Oriental Honey-buzzard",
+  "chineseName": "凤头蜂鹰",
+  "inaturalistTaxonId": 144458,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Phalacrocorax_carbo",
+  "scientificName": "Phalacrocorax carbo",
+  "commonName": "Great Cormorant",
+  "chineseName": "普通鸬鹚",
+  "inaturalistTaxonId": 4270,
+  "inTripPlanner": true
+ },
+ {
+  "id": "sp_Phasianus_colchicus",
+  "scientificName": "Phasianus colchicus",
+  "commonName": "Ring-necked Pheasant",
+  "chineseName": "环颈雉",
+  "inaturalistTaxonId": 981,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Phoenicurus_auroreus",
+  "scientificName": "Phoenicurus auroreus",
+  "commonName": "Daurian Redstart",
+  "chineseName": "北红尾鸲",
+  "inaturalistTaxonId": 12993,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Phoenicurus_frontalis",
+  "scientificName": "Phoenicurus frontalis",
+  "commonName": "Blue-fronted Redstart",
+  "chineseName": "蓝额红尾鸲",
+  "inaturalistTaxonId": 12996,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Phoenicurus_fuliginosus",
+  "scientificName": "Phoenicurus fuliginosus",
+  "commonName": "Plumbeous Water Redstart",
+  "chineseName": "红尾水鸲",
+  "inaturalistTaxonId": 145068,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Phoenicurus_leucocephalus",
+  "scientificName": "Phoenicurus leucocephalus",
+  "commonName": "White-capped Redstart",
+  "chineseName": "白顶溪鸲",
+  "inaturalistTaxonId": 145070,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Phoenicurus_ochruros",
+  "scientificName": "Phoenicurus ochruros",
+  "commonName": "Black Redstart",
+  "chineseName": "赭红尾鸲",
+  "inaturalistTaxonId": 13000,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Phoenicurus_schisticeps",
+  "scientificName": "Phoenicurus schisticeps",
+  "commonName": "White-throated Redstart",
+  "chineseName": "白喉红尾鸲",
+  "inaturalistTaxonId": 12990,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Phylloscopus_castaniceps",
+  "scientificName": "Phylloscopus castaniceps",
+  "commonName": "Chestnut-crowned Warbler",
+  "chineseName": "栗头鹟莺",
+  "inaturalistTaxonId": 793202,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Phylloscopus_coronatus",
+  "scientificName": "Phylloscopus coronatus",
+  "commonName": "Eastern Crowned Warbler",
+  "chineseName": "冕柳莺",
+  "inaturalistTaxonId": 117017,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Phylloscopus_fuscatus",
+  "scientificName": "Phylloscopus fuscatus",
+  "commonName": "Dusky Warbler",
+  "chineseName": "褐柳莺",
+  "inaturalistTaxonId": 117022,
+  "inTripPlanner": true
+ },
+ {
+  "id": "sp_Phylloscopus_inornatus",
+  "scientificName": "Phylloscopus inornatus",
+  "commonName": "Yellow-browed Warbler",
+  "chineseName": "黄眉柳莺",
+  "inaturalistTaxonId": 117028,
+  "inTripPlanner": true
+ },
+ {
+  "id": "sp_Phylloscopus_proregulus",
+  "scientificName": "Phylloscopus proregulus",
+  "commonName": "Pallas's Leaf Warbler",
+  "chineseName": "黄腰柳莺",
+  "inaturalistTaxonId": 117041,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Pica_bottanensis",
+  "scientificName": "Pica bottanensis",
+  "commonName": "Black-rumped Magpie",
+  "chineseName": "青藏喜鹊",
+  "inaturalistTaxonId": 827400,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Pica_serica",
+  "scientificName": "Pica serica",
+  "commonName": "Oriental Magpie",
+  "chineseName": "喜鹊",
+  "inaturalistTaxonId": 827401,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Picumnus_innominatus",
+  "scientificName": "Picumnus innominatus",
+  "commonName": "Speckled Piculet",
+  "chineseName": "斑姬啄木鸟",
+  "inaturalistTaxonId": 17802,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Picus_canus",
+  "scientificName": "Picus canus",
+  "commonName": "Grey-headed Woodpecker",
+  "chineseName": "灰头绿啄木鸟",
+  "inaturalistTaxonId": 18301,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Platalea_leucorodia",
+  "scientificName": "Platalea leucorodia",
+  "commonName": "Eurasian Spoonbill",
+  "chineseName": "白琵鹭",
+  "inaturalistTaxonId": 3731,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Platalea_minor",
+  "scientificName": "Platalea minor",
+  "commonName": "Black-faced Spoonbill",
+  "chineseName": "黑脸琵鹭",
+  "inaturalistTaxonId": 3729,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Pluvialis_fulva",
+  "scientificName": "Pluvialis fulva",
+  "commonName": "Pacific Golden-Plover",
+  "chineseName": "金鸻",
+  "inaturalistTaxonId": 4896,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Pluvialis_squatarola",
+  "scientificName": "Pluvialis squatarola",
+  "commonName": "Black-bellied Plover",
+  "chineseName": "灰斑鸻",
+  "inaturalistTaxonId": 4892,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Podiceps_cristatus",
+  "scientificName": "Podiceps cristatus",
+  "commonName": "Great Crested Grebe",
+  "chineseName": "凤头䴙䴘",
+  "inaturalistTaxonId": 4208,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Podiceps_nigricollis",
+  "scientificName": "Podiceps nigricollis",
+  "commonName": "Eared Grebe",
+  "chineseName": "黑颈䴙䴘",
+  "inaturalistTaxonId": 4205,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Poecile_montanus",
+  "scientificName": "Poecile montanus",
+  "commonName": "Willow Tit",
+  "chineseName": "褐头山雀",
+  "inaturalistTaxonId": 144812,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Poecile_palustris",
+  "scientificName": "Poecile palustris",
+  "commonName": "Marsh Tit",
+  "chineseName": "沼泽山雀",
+  "inaturalistTaxonId": 144809,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Pomatorhinus_ruficollis",
+  "scientificName": "Pomatorhinus ruficollis",
+  "commonName": "Streak-breasted Scimitar-Babbler",
+  "chineseName": "棕颈钩嘴鹛",
+  "inaturalistTaxonId": 15271,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Porphyrio_poliocephalus",
+  "scientificName": "Porphyrio poliocephalus",
+  "commonName": "Gray-headed Swamphen",
+  "chineseName": "紫水鸡",
+  "inaturalistTaxonId": 474332,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Prinia_flaviventris",
+  "scientificName": "Prinia flaviventris",
+  "commonName": "Yellow-bellied Prinia",
+  "chineseName": "黄腹山鹪莺",
+  "inaturalistTaxonId": 7716,
+  "inTripPlanner": true
+ },
+ {
+  "id": "sp_Prinia_inornata",
+  "scientificName": "Prinia inornata",
+  "commonName": "Plain Prinia",
+  "chineseName": "纯色山鹪莺",
+  "inaturalistTaxonId": 7710,
+  "inTripPlanner": true
+ },
+ {
+  "id": "sp_Prunella_collaris",
+  "scientificName": "Prunella collaris",
+  "commonName": "Alpine Accentor",
+  "chineseName": "领岩鹨",
+  "inaturalistTaxonId": 13996,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Prunella_strophiata",
+  "scientificName": "Prunella strophiata",
+  "commonName": "Rufous-breasted Accentor",
+  "chineseName": "棕胸岩鹨",
+  "inaturalistTaxonId": 13987,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Pseudopodoces_humilis",
+  "scientificName": "Pseudopodoces humilis",
+  "commonName": "Ground Tit",
+  "chineseName": "地山雀",
+  "inaturalistTaxonId": 8600,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Psilopogon_asiaticus",
+  "scientificName": "Psilopogon asiaticus",
+  "commonName": "Blue-throated Barbet",
+  "chineseName": "蓝喉拟啄木鸟",
+  "inaturalistTaxonId": 367546,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Psilopogon_virens",
+  "scientificName": "Psilopogon virens",
+  "commonName": "Great Barbet",
+  "chineseName": "大拟啄木鸟",
+  "inaturalistTaxonId": 367525,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Pterorhinus_berthemyi",
+  "scientificName": "Pterorhinus berthemyi",
+  "commonName": "Buffy Laughingthrush",
+  "chineseName": "棕噪鹛",
+  "inaturalistTaxonId": 1289390,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Pterorhinus_chinensis",
+  "scientificName": "Pterorhinus chinensis",
+  "commonName": "Black-throated Laughingthrush",
+  "chineseName": "黑喉噪鹛",
+  "inaturalistTaxonId": 1289402,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Pterorhinus_davidi",
+  "scientificName": "Pterorhinus davidi",
+  "commonName": "Pere David's Laughingthrush",
+  "chineseName": "山噪鹛",
+  "inaturalistTaxonId": 1289398,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Pterorhinus_lanceolatus",
+  "scientificName": "Pterorhinus lanceolatus",
+  "commonName": "Chinese Babax",
+  "chineseName": "矛纹草鹛",
+  "inaturalistTaxonId": 1289396,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Pterorhinus_pectoralis",
+  "scientificName": "Pterorhinus pectoralis",
+  "commonName": "Greater Necklaced Laughingthrush",
+  "chineseName": "黑领噪鹛",
+  "inaturalistTaxonId": 1289399,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Pterorhinus_perspicillatus",
+  "scientificName": "Pterorhinus perspicillatus",
+  "commonName": "Masked Laughingthrush",
+  "chineseName": "黑脸噪鹛",
+  "inaturalistTaxonId": 1289400,
+  "inTripPlanner": true
+ },
+ {
+  "id": "sp_Pterorhinus_sannio",
+  "scientificName": "Pterorhinus sannio",
+  "commonName": "White-browed Laughingthrush",
+  "chineseName": "白颊噪鹛",
+  "inaturalistTaxonId": 1289401,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Pycnonotus_aurigaster",
+  "scientificName": "Pycnonotus aurigaster",
+  "commonName": "Sooty-headed Bulbul",
+  "chineseName": "白喉红臀鹎",
+  "inaturalistTaxonId": 14626,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Pycnonotus_jocosus",
+  "scientificName": "Pycnonotus jocosus",
+  "commonName": "Red-whiskered Bulbul",
+  "chineseName": "红耳鹎",
+  "inaturalistTaxonId": 14591,
+  "inTripPlanner": true
+ },
+ {
+  "id": "sp_Pycnonotus_sinensis",
+  "scientificName": "Pycnonotus sinensis",
+  "commonName": "Light-vented Bulbul",
+  "chineseName": "白头鹎",
+  "inaturalistTaxonId": 14621,
+  "inTripPlanner": true
+ },
+ {
+  "id": "sp_Pycnonotus_xanthorrhous",
+  "scientificName": "Pycnonotus xanthorrhous",
+  "commonName": "Brown-breasted Bulbul",
+  "chineseName": "黄臀鹎",
+  "inaturalistTaxonId": 14615,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Pyrgilauda_ruficollis",
+  "scientificName": "Pyrgilauda ruficollis",
+  "commonName": "Rufous-necked Snowfinch",
+  "chineseName": "棕颈雪雀",
+  "inaturalistTaxonId": 1506146,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Pyrrhocorax_pyrrhocorax",
+  "scientificName": "Pyrrhocorax pyrrhocorax",
+  "commonName": "Red-billed Chough",
+  "chineseName": "红嘴山鸦",
+  "inaturalistTaxonId": 8349,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Pyrrhula_erythaca",
+  "scientificName": "Pyrrhula erythaca",
+  "commonName": "Gray-headed Bullfinch",
+  "chineseName": "灰头灰雀",
+  "inaturalistTaxonId": 9466,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Rallus_indicus",
+  "scientificName": "Rallus indicus",
+  "commonName": "Brown-cheeked Rail",
+  "chineseName": "普通秧鸡",
+  "inaturalistTaxonId": 144477,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Recurvirostra_avosetta",
+  "scientificName": "Recurvirostra avosetta",
+  "commonName": "Pied Avocet",
+  "chineseName": "反嘴鹬",
+  "inaturalistTaxonId": 4883,
+  "inTripPlanner": true
+ },
+ {
+  "id": "sp_Regulus_regulus",
+  "scientificName": "Regulus regulus",
+  "commonName": "Goldcrest",
+  "chineseName": "戴菊",
+  "inaturalistTaxonId": 793469,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Remiz_consobrinus",
+  "scientificName": "Remiz consobrinus",
+  "commonName": "Chinese Penduline-Tit",
+  "chineseName": "中华攀雀",
+  "inaturalistTaxonId": 13678,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Rostratula_benghalensis",
+  "scientificName": "Rostratula benghalensis",
+  "commonName": "Greater Painted-Snipe",
+  "chineseName": "彩鹬",
+  "inaturalistTaxonId": 3999,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Rubigula_flaviventris",
+  "scientificName": "Rubigula flaviventris",
+  "commonName": "Black-crested Bulbul",
+  "chineseName": "黑冠黄鹎",
+  "inaturalistTaxonId": 793157,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Saundersilarus_saundersi",
+  "scientificName": "Saundersilarus saundersi",
+  "commonName": "Saunders's Gull",
+  "chineseName": "黑嘴鸥",
+  "inaturalistTaxonId": 144500,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Saxicola_ferreus",
+  "scientificName": "Saxicola ferreus",
+  "commonName": "Grey Bushchat",
+  "chineseName": "灰林䳭",
+  "inaturalistTaxonId": 73361,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Saxicola_stejnegeri",
+  "scientificName": "Saxicola stejnegeri",
+  "commonName": "Amur Stonechat",
+  "chineseName": "东亚石䳭",
+  "inaturalistTaxonId": 1286913,
+  "inTripPlanner": true
+ },
+ {
+  "id": "sp_Schoeniparus_dubius",
+  "scientificName": "Schoeniparus dubius",
+  "commonName": "Rusty-capped Fulvetta",
+  "chineseName": "褐胁雀鹛",
+  "inaturalistTaxonId": 339798,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Sibirionetta_formosa",
+  "scientificName": "Sibirionetta formosa",
+  "commonName": "Baikal Teal",
+  "chineseName": "花脸鸭",
+  "inaturalistTaxonId": 558428,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Sitta_europaea",
+  "scientificName": "Sitta europaea",
+  "commonName": "Eurasian Nuthatch",
+  "chineseName": "普通䴓",
+  "inaturalistTaxonId": 14824,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Sitta_villosa",
+  "scientificName": "Sitta villosa",
+  "commonName": "Snowy-browed Nuthatch",
+  "chineseName": "黑头䴓",
+  "inaturalistTaxonId": 14837,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Spatula_clypeata",
+  "scientificName": "Spatula clypeata",
+  "commonName": "Northern Shoveler",
+  "chineseName": "琵嘴鸭",
+  "inaturalistTaxonId": 558438,
+  "inTripPlanner": true
+ },
+ {
+  "id": "sp_Spatula_querquedula",
+  "scientificName": "Spatula querquedula",
+  "commonName": "Garganey",
+  "chineseName": "白眉鸭",
+  "inaturalistTaxonId": 558429,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Spilopelia_chinensis",
+  "scientificName": "Spilopelia chinensis",
+  "commonName": "Spotted Dove",
+  "chineseName": "珠颈斑鸠",
+  "inaturalistTaxonId": 1455918,
+  "inTripPlanner": true
+ },
+ {
+  "id": "sp_Spilornis_cheela",
+  "scientificName": "Spilornis cheela",
+  "commonName": "Crested Serpent-Eagle",
+  "chineseName": "蛇雕",
+  "inaturalistTaxonId": 5158,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Spinus_spinus",
+  "scientificName": "Spinus spinus",
+  "commonName": "Eurasian Siskin",
+  "chineseName": "黄雀",
+  "inaturalistTaxonId": 145303,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Spizixos_semitorques",
+  "scientificName": "Spizixos semitorques",
+  "commonName": "Collared Finchbill",
+  "chineseName": "领雀嘴鹎",
+  "inaturalistTaxonId": 14658,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Spodiopsar_cineraceus",
+  "scientificName": "Spodiopsar cineraceus",
+  "commonName": "White-cheeked Starling",
+  "chineseName": "灰椋鸟",
+  "inaturalistTaxonId": 547179,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Spodiopsar_sericeus",
+  "scientificName": "Spodiopsar sericeus",
+  "commonName": "Red-billed Starling",
+  "chineseName": "丝光椋鸟",
+  "inaturalistTaxonId": 547178,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Staphida_torqueola",
+  "scientificName": "Staphida torqueola",
+  "commonName": "Indochinese Yuhina",
+  "chineseName": "栗颈凤鹛",
+  "inaturalistTaxonId": 1289460,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Sterna_hirundo",
+  "scientificName": "Sterna hirundo",
+  "commonName": "Common Tern",
+  "chineseName": "普通燕鸥",
+  "inaturalistTaxonId": 4450,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Sternula_albifrons",
+  "scientificName": "Sternula albifrons",
+  "commonName": "Little Tern",
+  "chineseName": "白额燕鸥",
+  "inaturalistTaxonId": 144529,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Streptopelia_decaocto",
+  "scientificName": "Streptopelia decaocto",
+  "commonName": "Eurasian Collared-Dove",
+  "chineseName": "灰斑鸠",
+  "inaturalistTaxonId": 2969,
+  "inTripPlanner": true
+ },
+ {
+  "id": "sp_Streptopelia_orientalis",
+  "scientificName": "Streptopelia orientalis",
+  "commonName": "Oriental Turtle-Dove",
+  "chineseName": "山斑鸠",
+  "inaturalistTaxonId": 2927,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Streptopelia_tranquebarica",
+  "scientificName": "Streptopelia tranquebarica",
+  "commonName": "Red Collared-Dove",
+  "chineseName": "火斑鸠",
+  "inaturalistTaxonId": 2935,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Sturnia_sinensis",
+  "scientificName": "Sturnia sinensis",
+  "commonName": "White-shouldered Starling",
+  "chineseName": "灰背椋鸟",
+  "inaturalistTaxonId": 145102,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Suthora_alphonsiana",
+  "scientificName": "Suthora alphonsiana",
+  "commonName": "Ashy-throated Parrotbill",
+  "chineseName": "灰喉鸦雀",
+  "inaturalistTaxonId": 1505906,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Suthora_webbiana",
+  "scientificName": "Suthora webbiana",
+  "commonName": "Vinous-throated Parrotbill",
+  "chineseName": "棕头鸦雀",
+  "inaturalistTaxonId": 1505899,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Tachybaptus_ruficollis",
+  "scientificName": "Tachybaptus ruficollis",
+  "commonName": "Little Grebe",
+  "chineseName": "小䴙䴘",
+  "inaturalistTaxonId": 4237,
+  "inTripPlanner": true
+ },
+ {
+  "id": "sp_Tadorna_ferruginea",
+  "scientificName": "Tadorna ferruginea",
+  "commonName": "Ruddy Shelduck",
+  "chineseName": "赤麻鸭",
+  "inaturalistTaxonId": 7068,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Tadorna_tadorna",
+  "scientificName": "Tadorna tadorna",
+  "commonName": "Common Shelduck",
+  "chineseName": "翘鼻麻鸭",
+  "inaturalistTaxonId": 7067,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Tarsiger_cyanurus",
+  "scientificName": "Tarsiger cyanurus",
+  "commonName": "Red-flanked Bluetail",
+  "chineseName": "红胁蓝尾鸲",
+  "inaturalistTaxonId": 210941,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Terpsiphone_incei",
+  "scientificName": "Terpsiphone incei",
+  "commonName": "Amur Paradise-Flycatcher",
+  "chineseName": "寿带",
+  "inaturalistTaxonId": 549463,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Thalasseus_bergii",
+  "scientificName": "Thalasseus bergii",
+  "commonName": "Greater Crested Tern",
+  "chineseName": "大凤头燕鸥",
+  "inaturalistTaxonId": 144540,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Thalasseus_bernsteini",
+  "scientificName": "Thalasseus bernsteini",
+  "commonName": "Chinese Crested Tern",
+  "chineseName": "中华凤头燕鸥",
+  "inaturalistTaxonId": 144544,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Thinornis_dubius",
+  "scientificName": "Thinornis dubius",
+  "commonName": "Little Ringed Plover",
+  "chineseName": "金眶鸻",
+  "inaturalistTaxonId": 1580336,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Tringa_brevipes",
+  "scientificName": "Tringa brevipes",
+  "commonName": "Grey-tailed Tattler",
+  "chineseName": "灰尾漂鹬",
+  "inaturalistTaxonId": 144489,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Tringa_erythropus",
+  "scientificName": "Tringa erythropus",
+  "commonName": "Spotted Redshank",
+  "chineseName": "鹤鹬",
+  "inaturalistTaxonId": 3882,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Tringa_glareola",
+  "scientificName": "Tringa glareola",
+  "commonName": "Wood Sandpiper",
+  "chineseName": "林鹬",
+  "inaturalistTaxonId": 3888,
+  "inTripPlanner": true
+ },
+ {
+  "id": "sp_Tringa_nebularia",
+  "scientificName": "Tringa nebularia",
+  "commonName": "Common Greenshank",
+  "chineseName": "青脚鹬",
+  "inaturalistTaxonId": 3878,
+  "inTripPlanner": true
+ },
+ {
+  "id": "sp_Tringa_ochropus",
+  "scientificName": "Tringa ochropus",
+  "commonName": "Green Sandpiper",
+  "chineseName": "白腰草鹬",
+  "inaturalistTaxonId": 3885,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Tringa_stagnatilis",
+  "scientificName": "Tringa stagnatilis",
+  "commonName": "Marsh Sandpiper",
+  "chineseName": "泽鹬",
+  "inaturalistTaxonId": 3881,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Tringa_totanus",
+  "scientificName": "Tringa totanus",
+  "commonName": "Common Redshank",
+  "chineseName": "红脚鹬",
+  "inaturalistTaxonId": 3879,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Trochalopteron_elliotii",
+  "scientificName": "Trochalopteron elliotii",
+  "commonName": "Elliot's Laughingthrush",
+  "chineseName": "橙翅噪鹛",
+  "inaturalistTaxonId": 339863,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Troglodytes_troglodytes",
+  "scientificName": "Troglodytes troglodytes",
+  "commonName": "Eurasian Wren",
+  "chineseName": "鹪鹩",
+  "inaturalistTaxonId": 145363,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Turdus_cardis",
+  "scientificName": "Turdus cardis",
+  "commonName": "Japanese Thrush",
+  "chineseName": "乌灰鸫",
+  "inaturalistTaxonId": 12726,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Turdus_dissimilis",
+  "scientificName": "Turdus dissimilis",
+  "commonName": "Black-breasted Thrush",
+  "chineseName": "黑胸鸫",
+  "inaturalistTaxonId": 12750,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Turdus_eunomus",
+  "scientificName": "Turdus eunomus",
+  "commonName": "Dusky Thrush",
+  "chineseName": "斑鸫",
+  "inaturalistTaxonId": 145087,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Turdus_hortulorum",
+  "scientificName": "Turdus hortulorum",
+  "commonName": "Grey-backed Thrush",
+  "chineseName": "灰背鸫",
+  "inaturalistTaxonId": 12770,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Turdus_kessleri",
+  "scientificName": "Turdus kessleri",
+  "commonName": "White-backed Thrush",
+  "chineseName": "棕背黑头鸫",
+  "inaturalistTaxonId": 12769,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Turdus_mandarinus",
+  "scientificName": "Turdus mandarinus",
+  "commonName": "Chinese Blackbird",
+  "chineseName": "乌鸫",
+  "inaturalistTaxonId": 472778,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Turdus_naumanni",
+  "scientificName": "Turdus naumanni",
+  "commonName": "Naumann's Thrush",
+  "chineseName": "红尾鸫",
+  "inaturalistTaxonId": 203818,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Turdus_obscurus",
+  "scientificName": "Turdus obscurus",
+  "commonName": "Eyebrowed Thrush",
+  "chineseName": "白眉鸫",
+  "inaturalistTaxonId": 12776,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Turdus_pallidus",
+  "scientificName": "Turdus pallidus",
+  "commonName": "Pale Thrush",
+  "chineseName": "白腹鸫",
+  "inaturalistTaxonId": 12779,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Turdus_rubrocanus",
+  "scientificName": "Turdus rubrocanus",
+  "commonName": "Chestnut Thrush",
+  "chineseName": "灰头鸫",
+  "inaturalistTaxonId": 12763,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Turdus_ruficollis",
+  "scientificName": "Turdus ruficollis",
+  "commonName": "Red-throated Thrush",
+  "chineseName": "赤颈鸫",
+  "inaturalistTaxonId": 203819,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Upupa_epops",
+  "scientificName": "Upupa epops",
+  "commonName": "Common Hoopoe",
+  "chineseName": "戴胜",
+  "inaturalistTaxonId": 20969,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Urocissa_erythroryncha",
+  "scientificName": "Urocissa erythroryncha",
+  "commonName": "Red-billed Blue-Magpie",
+  "chineseName": "红嘴蓝鹊",
+  "inaturalistTaxonId": 495200,
+  "inTripPlanner": true
+ },
+ {
+  "id": "sp_Vanellus_cinereus",
+  "scientificName": "Vanellus cinereus",
+  "commonName": "Grey-headed Lapwing",
+  "chineseName": "灰头麦鸡",
+  "inaturalistTaxonId": 4875,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Vanellus_vanellus",
+  "scientificName": "Vanellus vanellus",
+  "commonName": "Northern Lapwing",
+  "chineseName": "凤头麦鸡",
+  "inaturalistTaxonId": 4857,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Xenus_cinereus",
+  "scientificName": "Xenus cinereus",
+  "commonName": "Terek Sandpiper",
+  "chineseName": "翘嘴鹬",
+  "inaturalistTaxonId": 3969,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Yuhina_nigrimenta",
+  "scientificName": "Yuhina nigrimenta",
+  "commonName": "Black-chinned Yuhina",
+  "chineseName": "黑颏凤鹛",
+  "inaturalistTaxonId": 15318,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Yungipicus_canicapillus",
+  "scientificName": "Yungipicus canicapillus",
+  "commonName": "Gray-capped Pygmy Woodpecker",
+  "chineseName": "星头啄木鸟",
+  "inaturalistTaxonId": 792951,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Zapornia_akool",
+  "scientificName": "Zapornia akool",
+  "commonName": "Brown Crake",
+  "chineseName": "红脚苦恶鸟",
+  "inaturalistTaxonId": 508917,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Zoothera_aurea",
+  "scientificName": "Zoothera aurea",
+  "commonName": "White's Thrush",
+  "chineseName": "怀氏虎鸫",
+  "inaturalistTaxonId": 497042,
+  "inTripPlanner": false
+ },
+ {
+  "id": "sp_Zosterops_simplex",
+  "scientificName": "Zosterops simplex",
+  "commonName": "Swinhoe's White-eye",
+  "chineseName": "暗绿绣眼鸟",
+  "inaturalistTaxonId": 980257,
+  "inTripPlanner": true
+ }
+]

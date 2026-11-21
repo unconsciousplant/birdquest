@@ -1,48 +1,208 @@
-import ComingSoon from '../components/ComingSoon.jsx'
-import MockDataNotice from '../components/MockDataNotice.jsx'
+import { useEffect, useId, useRef, useState } from 'react'
+import AssistantGuide from '../components/AssistantGuide.jsx'
+import ChatMessage from '../components/ChatMessage.jsx'
+import { askAssistant, getAssistantInfo, isSpeciesSupported } from '../services/assistantService.js'
 
-// Placeholder. Will use services/assistantService.js (askAssistant).
-// `selectedSpecies` comes from App.jsx, so it can be chosen on another screen.
-export default function AssistantScreen({ selectedSpecies, onClearSpecies }) {
+// Suggested questions before the chat starts, and when a bird has just been chosen.
+const STARTERS = [
+  'Which birds do you know?',
+  'Tell me about the Black-faced Spoonbill',
+  'Where can I see the Pied Avocet?',
+  'What does the Asian Koel eat?',
+]
+const ABOUT_THE_CHOSEN_BIRD = ['Tell me about it', 'Where can I see it?', 'When is it in Hong Kong?', 'What does it eat?']
+
+let nextMessageId = 1
+
+// Bird assistant: a simple rule-based chatbot (see services/assistantService.js).
+// The chat itself lives in App.jsx (messages), so it survives moving between screens.
+// selectedSpecies is the bird being discussed; it can come from another screen.
+export default function AssistantScreen({ selectedSpecies, onSelectSpecies, messages, onMessagesChange }) {
+  const id = useId()
+  const [draft, setDraft] = useState('')
+  const [busy, setBusy] = useState(false)
+  const [speciesCount, setSpeciesCount] = useState(null)
+  const [support, setSupport] = useState(null) // { scientificName, supported } for the selected bird
+  const logEndRef = useRef(null)
+  const previousMessageCount = useRef(messages.length)
+
+  useEffect(() => {
+    let ignore = false
+    getAssistantInfo().then(
+      (info) => {
+        if (!ignore) setSpeciesCount(info.speciesCount)
+      },
+      () => {}, // the chat itself reports loading problems
+    )
+    return () => {
+      ignore = true
+    }
+  }, [])
+
+  // Is the bird chosen on another screen one the assistant knows?
+  useEffect(() => {
+    if (!selectedSpecies) return
+    let ignore = false
+    isSpeciesSupported(selectedSpecies).then(
+      (supported) => {
+        if (!ignore) setSupport({ scientificName: selectedSpecies.scientificName, supported })
+      },
+      () => {},
+    )
+    return () => {
+      ignore = true
+    }
+  }, [selectedSpecies])
+
+  // Keep the newest message in view (but don't jump when you first open the screen).
+  useEffect(() => {
+    if (messages.length > previousMessageCount.current) {
+      logEndRef.current?.scrollIntoView({ block: 'nearest' })
+    }
+    previousMessageCount.current = messages.length
+  }, [messages.length])
+
+  const selectedSupported =
+    selectedSpecies && support?.scientificName === selectedSpecies.scientificName ? support.supported : null
+
+  async function send(text) {
+    const question = text.trim()
+    if (!question || busy) return
+    setBusy(true)
+    setDraft('')
+    onMessagesChange((previous) => [...previous, { id: nextMessageId++, from: 'user', text: question }])
+    try {
+      const reply = await askAssistant({ question, species: selectedSpecies })
+      onMessagesChange((previous) => [...previous, { id: nextMessageId++, from: 'bot', reply }])
+      // Remember the bird this answer was about, for follow-ups like "what does it eat?".
+      if (reply.species && reply.species.scientificName !== selectedSpecies?.scientificName) {
+        onSelectSpecies(reply.species)
+      }
+    } catch (error) {
+      const reply = {
+        kind: 'error',
+        title: null,
+        sections: [{ heading: null, paragraphs: [`Sorry, something went wrong: ${error.message}`] }],
+        notes: [],
+        suggestions: [],
+      }
+      onMessagesChange((previous) => [...previous, { id: nextMessageId++, from: 'bot', reply }])
+    } finally {
+      setBusy(false)
+    }
+  }
+
+  // Suggested questions: from the last answer, or for a bird just chosen on another screen
+  // (questions about "it" if the assistant knows that bird, otherwise the starters).
+  const lastReply = [...messages].reverse().find((m) => m.from === 'bot')?.reply
+  let suggestions = lastReply?.suggestions ?? STARTERS
+  if (selectedSpecies && lastReply?.species?.scientificName !== selectedSpecies.scientificName) {
+    if (selectedSupported === true) suggestions = ABOUT_THE_CHOSEN_BIRD
+    if (selectedSupported === false) suggestions = STARTERS
+  }
+
   return (
     <>
       <section className="screen-intro">
         <h1>Bird assistant</h1>
         <p className="lead">
-          Ask about species, habitats, behaviour, seasonal occurrence and conservation.
+          Ask about Hong Kong birds: what they look like, where they live, when and where to see them, what
+          they eat and how they&apos;re doing.
         </p>
       </section>
 
       <section className="card selected-species" aria-live="polite">
-        <h2 className="card-title">Selected species</h2>
+        <h2 className="card-title">Talking about</h2>
         {selectedSpecies ? (
-          <div className="selected-species-row">
-            <p>
-              <strong>{selectedSpecies.commonName}</strong>{' '}
-              <em>({selectedSpecies.scientificName})</em>
-            </p>
-            <button type="button" className="button button-secondary" onClick={onClearSpecies}>
-              Clear
-            </button>
-          </div>
+          <>
+            <div className="selected-species-row">
+              <p>
+                <strong>{selectedSpecies.commonName}</strong> <em>({selectedSpecies.scientificName})</em>
+              </p>
+              <button type="button" className="button button-secondary" onClick={() => onSelectSpecies(null)}>
+                Clear
+              </button>
+            </div>
+            {selectedSupported === false && (
+              <p className="results-meta">
+                The assistant doesn&apos;t cover this bird yet. This chatbot currently only supports{' '}
+                {speciesCount ?? 'a limited number of'} species of bird, and we expect to expand in the near
+                future.
+              </p>
+            )}
+          </>
         ) : (
           <p>
-            None yet. Pick one with <em>Ask the assistant</em> on the <a href="#/">Home</a>,{' '}
-            <a href="#/plan">Plan a trip</a> or <a href="#/identify">Identify</a> screen.
+            No bird chosen yet. Name one in your question, or tap <em>Ask the assistant</em> on the{' '}
+            <a href="#/">Home</a>, <a href="#/plan">Plan a trip</a> or <a href="#/identify">Identify</a> screen.
           </p>
         )}
       </section>
 
-      <ComingSoon
-        items={[
-          'Type a question about the selected species, or any bird',
-          'Get answers about habitats, behaviour, seasons and conservation',
-        ]}
-      />
+      <section className="card chat" aria-labelledby={`${id}-chat-heading`}>
+        <h2 id={`${id}-chat-heading`} className="visually-hidden">
+          Chat
+        </h2>
+        <ol className="chat-log" role="log" aria-live="polite">
+          {messages.length === 0 && (
+            <li className="chat-message chat-bot">
+              <p className="chat-bubble">
+                Hello! I can answer questions about {speciesCount ?? 'many'} Hong Kong birds. Try one of the
+                questions below, or type your own.
+              </p>
+            </li>
+          )}
+          {messages.map((message) => (
+            <ChatMessage key={message.id} message={message} />
+          ))}
+          {busy && (
+            <li className="chat-message chat-bot">
+              <p className="chat-bubble chat-typing">Thinking…</p>
+            </li>
+          )}
+        </ol>
 
-      <MockDataNotice>
-        The assistant isn't connected yet, so answers here will be placeholder text.
-      </MockDataNotice>
+        <div className="chat-suggestions" role="group" aria-label="Suggested questions" ref={logEndRef}>
+          {suggestions.map((suggestion) => (
+            <button
+              key={suggestion}
+              type="button"
+              className="button button-secondary button-small"
+              disabled={busy}
+              onClick={() => send(suggestion)}
+            >
+              {suggestion}
+            </button>
+          ))}
+        </div>
+
+        <form
+          className="chat-form"
+          onSubmit={(event) => {
+            event.preventDefault()
+            send(draft)
+          }}
+        >
+          <label htmlFor={`${id}-question`} className="visually-hidden">
+            Your question
+          </label>
+          <input
+            id={`${id}-question`}
+            type="text"
+            value={draft}
+            maxLength={300}
+            autoComplete="off"
+            enterKeyHint="send"
+            placeholder="Ask about a bird…"
+            onChange={(event) => setDraft(event.target.value)}
+          />
+          <button type="submit" className="button button-primary" disabled={busy || !draft.trim()}>
+            Send
+          </button>
+        </form>
+      </section>
+
+      <AssistantGuide speciesCount={speciesCount} />
     </>
   )
 }

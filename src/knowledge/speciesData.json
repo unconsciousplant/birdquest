@@ -1,0 +1,2767 @@
+[
+ {
+  "id": "sp_Pycnonotus_jocosus",
+  "scientificName": "Pycnonotus jocosus",
+  "commonName": "Red-whiskered Bulbul",
+  "chineseName": "红耳鹎",
+  "inaturalistTaxonId": 14591,
+  "inTripPlanner": true,
+  "monthlyRates": [
+   0.697,
+   0.767,
+   0.772,
+   0.789,
+   0.779,
+   0.804,
+   0.777,
+   0.654,
+   0.738,
+   0.705,
+   0.687,
+   0.731
+  ],
+  "best": {
+   "month": 6,
+   "places": [
+    {
+     "name": "Kwai Chung Park and Gin Drinkers Bay Cricket Ground",
+     "nameZh": "葵涌公園及醉酒灣板球場",
+     "chance": 0.98
+    },
+    {
+     "name": "Lung A Pai",
+     "nameZh": "龍丫排",
+     "chance": 0.98
+    },
+    {
+     "name": "King's Park Recreation Ground",
+     "nameZh": "京士柏公園",
+     "chance": 0.979
+    }
+   ]
+  },
+  "iucn": {
+   "category": "Least Concern",
+   "source": "iNaturalist"
+  }
+ },
+ {
+  "id": "sp_Spilopelia_chinensis",
+  "scientificName": "Spilopelia chinensis",
+  "commonName": "Spotted Dove",
+  "chineseName": "珠颈斑鸠",
+  "inaturalistTaxonId": 1455918,
+  "inTripPlanner": true,
+  "monthlyRates": [
+   0.702,
+   0.731,
+   0.726,
+   0.742,
+   0.728,
+   0.694,
+   0.702,
+   0.65,
+   0.782,
+   0.689,
+   0.764,
+   0.711
+  ],
+  "best": {
+   "month": 9,
+   "places": [
+    {
+     "name": "Kowloon Walled City Park",
+     "nameZh": "九龍寨城公園",
+     "chance": 0.983
+    },
+    {
+     "name": "Kowloon Tsai Park",
+     "nameZh": "九龍仔公園",
+     "chance": 0.983
+    },
+    {
+     "name": "Kwai Chung Park and Gin Drinkers Bay Cricket Ground",
+     "nameZh": "葵涌公園及醉酒灣板球場",
+     "chance": 0.972
+    }
+   ]
+  },
+  "iucn": {
+   "category": "Least Concern",
+   "source": "iNaturalist"
+  }
+ },
+ {
+  "id": "sp_Pycnonotus_sinensis",
+  "scientificName": "Pycnonotus sinensis",
+  "commonName": "Light-vented Bulbul",
+  "chineseName": "白头鹎",
+  "inaturalistTaxonId": 14621,
+  "inTripPlanner": true,
+  "monthlyRates": [
+   0.513,
+   0.564,
+   0.62,
+   0.643,
+   0.608,
+   0.493,
+   0.538,
+   0.399,
+   0.465,
+   0.458,
+   0.572,
+   0.558
+  ],
+  "best": {
+   "month": 4,
+   "places": [
+    {
+     "name": "Kwai Chung Park and Gin Drinkers Bay Cricket Ground",
+     "nameZh": "葵涌公園及醉酒灣板球場",
+     "chance": 0.967
+    },
+    {
+     "name": "Pui O",
+     "nameZh": "貝澳",
+     "chance": 0.929
+    },
+    {
+     "name": "Pak Nai",
+     "nameZh": "白泥",
+     "chance": 0.926
+    }
+   ]
+  },
+  "iucn": {
+   "category": "Least Concern",
+   "source": "iNaturalist"
+  }
+ },
+ {
+  "id": "sp_Copsychus_saularis",
+  "scientificName": "Copsychus saularis",
+  "commonName": "Oriental Magpie-Robin",
+  "chineseName": "鹊鸲",
+  "inaturalistTaxonId": 204491,
+  "inTripPlanner": true,
+  "monthlyRates": [
+   0.433,
+   0.54,
+   0.59,
+   0.62,
+   0.644,
+   0.708,
+   0.647,
+   0.555,
+   0.58,
+   0.514,
+   0.538,
+   0.502
+  ],
+  "best": {
+   "month": 6,
+   "places": [
+    {
+     "name": "Kowloon Tsai Park",
+     "nameZh": "九龍仔公園",
+     "chance": 0.975
+    },
+    {
+     "name": "Kowloon Walled City Park",
+     "nameZh": "九龍寨城公園",
+     "chance": 0.972
+    },
+    {
+     "name": "Pui O",
+     "nameZh": "貝澳",
+     "chance": 0.971
+    }
+   ]
+  },
+  "iucn": {
+   "category": "Least Concern",
+   "source": "iNaturalist"
+  }
+ },
+ {
+  "id": "sp_Zosterops_simplex",
+  "scientificName": "Zosterops simplex",
+  "commonName": "Swinhoe's White-eye",
+  "chineseName": "暗绿绣眼鸟",
+  "inaturalistTaxonId": 980257,
+  "inTripPlanner": true,
+  "monthlyRates": [
+   0.549,
+   0.581,
+   0.564,
+   0.519,
+   0.52,
+   0.589,
+   0.5,
+   0.582,
+   0.557,
+   0.488,
+   0.446,
+   0.517
+  ],
+  "best": {
+   "month": 6,
+   "places": [
+    {
+     "name": "Caldecott Road",
+     "nameZh": "郝德傑道",
+     "chance": 0.961
+    },
+    {
+     "name": "社山 She Shan",
+     "nameZh": null,
+     "chance": 0.958
+    },
+    {
+     "name": "Kwai Chung Park and Gin Drinkers Bay Cricket Ground",
+     "nameZh": "葵涌公園及醉酒灣板球場",
+     "chance": 0.957
+    }
+   ]
+  },
+  "iucn": {
+   "category": "Least Concern",
+   "source": "iNaturalist"
+  }
+ },
+ {
+  "id": "sp_Milvus_migrans",
+  "scientificName": "Milvus migrans",
+  "commonName": "Black Kite",
+  "chineseName": "黑鸢",
+  "inaturalistTaxonId": 5268,
+  "inTripPlanner": true,
+  "monthlyRates": [
+   0.526,
+   0.57,
+   0.617,
+   0.577,
+   0.591,
+   0.426,
+   0.458,
+   0.354,
+   0.382,
+   0.462,
+   0.538,
+   0.532
+  ],
+  "best": {
+   "month": 3,
+   "places": [
+    {
+     "name": "Sai Kung Public Pier",
+     "nameZh": "西貢公眾碼頭",
+     "chance": 0.977
+    },
+    {
+     "name": "Kwai Chung Park and Gin Drinkers Bay Cricket Ground",
+     "nameZh": "葵涌公園及醉酒灣板球場",
+     "chance": 0.969
+    },
+    {
+     "name": "Shau Kei Wan Typhoon Shelter",
+     "nameZh": "筲箕灣避風塘",
+     "chance": 0.959
+    }
+   ]
+  },
+  "iucn": {
+   "category": "Least Concern",
+   "source": "iNaturalist"
+  }
+ },
+ {
+  "id": "sp_Gracupica_nigricollis",
+  "scientificName": "Gracupica nigricollis",
+  "commonName": "Black-collared Starling",
+  "chineseName": "黑领椋鸟",
+  "inaturalistTaxonId": 145098,
+  "inTripPlanner": true,
+  "monthlyRates": [
+   0.442,
+   0.493,
+   0.545,
+   0.619,
+   0.627,
+   0.589,
+   0.668,
+   0.479,
+   0.578,
+   0.538,
+   0.577,
+   0.537
+  ],
+  "best": {
+   "month": 7,
+   "places": [
+    {
+     "name": "Kwai Chung Park and Gin Drinkers Bay Cricket Ground",
+     "nameZh": "葵涌公園及醉酒灣板球場",
+     "chance": 0.973
+    },
+    {
+     "name": "Kowloon Walled City Park",
+     "nameZh": "九龍寨城公園",
+     "chance": 0.965
+    },
+    {
+     "name": "Kowloon Tsai Park",
+     "nameZh": "九龍仔公園",
+     "chance": 0.962
+    }
+   ]
+  },
+  "iucn": {
+   "category": "Least Concern",
+   "source": "iNaturalist"
+  }
+ },
+ {
+  "id": "sp_Passer_montanus",
+  "scientificName": "Passer montanus",
+  "commonName": "Eurasian Tree Sparrow",
+  "chineseName": "麻雀",
+  "inaturalistTaxonId": 13851,
+  "inTripPlanner": true,
+  "monthlyRates": [
+   0.371,
+   0.406,
+   0.42,
+   0.546,
+   0.553,
+   0.598,
+   0.668,
+   0.487,
+   0.55,
+   0.53,
+   0.562,
+   0.451
+  ],
+  "best": {
+   "month": 7,
+   "places": [
+    {
+     "name": "Kowloon Tsai Park",
+     "nameZh": "九龍仔公園",
+     "chance": 0.959
+    },
+    {
+     "name": "Kowloon Walled City Park",
+     "nameZh": "九龍寨城公園",
+     "chance": 0.951
+    },
+    {
+     "name": "Happy Valley",
+     "nameZh": "跑馬地",
+     "chance": 0.947
+    }
+   ]
+  },
+  "iucn": {
+   "category": "Least Concern",
+   "source": "iNaturalist"
+  }
+ },
+ {
+  "id": "sp_Orthotomus_sutorius",
+  "scientificName": "Orthotomus sutorius",
+  "commonName": "Common Tailorbird",
+  "chineseName": "长尾缝叶莺",
+  "inaturalistTaxonId": 15347,
+  "inTripPlanner": true,
+  "monthlyRates": [
+   0.408,
+   0.468,
+   0.514,
+   0.485,
+   0.512,
+   0.512,
+   0.475,
+   0.487,
+   0.544,
+   0.426,
+   0.385,
+   0.424
+  ],
+  "best": {
+   "month": 9,
+   "places": [
+    {
+     "name": "Kowloon Hills Fitness Trail",
+     "nameZh": "九龍山健身徑",
+     "chance": 0.968
+    },
+    {
+     "name": "Lung A Pai",
+     "nameZh": "龍丫排",
+     "chance": 0.965
+    },
+    {
+     "name": "Pat Heung Catchwater, Tai Lam",
+     "nameZh": null,
+     "chance": 0.947
+    }
+   ]
+  },
+  "iucn": {
+   "category": "Least Concern",
+   "source": "iNaturalist"
+  }
+ },
+ {
+  "id": "sp_Acridotheres_cristatellus",
+  "scientificName": "Acridotheres cristatellus",
+  "commonName": "Crested Myna",
+  "chineseName": "八哥",
+  "inaturalistTaxonId": 14872,
+  "inTripPlanner": true,
+  "monthlyRates": [
+   0.35,
+   0.392,
+   0.451,
+   0.545,
+   0.553,
+   0.589,
+   0.555,
+   0.399,
+   0.35,
+   0.392,
+   0.464,
+   0.442
+  ],
+  "best": {
+   "month": 6,
+   "places": [
+    {
+     "name": "Pui O",
+     "nameZh": "貝澳",
+     "chance": 0.967
+    },
+    {
+     "name": "Lut Chau",
+     "nameZh": "甩洲",
+     "chance": 0.962
+    },
+    {
+     "name": "Kwai Chung Park and Gin Drinkers Bay Cricket Ground",
+     "nameZh": "葵涌公園及醉酒灣板球場",
+     "chance": 0.957
+    }
+   ]
+  },
+  "iucn": {
+   "category": "Least Concern",
+   "source": "iNaturalist"
+  }
+ },
+ {
+  "id": "sp_Egretta_garzetta",
+  "scientificName": "Egretta garzetta",
+  "commonName": "Little Egret",
+  "chineseName": "小白鹭",
+  "inaturalistTaxonId": 4943,
+  "inTripPlanner": true,
+  "monthlyRates": [
+   0.408,
+   0.452,
+   0.479,
+   0.428,
+   0.465,
+   0.364,
+   0.387,
+   0.373,
+   0.35,
+   0.426,
+   0.466,
+   0.474
+  ],
+  "best": {
+   "month": 3,
+   "places": [
+    {
+     "name": "Pui O",
+     "nameZh": "貝澳",
+     "chance": 0.957
+    },
+    {
+     "name": "Ma Tso Lung",
+     "nameZh": "馬草壟",
+     "chance": 0.943
+    },
+    {
+     "name": "Lut Chau",
+     "nameZh": "甩洲",
+     "chance": 0.936
+    }
+   ]
+  },
+  "iucn": {
+   "category": "Least Concern",
+   "source": "iNaturalist"
+  }
+ },
+ {
+  "id": "sp_Parus_cinereus",
+  "scientificName": "Parus cinereus",
+  "commonName": "Asian Tit",
+  "chineseName": "大山雀",
+  "inaturalistTaxonId": 339691,
+  "inTripPlanner": true,
+  "monthlyRates": [
+   0.417,
+   0.471,
+   0.481,
+   0.393,
+   0.394,
+   0.335,
+   0.282,
+   0.354,
+   0.39,
+   0.426,
+   0.352,
+   0.403
+  ],
+  "best": {
+   "month": 3,
+   "places": [
+    {
+     "name": "Kowloon Hills Fitness Trail",
+     "nameZh": "九龍山健身徑",
+     "chance": 0.953
+    },
+    {
+     "name": "Kwai Chung Park and Gin Drinkers Bay Cricket Ground",
+     "nameZh": "葵涌公園及醉酒灣板球場",
+     "chance": 0.944
+    },
+    {
+     "name": "Pat Heung Catchwater, Tai Lam",
+     "nameZh": null,
+     "chance": 0.942
+    }
+   ]
+  },
+  "iucn": null
+ },
+ {
+  "id": "sp_Motacilla_alba",
+  "scientificName": "Motacilla alba",
+  "commonName": "White Wagtail",
+  "chineseName": "白鹡鸰",
+  "inaturalistTaxonId": 13695,
+  "inTripPlanner": true,
+  "monthlyRates": [
+   0.419,
+   0.446,
+   0.398,
+   0.326,
+   0.347,
+   0.273,
+   0.231,
+   0.312,
+   0.358,
+   0.474,
+   0.505,
+   0.468
+  ],
+  "best": {
+   "month": 11,
+   "places": [
+    {
+     "name": "Pui O",
+     "nameZh": "貝澳",
+     "chance": 0.965
+    },
+    {
+     "name": "Ma Tso Lung",
+     "nameZh": "馬草壟",
+     "chance": 0.962
+    },
+    {
+     "name": "Mui Shue Hang Playground",
+     "nameZh": "梅樹坑遊樂場",
+     "chance": 0.949
+    }
+   ]
+  },
+  "iucn": {
+   "category": "Least Concern",
+   "source": "iNaturalist"
+  }
+ },
+ {
+  "id": "sp_Corvus_macrorhynchos",
+  "scientificName": "Corvus macrorhynchos",
+  "commonName": "Large-billed Crow",
+  "chineseName": "大嘴乌鸦",
+  "inaturalistTaxonId": 8026,
+  "inTripPlanner": true,
+  "monthlyRates": [
+   0.337,
+   0.353,
+   0.379,
+   0.344,
+   0.355,
+   0.325,
+   0.366,
+   0.24,
+   0.32,
+   0.341,
+   0.403,
+   0.338
+  ],
+  "best": {
+   "month": 11,
+   "places": [
+    {
+     "name": "Ngong Ping",
+     "nameZh": "昂坪",
+     "chance": 0.931
+    },
+    {
+     "name": "Shui Hau",
+     "nameZh": "水口",
+     "chance": 0.93
+    },
+    {
+     "name": "Pui O",
+     "nameZh": "貝澳",
+     "chance": 0.911
+    }
+   ]
+  },
+  "iucn": {
+   "category": "Least Concern",
+   "source": "iNaturalist"
+  }
+ },
+ {
+  "id": "sp_Ardea_alba",
+  "scientificName": "Ardea alba",
+  "commonName": "Great Egret",
+  "chineseName": "大白鹭",
+  "inaturalistTaxonId": 144455,
+  "inTripPlanner": true,
+  "monthlyRates": [
+   0.335,
+   0.346,
+   0.395,
+   0.308,
+   0.36,
+   0.234,
+   0.29,
+   0.266,
+   0.245,
+   0.335,
+   0.387,
+   0.368
+  ],
+  "best": {
+   "month": 3,
+   "places": [
+    {
+     "name": "Ma Tso Lung",
+     "nameZh": "馬草壟",
+     "chance": 0.898
+    },
+    {
+     "name": "Pui O",
+     "nameZh": "貝澳",
+     "chance": 0.885
+    },
+    {
+     "name": "Mai Po Nature Reserve--Northern Mudflat Hide",
+     "nameZh": "米埔自然護理區--泥灘北屋",
+     "chance": 0.877
+    }
+   ]
+  },
+  "iucn": {
+   "category": "Least Concern",
+   "source": "iNaturalist"
+  }
+ },
+ {
+  "id": "sp_Pterorhinus_perspicillatus",
+  "scientificName": "Pterorhinus perspicillatus",
+  "commonName": "Masked Laughingthrush",
+  "chineseName": "黑脸噪鹛",
+  "inaturalistTaxonId": 1289400,
+  "inTripPlanner": true,
+  "monthlyRates": [
+   0.267,
+   0.359,
+   0.374,
+   0.421,
+   0.386,
+   0.344,
+   0.336,
+   0.308,
+   0.303,
+   0.289,
+   0.328,
+   0.332
+  ],
+  "best": {
+   "month": 4,
+   "places": [
+    {
+     "name": "Pak Nai",
+     "nameZh": "白泥",
+     "chance": 0.916
+    },
+    {
+     "name": "Ping Yeung",
+     "nameZh": "坪洋",
+     "chance": 0.897
+    },
+    {
+     "name": "Hong Kong Wetland Park",
+     "nameZh": "香港濕地公園",
+     "chance": 0.894
+    }
+   ]
+  },
+  "iucn": {
+   "category": "Least Concern",
+   "source": "iNaturalist"
+  }
+ },
+ {
+  "id": "sp_Phylloscopus_inornatus",
+  "scientificName": "Phylloscopus inornatus",
+  "commonName": "Yellow-browed Warbler",
+  "chineseName": "黄眉柳莺",
+  "inaturalistTaxonId": 117028,
+  "inTripPlanner": true,
+  "monthlyRates": [
+   0.517,
+   0.55,
+   0.473,
+   0.314,
+   0.006,
+   0,
+   0,
+   0,
+   0.013,
+   0.09,
+   0.361,
+   0.521
+  ],
+  "best": {
+   "month": 2,
+   "places": [
+    {
+     "name": "Kowloon Hills Fitness Trail",
+     "nameZh": "九龍山健身徑",
+     "chance": 0.973
+    },
+    {
+     "name": "Kwai Chung Park and Gin Drinkers Bay Cricket Ground",
+     "nameZh": "葵涌公園及醉酒灣板球場",
+     "chance": 0.972
+    },
+    {
+     "name": "Tai Tam CP--Quarry Bay extension",
+     "nameZh": null,
+     "chance": 0.969
+    }
+   ]
+  },
+  "iucn": {
+   "category": "Least Concern",
+   "source": "iNaturalist"
+  }
+ },
+ {
+  "id": "sp_Eudynamys_scolopaceus",
+  "scientificName": "Eudynamys scolopaceus",
+  "commonName": "Asian Koel",
+  "chineseName": "噪鹃",
+  "inaturalistTaxonId": 204510,
+  "inTripPlanner": true,
+  "monthlyRates": [
+   0.093,
+   0.279,
+   0.623,
+   0.649,
+   0.555,
+   0.373,
+   0.303,
+   0.183,
+   0.273,
+   0.199,
+   0.151,
+   0.159
+  ],
+  "best": {
+   "month": 4,
+   "places": [
+    {
+     "name": "Kowloon Park",
+     "nameZh": "九龍公園",
+     "chance": 0.975
+    },
+    {
+     "name": "Tsing Yi Park",
+     "nameZh": "青衣公園",
+     "chance": 0.965
+    },
+    {
+     "name": "Lai Chi Kok Park",
+     "nameZh": "荔枝角公園",
+     "chance": 0.964
+    }
+   ]
+  },
+  "iucn": {
+   "category": "Least Concern",
+   "source": "iNaturalist"
+  }
+ },
+ {
+  "id": "sp_Ardeola_bacchus",
+  "scientificName": "Ardeola bacchus",
+  "commonName": "Chinese Pond-Heron",
+  "chineseName": "池鹭",
+  "inaturalistTaxonId": 4990,
+  "inTripPlanner": true,
+  "monthlyRates": [
+   0.335,
+   0.329,
+   0.329,
+   0.299,
+   0.311,
+   0.163,
+   0.248,
+   0.236,
+   0.277,
+   0.305,
+   0.408,
+   0.373
+  ],
+  "best": {
+   "month": 11,
+   "places": [
+    {
+     "name": "Long Valley",
+     "nameZh": "塱原",
+     "chance": 0.924
+    },
+    {
+     "name": "Ma Tso Lung",
+     "nameZh": "馬草壟",
+     "chance": 0.907
+    },
+    {
+     "name": "Nam Sang Wai",
+     "nameZh": "南生圍",
+     "chance": 0.906
+    }
+   ]
+  },
+  "iucn": {
+   "category": "Least Concern",
+   "source": "iNaturalist"
+  }
+ },
+ {
+  "id": "sp_Hirundo_rustica",
+  "scientificName": "Hirundo rustica",
+  "commonName": "Barn Swallow",
+  "chineseName": "家燕",
+  "inaturalistTaxonId": 11901,
+  "inTripPlanner": true,
+  "monthlyRates": [
+   0.198,
+   0.142,
+   0.385,
+   0.423,
+   0.452,
+   0.416,
+   0.357,
+   0.262,
+   0.203,
+   0.241,
+   0.343,
+   0.222
+  ],
+  "best": {
+   "month": 5,
+   "places": [
+    {
+     "name": "Ma Tso Lung",
+     "nameZh": "馬草壟",
+     "chance": 0.979
+    },
+    {
+     "name": "Tam Kon Chau Road--Fishpond Area",
+     "nameZh": "担竿洲路--魚塘區",
+     "chance": 0.949
+    },
+    {
+     "name": "Lut Chau",
+     "nameZh": "甩洲",
+     "chance": 0.946
+    }
+   ]
+  },
+  "iucn": {
+   "category": "Least Concern",
+   "source": "iNaturalist"
+  }
+ },
+ {
+  "id": "sp_Ardea_cinerea",
+  "scientificName": "Ardea cinerea",
+  "commonName": "Gray Heron",
+  "chineseName": "苍鹭",
+  "inaturalistTaxonId": 4954,
+  "inTripPlanner": true,
+  "monthlyRates": [
+   0.344,
+   0.359,
+   0.355,
+   0.256,
+   0.218,
+   0.077,
+   0.206,
+   0.156,
+   0.169,
+   0.257,
+   0.405,
+   0.392
+  ],
+  "best": {
+   "month": 11,
+   "places": [
+    {
+     "name": "Lut Chau",
+     "nameZh": "甩洲",
+     "chance": 0.96
+    },
+    {
+     "name": "Mai Po Nature Reserve--Southern Mudflat Hide",
+     "nameZh": "米埔自然護理區--泥灘南屋",
+     "chance": 0.945
+    },
+    {
+     "name": "Nam Sang Wai",
+     "nameZh": "南生圍",
+     "chance": 0.945
+    }
+   ]
+  },
+  "iucn": {
+   "category": "Least Concern",
+   "source": "iNaturalist"
+  }
+ },
+ {
+  "id": "sp_Urocissa_erythroryncha",
+  "scientificName": "Urocissa erythroryncha",
+  "commonName": "Red-billed Blue-Magpie",
+  "chineseName": "红嘴蓝鹊",
+  "inaturalistTaxonId": 495200,
+  "inTripPlanner": true,
+  "monthlyRates": [
+   0.14,
+   0.235,
+   0.307,
+   0.306,
+   0.253,
+   0.287,
+   0.307,
+   0.183,
+   0.316,
+   0.239,
+   0.252,
+   0.216
+  ],
+  "best": {
+   "month": 9,
+   "places": [
+    {
+     "name": "Tsing Yi Park",
+     "nameZh": "青衣公園",
+     "chance": 0.862
+    },
+    {
+     "name": "Mount Davis",
+     "nameZh": "摩星嶺",
+     "chance": 0.859
+    },
+    {
+     "name": "Aberdeen Harbour",
+     "nameZh": "香港仔灣",
+     "chance": 0.832
+    }
+   ]
+  },
+  "iucn": {
+   "category": "Least Concern",
+   "source": "iNaturalist"
+  }
+ },
+ {
+  "id": "sp_Amaurornis_phoenicurus",
+  "scientificName": "Amaurornis phoenicurus",
+  "commonName": "White-breasted Waterhen",
+  "chineseName": "白胸苦恶鸟",
+  "inaturalistTaxonId": 199,
+  "inTripPlanner": true,
+  "monthlyRates": [
+   0.256,
+   0.288,
+   0.309,
+   0.323,
+   0.298,
+   0.244,
+   0.239,
+   0.236,
+   0.22,
+   0.269,
+   0.284,
+   0.274
+  ],
+  "best": {
+   "month": 4,
+   "places": [
+    {
+     "name": "Fung Lok Wai",
+     "nameZh": "豐樂圍",
+     "chance": 0.944
+    },
+    {
+     "name": "Tam Kon Chau Road--Fishpond Area",
+     "nameZh": "担竿洲路--魚塘區",
+     "chance": 0.926
+    },
+    {
+     "name": "San Tin",
+     "nameZh": "新田",
+     "chance": 0.918
+    }
+   ]
+  },
+  "iucn": {
+   "category": "Least Concern",
+   "source": "iNaturalist"
+  }
+ },
+ {
+  "id": "sp_Columba_livia",
+  "scientificName": "Columba livia",
+  "commonName": "Rock Pigeon",
+  "chineseName": "原鸽",
+  "inaturalistTaxonId": 3017,
+  "inTripPlanner": true,
+  "monthlyRates": [
+   0.16,
+   0.209,
+   0.23,
+   0.265,
+   0.201,
+   0.22,
+   0.261,
+   0.202,
+   0.303,
+   0.321,
+   0.305,
+   0.22
+  ],
+  "best": {
+   "month": 10,
+   "places": [
+    {
+     "name": "Victoria Park",
+     "nameZh": "維多利亞公園",
+     "chance": 0.898
+    },
+    {
+     "name": "Kowloon Park",
+     "nameZh": "九龍公園",
+     "chance": 0.878
+    },
+    {
+     "name": "Happy Valley",
+     "nameZh": "跑馬地",
+     "chance": 0.831
+    }
+   ]
+  },
+  "iucn": {
+   "category": "Least Concern",
+   "source": "iNaturalist"
+  }
+ },
+ {
+  "id": "sp_Centropus_sinensis",
+  "scientificName": "Centropus sinensis",
+  "commonName": "Greater Coucal",
+  "chineseName": "褐翅鸦鹃",
+  "inaturalistTaxonId": 1677,
+  "inTripPlanner": true,
+  "monthlyRates": [
+   0.146,
+   0.23,
+   0.309,
+   0.424,
+   0.443,
+   0.316,
+   0.252,
+   0.194,
+   0.202,
+   0.159,
+   0.161,
+   0.175
+  ],
+  "best": {
+   "month": 5,
+   "places": [
+    {
+     "name": "Fung Lok Wai",
+     "nameZh": "豐樂圍",
+     "chance": 0.925
+    },
+    {
+     "name": "Mai Po Nature Reserve",
+     "nameZh": "米埔自然護理區",
+     "chance": 0.921
+    },
+    {
+     "name": "Lung A Pai",
+     "nameZh": "龍丫排",
+     "chance": 0.902
+    }
+   ]
+  },
+  "iucn": {
+   "category": "Least Concern",
+   "source": "iNaturalist"
+  }
+ },
+ {
+  "id": "sp_Prinia_flaviventris",
+  "scientificName": "Prinia flaviventris",
+  "commonName": "Yellow-bellied Prinia",
+  "chineseName": "黄腹山鹪莺",
+  "inaturalistTaxonId": 7716,
+  "inTripPlanner": true,
+  "monthlyRates": [
+   0.199,
+   0.269,
+   0.34,
+   0.335,
+   0.313,
+   0.22,
+   0.227,
+   0.183,
+   0.147,
+   0.137,
+   0.179,
+   0.22
+  ],
+  "best": {
+   "month": 3,
+   "places": [
+    {
+     "name": "Lung A Pai",
+     "nameZh": "龍丫排",
+     "chance": 0.929
+    },
+    {
+     "name": "Ma Tso Lung",
+     "nameZh": "馬草壟",
+     "chance": 0.92
+    },
+    {
+     "name": "社山 She Shan",
+     "nameZh": null,
+     "chance": 0.899
+    }
+   ]
+  },
+  "iucn": {
+   "category": "Least Concern",
+   "source": "iNaturalist"
+  }
+ },
+ {
+  "id": "sp_Lonchura_punctulata",
+  "scientificName": "Lonchura punctulata",
+  "commonName": "Scaly-breasted Munia",
+  "chineseName": "斑文鸟",
+  "inaturalistTaxonId": 13893,
+  "inTripPlanner": true,
+  "monthlyRates": [
+   0.199,
+   0.213,
+   0.193,
+   0.246,
+   0.223,
+   0.105,
+   0.155,
+   0.209,
+   0.226,
+   0.277,
+   0.311,
+   0.259
+  ],
+  "best": {
+   "month": 11,
+   "places": [
+    {
+     "name": "Long Valley",
+     "nameZh": "塱原",
+     "chance": 0.926
+    },
+    {
+     "name": "Lung A Pai",
+     "nameZh": "龍丫排",
+     "chance": 0.83
+    },
+    {
+     "name": "社山 She Shan",
+     "nameZh": null,
+     "chance": 0.713
+    }
+   ]
+  },
+  "iucn": {
+   "category": "Least Concern",
+   "source": "iNaturalist"
+  }
+ },
+ {
+  "id": "sp_Phylloscopus_fuscatus",
+  "scientificName": "Phylloscopus fuscatus",
+  "commonName": "Dusky Warbler",
+  "chineseName": "褐柳莺",
+  "inaturalistTaxonId": 117022,
+  "inTripPlanner": true,
+  "monthlyRates": [
+   0.284,
+   0.296,
+   0.261,
+   0.215,
+   0.064,
+   0,
+   0,
+   0,
+   0.024,
+   0.195,
+   0.398,
+   0.362
+  ],
+  "best": {
+   "month": 11,
+   "places": [
+    {
+     "name": "Fung Lok Wai",
+     "nameZh": "豐樂圍",
+     "chance": 0.923
+    },
+    {
+     "name": "Lung A Pai",
+     "nameZh": "龍丫排",
+     "chance": 0.855
+    },
+    {
+     "name": "Pui O",
+     "nameZh": "貝澳",
+     "chance": 0.854
+    }
+   ]
+  },
+  "iucn": {
+   "category": "Least Concern",
+   "source": "iNaturalist"
+  }
+ },
+ {
+  "id": "sp_Himantopus_himantopus",
+  "scientificName": "Himantopus himantopus",
+  "commonName": "Black-winged Stilt",
+  "chineseName": "黑翅长脚鹬",
+  "inaturalistTaxonId": 4835,
+  "inTripPlanner": true,
+  "monthlyRates": [
+   0.225,
+   0.222,
+   0.238,
+   0.263,
+   0.244,
+   0.105,
+   0.16,
+   0.156,
+   0.215,
+   0.283,
+   0.295,
+   0.252
+  ],
+  "best": {
+   "month": 11,
+   "places": [
+    {
+     "name": "Long Valley",
+     "nameZh": "塱原",
+     "chance": 0.944
+    },
+    {
+     "name": "San Tin",
+     "nameZh": "新田",
+     "chance": 0.75
+    },
+    {
+     "name": "Ma Tso Lung",
+     "nameZh": "馬草壟",
+     "chance": 0.709
+    }
+   ]
+  },
+  "iucn": {
+   "category": "Least Concern",
+   "source": "iNaturalist"
+  }
+ },
+ {
+  "id": "sp_Aethopyga_christinae",
+  "scientificName": "Aethopyga christinae",
+  "commonName": "Fork-tailed Sunbird",
+  "chineseName": "叉尾太阳鸟",
+  "inaturalistTaxonId": 13428,
+  "inTripPlanner": true,
+  "monthlyRates": [
+   0.312,
+   0.304,
+   0.24,
+   0.096,
+   0.135,
+   0.191,
+   0.046,
+   0.091,
+   0.094,
+   0.129,
+   0.175,
+   0.287
+  ],
+  "best": {
+   "month": 1,
+   "places": [
+    {
+     "name": "Kowloon Hills Fitness Trail",
+     "nameZh": "九龍山健身徑",
+     "chance": 0.952
+    },
+    {
+     "name": "Tai Po Kau Nature Reserve",
+     "nameZh": "大埔滘自然護理區",
+     "chance": 0.899
+    },
+    {
+     "name": "Pat Heung Catchwater, Tai Lam",
+     "nameZh": null,
+     "chance": 0.896
+    }
+   ]
+  },
+  "iucn": {
+   "category": "Least Concern",
+   "source": "iNaturalist"
+  }
+ },
+ {
+  "id": "sp_Prinia_inornata",
+  "scientificName": "Prinia inornata",
+  "commonName": "Plain Prinia",
+  "chineseName": "纯色山鹪莺",
+  "inaturalistTaxonId": 7710,
+  "inTripPlanner": true,
+  "monthlyRates": [
+   0.185,
+   0.249,
+   0.264,
+   0.258,
+   0.231,
+   0.134,
+   0.185,
+   0.163,
+   0.177,
+   0.211,
+   0.248,
+   0.243
+  ],
+  "best": {
+   "month": 3,
+   "places": [
+    {
+     "name": "Fung Lok Wai",
+     "nameZh": "豐樂圍",
+     "chance": 0.899
+    },
+    {
+     "name": "Long Valley",
+     "nameZh": "塱原",
+     "chance": 0.893
+    },
+    {
+     "name": "Ma Tso Lung",
+     "nameZh": "馬草壟",
+     "chance": 0.886
+    }
+   ]
+  },
+  "iucn": {
+   "category": "Least Concern",
+   "source": "iNaturalist"
+  }
+ },
+ {
+  "id": "sp_Actitis_hypoleucos",
+  "scientificName": "Actitis hypoleucos",
+  "commonName": "Common Sandpiper",
+  "chineseName": "矶鹬",
+  "inaturalistTaxonId": 3978,
+  "inTripPlanner": true,
+  "monthlyRates": [
+   0.235,
+   0.205,
+   0.215,
+   0.213,
+   0.139,
+   0,
+   0.042,
+   0.156,
+   0.175,
+   0.207,
+   0.244,
+   0.254
+  ],
+  "best": {
+   "month": 12,
+   "places": [
+    {
+     "name": "San Tin",
+     "nameZh": "新田",
+     "chance": 0.865
+    },
+    {
+     "name": "Lut Chau",
+     "nameZh": "甩洲",
+     "chance": 0.801
+    },
+    {
+     "name": "Mui Shue Hang Playground",
+     "nameZh": "梅樹坑遊樂場",
+     "chance": 0.8
+    }
+   ]
+  },
+  "iucn": {
+   "category": "Least Concern",
+   "source": "iNaturalist"
+  }
+ },
+ {
+  "id": "sp_Apus_nipalensis",
+  "scientificName": "Apus nipalensis",
+  "commonName": "House Swift",
+  "chineseName": "小白腰雨燕",
+  "inaturalistTaxonId": 6633,
+  "inTripPlanner": true,
+  "monthlyRates": [
+   0.134,
+   0.176,
+   0.14,
+   0.237,
+   0.306,
+   0.239,
+   0.286,
+   0.198,
+   0.243,
+   0.237,
+   0.144,
+   0.14
+  ],
+  "best": {
+   "month": 5,
+   "places": [
+    {
+     "name": "Lung Kwu Tan",
+     "nameZh": "龍鼓灘",
+     "chance": 0.821
+    },
+    {
+     "name": "Kwai Chung Park and Gin Drinkers Bay Cricket Ground",
+     "nameZh": "葵涌公園及醉酒灣板球場",
+     "chance": 0.751
+    },
+    {
+     "name": "Pat Heung Catchwater, Tai Lam",
+     "nameZh": null,
+     "chance": 0.685
+    }
+   ]
+  },
+  "iucn": {
+   "category": "Least Concern",
+   "source": "iNaturalist"
+  }
+ },
+ {
+  "id": "sp_Acridotheres_tristis",
+  "scientificName": "Acridotheres tristis",
+  "commonName": "Common Myna",
+  "chineseName": "家八哥",
+  "inaturalistTaxonId": 204454,
+  "inTripPlanner": true,
+  "monthlyRates": [
+   0.177,
+   0.209,
+   0.19,
+   0.206,
+   0.231,
+   0.148,
+   0.197,
+   0.129,
+   0.192,
+   0.201,
+   0.216,
+   0.209
+  ],
+  "best": {
+   "month": 5,
+   "places": [
+    {
+     "name": "San Tin",
+     "nameZh": "新田",
+     "chance": 0.855
+    },
+    {
+     "name": "Tam Kon Chau Road--Fishpond Area",
+     "nameZh": "担竿洲路--魚塘區",
+     "chance": 0.838
+    },
+    {
+     "name": "Kowloon Tsai Park",
+     "nameZh": "九龍仔公園",
+     "chance": 0.838
+    }
+   ]
+  },
+  "iucn": {
+   "category": "Least Concern",
+   "source": "iNaturalist"
+  }
+ },
+ {
+  "id": "sp_Halcyon_smyrnensis",
+  "scientificName": "Halcyon smyrnensis",
+  "commonName": "White-throated Kingfisher",
+  "chineseName": "白胸翡翠",
+  "inaturalistTaxonId": 204519,
+  "inTripPlanner": true,
+  "monthlyRates": [
+   0.199,
+   0.206,
+   0.215,
+   0.132,
+   0.099,
+   0.124,
+   0.214,
+   0.194,
+   0.198,
+   0.211,
+   0.269,
+   0.22
+  ],
+  "best": {
+   "month": 11,
+   "places": [
+    {
+     "name": "San Tin",
+     "nameZh": "新田",
+     "chance": 0.778
+    },
+    {
+     "name": "Nam Sang Wai",
+     "nameZh": "南生圍",
+     "chance": 0.753
+    },
+    {
+     "name": "Pak Nai",
+     "nameZh": "白泥",
+     "chance": 0.732
+    }
+   ]
+  },
+  "iucn": {
+   "category": "Least Concern",
+   "source": "iNaturalist"
+  }
+ },
+ {
+  "id": "sp_Motacilla_tschutschensis",
+  "scientificName": "Motacilla tschutschensis",
+  "commonName": "Eastern Yellow Wagtail",
+  "chineseName": "黄鹡鸰",
+  "inaturalistTaxonId": 145207,
+  "inTripPlanner": true,
+  "monthlyRates": [
+   0.248,
+   0.243,
+   0.258,
+   0.242,
+   0.195,
+   0,
+   0,
+   0.008,
+   0.143,
+   0.197,
+   0.284,
+   0.252
+  ],
+  "best": {
+   "month": 11,
+   "places": [
+    {
+     "name": "Pui O",
+     "nameZh": "貝澳",
+     "chance": 0.861
+    },
+    {
+     "name": "Ma Tso Lung",
+     "nameZh": "馬草壟",
+     "chance": 0.846
+    },
+    {
+     "name": "San Tin",
+     "nameZh": "新田",
+     "chance": 0.807
+    }
+   ]
+  },
+  "iucn": {
+   "category": "Least Concern",
+   "source": "iNaturalist"
+  }
+ },
+ {
+  "id": "sp_Alcedo_atthis",
+  "scientificName": "Alcedo atthis",
+  "commonName": "Common Kingfisher",
+  "chineseName": "普通翠鸟",
+  "inaturalistTaxonId": 2599,
+  "inTripPlanner": true,
+  "monthlyRates": [
+   0.225,
+   0.194,
+   0.175,
+   0.088,
+   0.062,
+   0.029,
+   0.076,
+   0.202,
+   0.228,
+   0.155,
+   0.269,
+   0.239
+  ],
+  "best": {
+   "month": 11,
+   "places": [
+    {
+     "name": "San Tin",
+     "nameZh": "新田",
+     "chance": 0.826
+    },
+    {
+     "name": "Pak Nai",
+     "nameZh": "白泥",
+     "chance": 0.812
+    },
+    {
+     "name": "Tam Kon Chau Road--Fishpond Area",
+     "nameZh": "担竿洲路--魚塘區",
+     "chance": 0.79
+    }
+   ]
+  },
+  "iucn": {
+   "category": "Least Concern",
+   "source": "iNaturalist"
+  }
+ },
+ {
+  "id": "sp_Saxicola_stejnegeri",
+  "scientificName": "Saxicola stejnegeri",
+  "commonName": "Amur Stonechat",
+  "chineseName": "东亚石䳭",
+  "inaturalistTaxonId": 1286913,
+  "inTripPlanner": true,
+  "monthlyRates": [
+   0.263,
+   0.28,
+   0.233,
+   0.137,
+   0.002,
+   0,
+   0,
+   0.004,
+   0.028,
+   0.249,
+   0.339,
+   0.297
+  ],
+  "best": {
+   "month": 11,
+   "places": [
+    {
+     "name": "Long Valley",
+     "nameZh": "塱原",
+     "chance": 0.923
+    },
+    {
+     "name": "Fung Lok Wai",
+     "nameZh": "豐樂圍",
+     "chance": 0.921
+    },
+    {
+     "name": "Lung A Pai",
+     "nameZh": "龍丫排",
+     "chance": 0.911
+    }
+   ]
+  },
+  "iucn": null
+ },
+ {
+  "id": "sp_Nycticorax_nycticorax",
+  "scientificName": "Nycticorax nycticorax",
+  "commonName": "Black-crowned Night Heron",
+  "chineseName": "夜鹭",
+  "inaturalistTaxonId": 4981,
+  "inTripPlanner": true,
+  "monthlyRates": [
+   0.123,
+   0.146,
+   0.112,
+   0.151,
+   0.178,
+   0.191,
+   0.231,
+   0.285,
+   0.226,
+   0.124,
+   0.144,
+   0.157
+  ],
+  "best": {
+   "month": 8,
+   "places": [
+    {
+     "name": "Kowloon Park",
+     "nameZh": "九龍公園",
+     "chance": 0.941
+    },
+    {
+     "name": "Tuen Mun Park",
+     "nameZh": "屯門公園",
+     "chance": 0.932
+    },
+    {
+     "name": "Aberdeen Harbour",
+     "nameZh": "香港仔灣",
+     "chance": 0.927
+    }
+   ]
+  },
+  "iucn": {
+   "category": "Least Concern",
+   "source": "iNaturalist"
+  }
+ },
+ {
+  "id": "sp_Tringa_nebularia",
+  "scientificName": "Tringa nebularia",
+  "commonName": "Common Greenshank",
+  "chineseName": "青脚鹬",
+  "inaturalistTaxonId": 3878,
+  "inTripPlanner": true,
+  "monthlyRates": [
+   0.173,
+   0.222,
+   0.233,
+   0.232,
+   0.124,
+   0.01,
+   0.046,
+   0.152,
+   0.113,
+   0.183,
+   0.228,
+   0.187
+  ],
+  "best": {
+   "month": 3,
+   "places": [
+    {
+     "name": "Mai Po Nature Reserve--Southern Mudflat Hide",
+     "nameZh": "米埔自然護理區--泥灘南屋",
+     "chance": 0.863
+    },
+    {
+     "name": "Long Valley",
+     "nameZh": "塱原",
+     "chance": 0.768
+    },
+    {
+     "name": "Hong Kong Wetland Park",
+     "nameZh": "香港濕地公園",
+     "chance": 0.729
+    }
+   ]
+  },
+  "iucn": {
+   "category": "Least Concern",
+   "source": "iNaturalist"
+  }
+ },
+ {
+  "id": "sp_Dicrurus_macrocercus",
+  "scientificName": "Dicrurus macrocercus",
+  "commonName": "Black Drongo",
+  "chineseName": "黑卷尾",
+  "inaturalistTaxonId": 8277,
+  "inTripPlanner": true,
+  "monthlyRates": [
+   0.202,
+   0.142,
+   0.149,
+   0.191,
+   0.161,
+   0.038,
+   0.071,
+   0.065,
+   0.115,
+   0.299,
+   0.17,
+   0.194
+  ],
+  "best": {
+   "month": 10,
+   "places": [
+    {
+     "name": "Ma Tso Lung",
+     "nameZh": "馬草壟",
+     "chance": 0.873
+    },
+    {
+     "name": "Mai Po Nature Reserve",
+     "nameZh": "米埔自然護理區",
+     "chance": 0.85
+    },
+    {
+     "name": "Tam Kon Chau Road--Fishpond Area",
+     "nameZh": "担竿洲路--魚塘區",
+     "chance": 0.817
+    }
+   ]
+  },
+  "iucn": {
+   "category": "Least Concern",
+   "source": "iNaturalist"
+  }
+ },
+ {
+  "id": "sp_Corvus_torquatus",
+  "scientificName": "Corvus torquatus",
+  "commonName": "Collared Crow",
+  "chineseName": "白颈鸦",
+  "inaturalistTaxonId": 8005,
+  "inTripPlanner": true,
+  "monthlyRates": [
+   0.201,
+   0.208,
+   0.182,
+   0.174,
+   0.133,
+   0.053,
+   0.08,
+   0.103,
+   0.113,
+   0.124,
+   0.185,
+   0.192
+  ],
+  "best": {
+   "month": 2,
+   "places": [
+    {
+     "name": "Lut Chau",
+     "nameZh": "甩洲",
+     "chance": 0.897
+    },
+    {
+     "name": "Mai Po Nature Reserve",
+     "nameZh": "米埔自然護理區",
+     "chance": 0.798
+    },
+    {
+     "name": "San Tin",
+     "nameZh": "新田",
+     "chance": 0.778
+    }
+   ]
+  },
+  "iucn": {
+   "category": "Vulnerable",
+   "source": "iNaturalist"
+  }
+ },
+ {
+  "id": "sp_Anthus_hodgsoni",
+  "scientificName": "Anthus hodgsoni",
+  "commonName": "Olive-backed Pipit",
+  "chineseName": "树鹨",
+  "inaturalistTaxonId": 13724,
+  "inTripPlanner": true,
+  "monthlyRates": [
+   0.294,
+   0.282,
+   0.238,
+   0.143,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0.014,
+   0.187,
+   0.293
+  ],
+  "best": {
+   "month": 1,
+   "places": [
+    {
+     "name": "Lung A Pai",
+     "nameZh": "龍丫排",
+     "chance": 0.797
+    },
+    {
+     "name": "Kwai Chung Park and Gin Drinkers Bay Cricket Ground",
+     "nameZh": "葵涌公園及醉酒灣板球場",
+     "chance": 0.783
+    },
+    {
+     "name": "Lantau Peak",
+     "nameZh": "鳳凰山",
+     "chance": 0.773
+    }
+   ]
+  },
+  "iucn": {
+   "category": "Least Concern",
+   "source": "iNaturalist"
+  }
+ },
+ {
+  "id": "sp_Phalacrocorax_carbo",
+  "scientificName": "Phalacrocorax carbo",
+  "commonName": "Great Cormorant",
+  "chineseName": "普通鸬鹚",
+  "inaturalistTaxonId": 4270,
+  "inTripPlanner": true,
+  "monthlyRates": [
+   0.292,
+   0.255,
+   0.293,
+   0.021,
+   0,
+   0,
+   0,
+   0,
+   0.011,
+   0.106,
+   0.259,
+   0.302
+  ],
+  "best": {
+   "month": 12,
+   "places": [
+    {
+     "name": "Lut Chau",
+     "nameZh": "甩洲",
+     "chance": 0.979
+    },
+    {
+     "name": "Fung Lok Wai",
+     "nameZh": "豐樂圍",
+     "chance": 0.976
+    },
+    {
+     "name": "Mai Po Nature Reserve--Northern Mudflat Hide",
+     "nameZh": "米埔自然護理區--泥灘北屋",
+     "chance": 0.967
+    }
+   ]
+  },
+  "iucn": {
+   "category": "Least Concern",
+   "source": "iNaturalist"
+  }
+ },
+ {
+  "id": "sp_Myophonus_caeruleus",
+  "scientificName": "Myophonus caeruleus",
+  "commonName": "Blue Whistling-Thrush",
+  "chineseName": "紫啸鸫",
+  "inaturalistTaxonId": 68507,
+  "inTripPlanner": true,
+  "monthlyRates": [
+   0.115,
+   0.145,
+   0.155,
+   0.148,
+   0.158,
+   0.158,
+   0.13,
+   0.091,
+   0.196,
+   0.12,
+   0.148,
+   0.136
+  ],
+  "best": {
+   "month": 9,
+   "places": [
+    {
+     "name": "Mount Davis",
+     "nameZh": "摩星嶺",
+     "chance": 0.73
+    },
+    {
+     "name": "Tai Tam CP--Quarry Bay extension",
+     "nameZh": null,
+     "chance": 0.701
+    },
+    {
+     "name": "King's Park Recreation Ground",
+     "nameZh": "京士柏公園",
+     "chance": 0.659
+    }
+   ]
+  },
+  "iucn": {
+   "category": "Least Concern",
+   "source": "iNaturalist"
+  }
+ },
+ {
+  "id": "sp_Recurvirostra_avosetta",
+  "scientificName": "Recurvirostra avosetta",
+  "commonName": "Pied Avocet",
+  "chineseName": "反嘴鹬",
+  "inaturalistTaxonId": 4883,
+  "inTripPlanner": true,
+  "monthlyRates": [
+   0.177,
+   0.224,
+   0.258,
+   0.21,
+   0.094,
+   0.01,
+   0.017,
+   0,
+   0.021,
+   0.092,
+   0.277,
+   0.22
+  ],
+  "best": {
+   "month": 11,
+   "places": [
+    {
+     "name": "Mai Po Nature Reserve--Southern Mudflat Hide",
+     "nameZh": "米埔自然護理區--泥灘南屋",
+     "chance": 0.801
+    },
+    {
+     "name": "Long Valley",
+     "nameZh": "塱原",
+     "chance": 0.78
+    },
+    {
+     "name": "Nam Sang Wai",
+     "nameZh": "南生圍",
+     "chance": 0.703
+    }
+   ]
+  },
+  "iucn": {
+   "category": "Least Concern",
+   "source": "iNaturalist"
+  }
+ },
+ {
+  "id": "sp_Lanius_schach",
+  "scientificName": "Lanius schach",
+  "commonName": "Long-tailed Shrike",
+  "chineseName": "棕背伯劳",
+  "inaturalistTaxonId": 12035,
+  "inTripPlanner": true,
+  "monthlyRates": [
+   0.192,
+   0.176,
+   0.06,
+   0.05,
+   0.036,
+   0.077,
+   0.134,
+   0.19,
+   0.228,
+   0.237,
+   0.22,
+   0.226
+  ],
+  "best": {
+   "month": 10,
+   "places": [
+    {
+     "name": "Lung A Pai",
+     "nameZh": "龍丫排",
+     "chance": 0.931
+    },
+    {
+     "name": "Ma Tso Lung",
+     "nameZh": "馬草壟",
+     "chance": 0.916
+    },
+    {
+     "name": "Tam Kon Chau Road--Fishpond Area",
+     "nameZh": "担竿洲路--魚塘區",
+     "chance": 0.812
+    }
+   ]
+  },
+  "iucn": {
+   "category": "Least Concern",
+   "source": "iNaturalist"
+  }
+ },
+ {
+  "id": "sp_Ardea_coromanda",
+  "scientificName": "Ardea coromanda",
+  "commonName": "Eastern Cattle-Egret",
+  "chineseName": "牛背鹭",
+  "inaturalistTaxonId": 1585373,
+  "inTripPlanner": true,
+  "monthlyRates": [
+   0.096,
+   0.142,
+   0.131,
+   0.163,
+   0.212,
+   0.029,
+   0.021,
+   0.061,
+   0.151,
+   0.225,
+   0.228,
+   0.172
+  ],
+  "best": {
+   "month": 11,
+   "places": [
+    {
+     "name": "Pui O",
+     "nameZh": "貝澳",
+     "chance": 0.801
+    },
+    {
+     "name": "Shui Hau",
+     "nameZh": "水口",
+     "chance": 0.705
+    },
+    {
+     "name": "Long Valley",
+     "nameZh": "塱原",
+     "chance": 0.564
+    }
+   ]
+  },
+  "iucn": null
+ },
+ {
+  "id": "sp_Gallinula_chloropus",
+  "scientificName": "Gallinula chloropus",
+  "commonName": "Eurasian Moorhen",
+  "chineseName": "黑水鸡",
+  "inaturalistTaxonId": 201282,
+  "inTripPlanner": true,
+  "monthlyRates": [
+   0.183,
+   0.194,
+   0.207,
+   0.208,
+   0.133,
+   0.038,
+   0.071,
+   0.084,
+   0.089,
+   0.159,
+   0.207,
+   0.188
+  ],
+  "best": {
+   "month": 4,
+   "places": [
+    {
+     "name": "Long Valley",
+     "nameZh": "塱原",
+     "chance": 0.904
+    },
+    {
+     "name": "Fung Lok Wai",
+     "nameZh": "豐樂圍",
+     "chance": 0.76
+    },
+    {
+     "name": "Nam Sang Wai",
+     "nameZh": "南生圍",
+     "chance": 0.681
+    }
+   ]
+  },
+  "iucn": {
+   "category": "Least Concern",
+   "source": "iNaturalist"
+  }
+ },
+ {
+  "id": "sp_Tachybaptus_ruficollis",
+  "scientificName": "Tachybaptus ruficollis",
+  "commonName": "Little Grebe",
+  "chineseName": "小䴙䴘",
+  "inaturalistTaxonId": 4237,
+  "inTripPlanner": true,
+  "monthlyRates": [
+   0.23,
+   0.189,
+   0.187,
+   0.189,
+   0.15,
+   0.057,
+   0.088,
+   0.091,
+   0.062,
+   0.09,
+   0.12,
+   0.218
+  ],
+  "best": {
+   "month": 1,
+   "places": [
+    {
+     "name": "Tai Sang Wai",
+     "nameZh": "大生圍",
+     "chance": 0.776
+    },
+    {
+     "name": "Lut Chau",
+     "nameZh": "甩洲",
+     "chance": 0.775
+    },
+    {
+     "name": "Tam Kon Chau Road--Fishpond Area",
+     "nameZh": "担竿洲路--魚塘區",
+     "chance": 0.723
+    }
+   ]
+  },
+  "iucn": {
+   "category": "Least Concern",
+   "source": "iNaturalist"
+  }
+ },
+ {
+  "id": "sp_Tringa_glareola",
+  "scientificName": "Tringa glareola",
+  "commonName": "Wood Sandpiper",
+  "chineseName": "林鹬",
+  "inaturalistTaxonId": 3888,
+  "inTripPlanner": true,
+  "monthlyRates": [
+   0.14,
+   0.164,
+   0.162,
+   0.196,
+   0.054,
+   0,
+   0.021,
+   0.095,
+   0.136,
+   0.193,
+   0.202,
+   0.118
+  ],
+  "best": {
+   "month": 11,
+   "places": [
+    {
+     "name": "Long Valley",
+     "nameZh": "塱原",
+     "chance": 0.789
+    },
+    {
+     "name": "Ma Tso Lung",
+     "nameZh": "馬草壟",
+     "chance": 0.493
+    },
+    {
+     "name": "Tam Kon Chau Road--Fishpond Area",
+     "nameZh": "担竿洲路--魚塘區",
+     "chance": 0.377
+    }
+   ]
+  },
+  "iucn": {
+   "category": "Least Concern",
+   "source": "iNaturalist"
+  }
+ },
+ {
+  "id": "sp_Spatula_clypeata",
+  "scientificName": "Spatula clypeata",
+  "commonName": "Northern Shoveler",
+  "chineseName": "琵嘴鸭",
+  "inaturalistTaxonId": 558438,
+  "inTripPlanner": true,
+  "monthlyRates": [
+   0.192,
+   0.243,
+   0.251,
+   0.105,
+   0.023,
+   0,
+   0,
+   0,
+   0,
+   0.016,
+   0.239,
+   0.196
+  ],
+  "best": {
+   "month": 3,
+   "places": [
+    {
+     "name": "Mai Po Nature Reserve",
+     "nameZh": "米埔自然護理區",
+     "chance": 0.83
+    },
+    {
+     "name": "Long Valley",
+     "nameZh": "塱原",
+     "chance": 0.695
+    },
+    {
+     "name": "Nam Sang Wai",
+     "nameZh": "南生圍",
+     "chance": 0.693
+    }
+   ]
+  },
+  "iucn": {
+   "category": "Least Concern",
+   "source": "iNaturalist"
+  }
+ },
+ {
+  "id": "sp_Pericrocotus_speciosus",
+  "scientificName": "Pericrocotus speciosus",
+  "commonName": "Scarlet Minivet",
+  "chineseName": "赤红山椒鸟",
+  "inaturalistTaxonId": 339679,
+  "inTripPlanner": true,
+  "monthlyRates": [
+   0.126,
+   0.175,
+   0.145,
+   0.105,
+   0.146,
+   0.134,
+   0.067,
+   0.061,
+   0.083,
+   0.088,
+   0.082,
+   0.119
+  ],
+  "best": {
+   "month": 2,
+   "places": [
+    {
+     "name": "Kowloon Hills Fitness Trail",
+     "nameZh": "九龍山健身徑",
+     "chance": 0.911
+    },
+    {
+     "name": "Tai Lam Country Park (Eco Garden)",
+     "nameZh": null,
+     "chance": 0.84
+    },
+    {
+     "name": "Pat Heung Catchwater, Tai Lam",
+     "nameZh": null,
+     "chance": 0.697
+    }
+   ]
+  },
+  "iucn": {
+   "category": "Least Concern",
+   "source": "Wikipedia (citing IUCN)"
+  }
+ },
+ {
+  "id": "sp_Motacilla_cinerea",
+  "scientificName": "Motacilla cinerea",
+  "commonName": "Gray Wagtail",
+  "chineseName": "灰鹡鸰",
+  "inaturalistTaxonId": 13688,
+  "inTripPlanner": true,
+  "monthlyRates": [
+   0.139,
+   0.189,
+   0.111,
+   0.067,
+   0.068,
+   0,
+   0,
+   0.042,
+   0.117,
+   0.163,
+   0.134,
+   0.14
+  ],
+  "best": {
+   "month": 2,
+   "places": [
+    {
+     "name": "Mui Shue Hang Playground",
+     "nameZh": "梅樹坑遊樂場",
+     "chance": 0.9
+    },
+    {
+     "name": "Kowloon Hills Fitness Trail",
+     "nameZh": "九龍山健身徑",
+     "chance": 0.854
+    },
+    {
+     "name": "Lung A Pai",
+     "nameZh": "龍丫排",
+     "chance": 0.726
+    }
+   ]
+  },
+  "iucn": {
+   "category": "Least Concern",
+   "source": "iNaturalist"
+  }
+ },
+ {
+  "id": "sp_Anas_crecca",
+  "scientificName": "Anas crecca",
+  "commonName": "Green-winged Teal",
+  "chineseName": "绿翅鸭",
+  "inaturalistTaxonId": 6937,
+  "inTripPlanner": true,
+  "monthlyRates": [
+   0.124,
+   0.186,
+   0.177,
+   0.045,
+   0,
+   0,
+   0,
+   0,
+   0.03,
+   0.084,
+   0.279,
+   0.183
+  ],
+  "best": {
+   "month": 11,
+   "places": [
+    {
+     "name": "Long Valley",
+     "nameZh": "塱原",
+     "chance": 0.828
+    },
+    {
+     "name": "Nam Sang Wai",
+     "nameZh": "南生圍",
+     "chance": 0.736
+    },
+    {
+     "name": "Mai Po Nature Reserve--Northern Mudflat Hide",
+     "nameZh": "米埔自然護理區--泥灘北屋",
+     "chance": 0.717
+    }
+   ]
+  },
+  "iucn": {
+   "category": "Least Concern",
+   "source": "iNaturalist"
+  }
+ },
+ {
+  "id": "sp_Gallinago_gallinago",
+  "scientificName": "Gallinago gallinago",
+  "commonName": "Common Snipe",
+  "chineseName": "扇尾沙锥",
+  "inaturalistTaxonId": 318836,
+  "inTripPlanner": true,
+  "monthlyRates": [
+   0.102,
+   0.15,
+   0.147,
+   0.139,
+   0.019,
+   0,
+   0,
+   0,
+   0.073,
+   0.193,
+   0.251,
+   0.14
+  ],
+  "best": {
+   "month": 11,
+   "places": [
+    {
+     "name": "Long Valley",
+     "nameZh": "塱原",
+     "chance": 0.869
+    },
+    {
+     "name": "Pui O",
+     "nameZh": "貝澳",
+     "chance": 0.625
+    },
+    {
+     "name": "Ma Tso Lung",
+     "nameZh": "馬草壟",
+     "chance": 0.455
+    }
+   ]
+  },
+  "iucn": {
+   "category": "Least Concern",
+   "source": "iNaturalist"
+  }
+ },
+ {
+  "id": "sp_Cyanoderma_ruficeps",
+  "scientificName": "Cyanoderma ruficeps",
+  "commonName": "Rufous-capped Babbler",
+  "chineseName": "红头穗鹛",
+  "inaturalistTaxonId": 339784,
+  "inTripPlanner": true,
+  "monthlyRates": [
+   0.155,
+   0.167,
+   0.142,
+   0.065,
+   0.103,
+   0.187,
+   0.063,
+   0.076,
+   0.058,
+   0.048,
+   0.056,
+   0.119
+  ],
+  "best": {
+   "month": 6,
+   "places": [
+    {
+     "name": "Kowloon Hills Fitness Trail",
+     "nameZh": "九龍山健身徑",
+     "chance": 0.778
+    },
+    {
+     "name": "Hok Tau",
+     "nameZh": "鶴藪",
+     "chance": 0.749
+    },
+    {
+     "name": "Tai Po Kau Nature Reserve",
+     "nameZh": "大埔滘自然護理區",
+     "chance": 0.741
+    }
+   ]
+  },
+  "iucn": {
+   "category": "Least Concern",
+   "source": "iNaturalist"
+  }
+ },
+ {
+  "id": "sp_Hemixos_castanonotus",
+  "scientificName": "Hemixos castanonotus",
+  "commonName": "Chestnut Bulbul",
+  "chineseName": "栗背短脚鹎",
+  "inaturalistTaxonId": 14684,
+  "inTripPlanner": true,
+  "monthlyRates": [
+   0.149,
+   0.167,
+   0.16,
+   0.065,
+   0.081,
+   0.077,
+   0.076,
+   0.095,
+   0.062,
+   0.068,
+   0.044,
+   0.153
+  ],
+  "best": {
+   "month": 2,
+   "places": [
+    {
+     "name": "Tai Po Kau Nature Reserve",
+     "nameZh": "大埔滘自然護理區",
+     "chance": 0.921
+    },
+    {
+     "name": "Kowloon Hills Fitness Trail",
+     "nameZh": "九龍山健身徑",
+     "chance": 0.882
+    },
+    {
+     "name": "Pak Sha O",
+     "nameZh": "白沙澳",
+     "chance": 0.88
+    }
+   ]
+  },
+  "iucn": {
+   "category": "Least Concern",
+   "source": "iNaturalist"
+  }
+ },
+ {
+  "id": "sp_Streptopelia_decaocto",
+  "scientificName": "Streptopelia decaocto",
+  "commonName": "Eurasian Collared-Dove",
+  "chineseName": "灰斑鸠",
+  "inaturalistTaxonId": 2969,
+  "inTripPlanner": true,
+  "monthlyRates": [
+   0.173,
+   0.121,
+   0.137,
+   0.155,
+   0.122,
+   0.053,
+   0.063,
+   0.065,
+   0.056,
+   0.06,
+   0.087,
+   0.166
+  ],
+  "best": {
+   "month": 1,
+   "places": [
+    {
+     "name": "Tam Kon Chau Road--Fishpond Area",
+     "nameZh": "担竿洲路--魚塘區",
+     "chance": 0.806
+    },
+    {
+     "name": "San Tin",
+     "nameZh": "新田",
+     "chance": 0.629
+    },
+    {
+     "name": "Lut Chau",
+     "nameZh": "甩洲",
+     "chance": 0.578
+    }
+   ]
+  },
+  "iucn": {
+   "category": "Least Concern",
+   "source": "iNaturalist"
+  }
+ },
+ {
+  "id": "sp_Lonchura_striata",
+  "scientificName": "Lonchura striata",
+  "commonName": "White-rumped Munia",
+  "chineseName": "白腰文鸟",
+  "inaturalistTaxonId": 13887,
+  "inTripPlanner": true,
+  "monthlyRates": [
+   0.061,
+   0.072,
+   0.038,
+   0.052,
+   0.056,
+   0.091,
+   0.105,
+   0.103,
+   0.222,
+   0.231,
+   0.203,
+   0.088
+  ],
+  "best": {
+   "month": 10,
+   "places": [
+    {
+     "name": "Pat Heung Catchwater, Tai Lam",
+     "nameZh": null,
+     "chance": 0.814
+    },
+    {
+     "name": "Long Valley",
+     "nameZh": "塱原",
+     "chance": 0.714
+    },
+    {
+     "name": "Lung A Pai",
+     "nameZh": "龍丫排",
+     "chance": 0.675
+    }
+   ]
+  },
+  "iucn": {
+   "category": "Least Concern",
+   "source": "iNaturalist"
+  }
+ },
+ {
+  "id": "sp_Platalea_minor",
+  "scientificName": "Platalea minor",
+  "commonName": "Black-faced Spoonbill",
+  "chineseName": "黑脸琵鹭",
+  "inaturalistTaxonId": 3729,
+  "inTripPlanner": false,
+  "monthlyRates": null,
+  "best": null,
+  "iucn": {
+   "category": "Vulnerable",
+   "source": "iNaturalist"
+  }
+ }
+]

@@ -1,10 +1,23 @@
 import { useEffect, useRef, useState } from 'react'
-import ComingSoon from '../components/ComingSoon.jsx'
 import ConfidenceIndicator from '../components/ConfidenceIndicator.jsx'
+import IdentifierGuide from '../components/IdentifierGuide.jsx'
 import MockDataNotice from '../components/MockDataNotice.jsx'
 import PhotoPicker from '../components/PhotoPicker.jsx'
 import SpeciesCard from '../components/SpeciesCard.jsx'
 import { identifyBird } from '../services/identificationService.js'
+
+// Text for the progress message while matches are being found.
+function loadingMessage(detail) {
+  if (detail?.stage === 'downloading') {
+    const megabytes = (bytes) => Math.round(bytes / 1e6)
+    const amount = detail.total
+      ? `${megabytes(detail.received)} of ${megabytes(detail.total)} MB`
+      : `${megabytes(detail.received)} MB`
+    return `Downloading the identifier (first time only): ${amount}…`
+  }
+  if (detail?.stage === 'starting') return 'Starting the identifier…'
+  return 'Identifying…'
+}
 
 // Identify a bird: choose a photo, preview it, then see ranked matches.
 // Matches come from services/identificationService.js.
@@ -14,6 +27,8 @@ export default function IdentifyScreen({ onAskAboutSpecies }) {
   const [photo, setPhoto] = useState(null)
   const [photoError, setPhotoError] = useState(null)
   const [status, setStatus] = useState('idle') // 'idle' | 'loading' | 'done' | 'error'
+  const [statusDetail, setStatusDetail] = useState(null) // progress while loading
+  const [errorMessage, setErrorMessage] = useState(null)
   const [result, setResult] = useState(null) // what the service returned
   const resultsHeadingRef = useRef(null)
 
@@ -52,16 +67,19 @@ export default function IdentifyScreen({ onAskAboutSpecies }) {
 
   async function handleFindMatches() {
     setStatus('loading')
+    setStatusDetail(null)
     try {
-      const identification = await identifyBird(photo.file)
+      const identification = await identifyBird(photo.file, { onStatus: setStatusDetail })
       setResult(identification)
       setStatus('done')
-    } catch {
+    } catch (error) {
+      setErrorMessage(error.message)
       setStatus('error')
     }
   }
 
   const isLoading = status === 'loading'
+  const topConfidence = result?.matches[0]?.confidence ?? 0
 
   return (
     <>
@@ -69,7 +87,7 @@ export default function IdentifyScreen({ onAskAboutSpecies }) {
         <h1>Identify a bird</h1>
         <p className="lead">Choose a bird photo to see which species it might be.</p>
         <p className="prototype-note">
-          Your photo stays on your device. BirdQuest doesn't upload it anywhere.
+          Your photo stays on your device. BirdQuest doesn&apos;t upload it anywhere.
         </p>
       </section>
 
@@ -83,6 +101,7 @@ export default function IdentifyScreen({ onAskAboutSpecies }) {
           onSelectFile={handleSelectFile}
           onPreviewError={handlePreviewError}
         />
+        <p className="field-hint">Tip: the identifier looks at the middle of the photo, so keep the bird centred.</p>
         {photoError && (
           <p className="error-message" role="alert">
             {photoError}
@@ -98,11 +117,12 @@ export default function IdentifyScreen({ onAskAboutSpecies }) {
             {isLoading ? 'Finding matches…' : 'Find matches'}
           </button>
         )}
+        {isLoading && <p role="status">{loadingMessage(statusDetail)}</p>}
       </section>
 
       {status === 'error' && (
         <p className="error-message" role="alert">
-          Something went wrong while finding matches. Please try again.
+          Something went wrong while finding matches: {errorMessage} Please try again.
         </p>
       )}
 
@@ -118,14 +138,20 @@ export default function IdentifyScreen({ onAskAboutSpecies }) {
           </h2>
           {result.isMock && (
             <MockDataNotice>
-              These matches are sample data. The image classifier isn't connected yet, so they
-              don't come from your photo.
+              These matches are sample data. The image classifier isn&apos;t connected, so they
+              don&apos;t come from your photo.
             </MockDataNotice>
+          )}
+          {topConfidence < 0.5 && (
+            <p className="results-meta low-confidence">
+              The identifier isn&apos;t sure about this photo: no match is above 50%. Treat these as
+              suggestions and check them in a field guide.
+            </p>
           )}
           <p className="confidence-about">
             <strong>About confidence:</strong> it shows how strongly the model favours a species
-            compared with the other species it was trained on. It isn't a measure of the
-            model's accuracy, and a confident match can still be wrong.
+            compared with the other {result.speciesCount - 1} it knows. It isn&apos;t a measure of
+            the model&apos;s accuracy, and a confident match can still be wrong.
           </p>
           <ol className="match-list">
             {result.matches.map((match) => (
@@ -139,9 +165,7 @@ export default function IdentifyScreen({ onAskAboutSpecies }) {
         </section>
       )}
 
-      <ComingSoon
-        items={['Connect our Teachable Machine image classifier, so matches come from your photo']}
-      />
+      <IdentifierGuide />
     </>
   )
 }

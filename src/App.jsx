@@ -15,6 +15,10 @@ export default function App() {
   // (e.g. the assistant) can use it. null means nothing selected.
   const [selectedSpecies, setSelectedSpecies] = useState(null)
 
+  // The assistant's chat, kept here so it survives moving between screens.
+  // It is never saved: reloading the page clears it.
+  const [assistantMessages, setAssistantMessages] = useState([])
+
   // Keep the browser tab title in sync with the screen.
   useEffect(() => {
     document.title = route.id === 'home' ? 'BirdQuest' : `${route.label} · BirdQuest`
@@ -37,7 +41,9 @@ export default function App() {
       screen = (
         <AssistantScreen
           selectedSpecies={selectedSpecies}
-          onClearSpecies={() => setSelectedSpecies(null)}
+          onSelectSpecies={setSelectedSpecies}
+          messages={assistantMessages}
+          onMessagesChange={setAssistantMessages}
         />
       )
       break
@@ -63,8 +69,8 @@ export default function App() {
       </main>
 
       <footer className="app-footer">
-        BirdQuest · University project prototype · Trip predictions are estimates; identification
-        and the assistant use sample data
+        BirdQuest · University project prototype · Predictions, identifications and assistant answers are
+        estimates; check a field guide
       </footer>
     </div>
   )

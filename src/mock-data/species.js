@@ -14,7 +14,7 @@ export const MOCK_SPECIES = [
     scientificName: 'Platalea minor',
     habitat: 'Coastal wetlands and mudflats',
     season: 'Mainly winter',
-    conservation: 'Endangered (IUCN Red List)',
+    conservation: 'Vulnerable (IUCN Red List, 2025; Endangered until then)',
   },
   {
     id: 'little-egret',

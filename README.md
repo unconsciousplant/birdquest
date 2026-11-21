@@ -2,7 +2,7 @@
 
 A university-project prototype that helps Hong Kong birdwatchers plan trips, identify birds from photographs, and learn about species.
 
-> **Prototype status:** the **Plan a trip** screen uses our trained bird occurrence model (see [docs/model/](docs/model/)). **Identify** and the **Assistant** still show mock (sample) data. Predictions are estimates, not guarantees.
+> **Prototype status:** **Plan a trip** uses our trained bird occurrence model (see [docs/model/](docs/model/)). **Identify** uses the open-source Bird-Classification image model (see [docs/classifier/](docs/classifier/)). The **Assistant** is a rule-based chatbot covering 61 Hong Kong species (see [docs/assistant/](docs/assistant/)). Predictions, identifications and answers are estimates, not guarantees. Only the Home screen's "Sample species" list is still mock data.
 
 The full project brief is in [docs/project_brief.md](docs/project_brief.md).
 
@@ -56,8 +56,9 @@ Then open the **Network** address it prints (e.g. `http://192.168.x.x:5173/`) on
 | Command | What it does |
 |---|---|
 | `npm run lint` | Checks the code for common mistakes (uses [oxlint](https://oxc.rs/docs/guide/usage/linter.html)). |
+| `npm test` | Asks the bird assistant 50 sample questions and checks the answers. |
 | `npm run build` | Builds the final website into `dist/`. If this fails, something is broken. |
-| `npm run check` | Runs both of the above. Run it before you share or commit changes. |
+| `npm run check` | Runs all three. Run it before you share or commit changes. |
 
 To try the built version (the same files you would eventually host):
 
@@ -76,13 +77,20 @@ Then open <http://localhost:4173/>.
 ```
 birdquest/
 ├── docs/                  Project documents that are safe to share (brief, notes)
+│   ├── assistant/         How the bird assistant works and where its facts come from
+│   ├── classifier/        How the photo identifier was added, checked and credited
 │   └── model/             The prediction model's evaluation report and hand-over notes
 ├── private/               Ignored by Git: personal documents, IDs, etc.
 ├── public/                Static files copied as-is (favicon)
+│   ├── classifier/        The photo identifier: model, species list, MIT licence
 │   └── model/             The prediction model, made by scripts/prepare-model.mjs
 ├── scripts/
 │   ├── prepare-model.mjs  Prepares a new model file for the website (removes private locations)
-│   └── weather-effects.mjs  Measures how much each weather input changes predictions
+│   ├── weather-effects.mjs  Measures how much each weather input changes predictions
+│   ├── convert-classifier.py  Converts the photo identifier to ONNX (needs Python + PyTorch)
+│   ├── build-classifier-species.mjs  Builds the identifier's species list with English names
+│   ├── build-assistant-data.mjs  Builds the assistant's facts (seasons, places, status)
+│   └── test-assistant.mjs  50 sample questions for the assistant (npm test)
 ├── index.html             The HTML page Vite serves
 └── src/
     ├── main.jsx           Starts React
@@ -91,6 +99,7 @@ birdquest/
     ├── styles.css         All styles (mobile-first)
     ├── screens/           One component per page
     ├── components/        Pieces reused across screens
+    ├── knowledge/         The assistant's facts about 61 species
     ├── mock-data/         Sample data, clearly marked as mock
     ├── services/          The only code screens use to get data
     └── vendor/            Code copied in unchanged (the model's predictor)
@@ -103,7 +112,7 @@ screen  ──calls──▶  service  ──reads──▶  mock-data   (today)
                               ──calls──▶  real model / API  (later)
 ```
 
-Screens never import from `mock-data/` directly. Each service returns an object with `isMock: true` while it uses sample data. The trip planner service already uses the real model, so it returns `isMock: false`. To connect something real later (for example the Teachable Machine classifier in `services/identificationService.js`), change only the inside of that service, keep its return shape, and set `isMock: false`.
+Screens never import from `mock-data/` directly. Each service returns an object with `isMock: true` while it uses sample data. The trip planner, identification and assistant services all use real data now, so they return `isMock: false`. Only `speciesService.js`, which supplies the Home screen's sample list, is still mock. To replace a service later, change only its inside, keep its return shape, and set `isMock` correctly.
 
 ### Navigation
 
@@ -146,9 +155,38 @@ If the predictor code changed too, replace `src/vendor/birdquest-predictor.js` w
 node scripts/weather-effects.mjs
 ```
 
+## The photo identifier (Identify)
+
+The **Identify** screen uses [Bird-Classification](https://github.com/Firefly-ZJ/Bird-Classification) by Zhang Jun (MIT licence). It's an image model for **373 common bird species in China**, including all 60 trip-planner species. Choose a photo, then **Find matches** shows the 3 most likely species with English, scientific and Chinese names, and the model's confidence.
+
+- It runs **in the browser** with [onnxruntime-web](https://onnxruntime.ai/), so the photo is never uploaded. The first time, it downloads about 60 MB (model plus runtime); after that the browser keeps them.
+- It only looks at the **centre** of the photo, and it only knows those 373 species.
+- Its authors report 62% top-1 and 75% top-3 accuracy on their own test photos. It hasn't been tested on Hong Kong photos.
+- How it was converted, checked and credited, and how to update it: [docs/classifier/README.md](docs/classifier/README.md). Keep `public/classifier/LICENSE.txt`, because the MIT licence requires it.
+
+## The bird assistant (Assistant)
+
+The **Assistant** screen is a simple **rule-based chatbot**, not an AI. It finds a bird's name and some keywords in your question, then answers from a fixed set of facts about **61 Hong Kong species**: the trip planner's 60 plus the Black-faced Spoonbill.
+
+- **Ask about:**
+  - what a bird looks like, where it lives, what it eats and how it behaves
+  - **when** and **where** to see it in Hong Kong
+  - its **conservation status** and its **names**
+
+  Type names in English, Latin or Chinese (simplified or traditional). For example: "What does the Little Egret eat?", "Where can I see the Pied Avocet?" or 黑臉琵鷺幾時嚟香港？
+- **Follow-up questions** like "Where can I see it?" use the bird you're talking about. That's the last one answered, or one picked with **Ask the assistant** on another screen.
+- **Birds it doesn't cover** (for example owls, or anything else the photo identifier knows) get: *"This chatbot currently only supports 61 species of bird, and we expect to expand in the near future."*
+- **Where the facts come from:**
+  - seasons: eBird checklists
+  - best places: the trip planner model
+  - conservation status: the IUCN Red List, checked against BirdLife for the two threatened species
+  - descriptions: short notes written for BirdQuest
+- **Privacy:** it runs in the browser, and nothing you type is sent anywhere or saved.
+
+Details, sources and how to add species: [docs/assistant/README.md](docs/assistant/README.md).
+
 ## Not included yet
 
-- The photo classifier (Teachable Machine) and the assistant aren't connected
 - Live weather forecasts are off (see above)
 - No login, payments or database
 - Not deployed anywhere

@@ -2,7 +2,7 @@
   "name": "birdquest",
   "private": true,
   "version": "0.1.0",
-  "description": "University-project prototype for Hong Kong birdwatchers (mock data only).",
+  "description": "University-project prototype for Hong Kong birdwatchers: trip planner, photo identifier and bird assistant.",
   "type": "module",
   "engines": {
     "node": "^20.19.0 || >=22.12.0"
@@ -12,9 +12,11 @@
     "build": "vite build",
     "preview": "vite preview",
     "lint": "oxlint",
-    "check": "npm run lint && npm run build"
+    "test": "node scripts/test-assistant.mjs",
+    "check": "npm run lint && npm test && npm run build"
   },
   "dependencies": {
+    "onnxruntime-web": "^1.31.1",
     "react": "^19.3.1",
     "react-dom": "^19.3.1"
   },
