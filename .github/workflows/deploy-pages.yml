@@ -1,0 +1,61 @@
+# ------------------------------------------------------------
+# Publishes BirdQuest to GitHub Pages every time `main` is pushed.
+# It installs the packages, runs the checks (lint + tests + build),
+# and only publishes if they all pass.
+#
+# One-time setup on GitHub: Settings → Pages → Build and deployment →
+# Source: "GitHub Actions". (A private repository needs GitHub Pro for
+# Pages, and the published website is public even if the code isn't.)
+# ------------------------------------------------------------
+name: Publish to GitHub Pages
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch: # also allows running it by hand from the Actions tab
+
+# Only what's needed: read the code, publish the site.
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# If you push again while it's publishing, finish the newer one.
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Get the code
+        uses: actions/checkout@v7
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v7
+        with:
+          node-version: 26
+          cache: npm
+
+      - name: Install packages
+        run: npm ci
+
+      - name: Check and build (lint, tests, build)
+        run: npm run check
+
+      - name: Package the website
+        uses: actions/upload-pages-artifact@v5
+        with:
+          path: dist
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Publish to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v5

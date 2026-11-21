@@ -68,7 +68,7 @@ export default function App() {
       <header className="app-header">
         <div className="app-header-inner">
           <a className="brand" href="#/">
-            <img src="/favicon.svg" alt="" width="28" height="28" />
+            <img src={`${import.meta.env.BASE_URL}favicon.svg`} alt="" width="28" height="28" />
             <span>BirdQuest</span>
           </a>
           <NavBar currentRouteId={route.id} />

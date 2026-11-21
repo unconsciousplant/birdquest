@@ -36,7 +36,9 @@ Three features:
   - For birds it doesn't cover, it must say: "This chatbot currently only supports N species of bird, and we expect to expand in the near future." Use the real count (`assistant.count`), never a hard-coded number.
   - Run `npm test` after changing its rules or knowledge.
 - No personal information or student IDs anywhere in the repo. Those go in `private/`, which Git ignores and code must never import. **One exception:** team members' names, on the Q&A page (`src/content/team.js`), shown only with each person's agreement. Never add student IDs, emails, phone numbers or other contact details.
-- Don't connect external APIs or deploy anything unless the owner asks.
+- Don't connect external APIs unless the owner asks.
+- **Pushing to `main` publishes the site.** `.github/workflows/deploy-pages.yml` publishes it to GitHub Pages, once Pages is enabled. Only commit or push when the owner asks, and never remove the `npm run check` step that guards publishing.
+- **Keep file paths relative.** The site is built with `base: './'`, so it works at `/` and at `/birdquest/`. In code, build file addresses as `${import.meta.env.BASE_URL}path/to/file`, never `/path/to/file`. Check with `npm run build` and then `npm run preview:pages`.
 
 ## The owner is a beginner
 
@@ -86,6 +88,7 @@ npm test           # the assistant's 50 sample questions
 npm run build      # production build into dist/
 npm run check      # lint + test + build: run this before saying work is finished
 npm run preview    # serve the built dist/ at http://localhost:4173
+npm run preview:pages  # serve it like GitHub Pages: http://localhost:4173/birdquest/
 ```
 
 ## Environment notes

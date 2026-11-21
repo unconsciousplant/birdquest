@@ -197,11 +197,36 @@ The **Q&A** tab (`#/qa`) explains how the three parts work, why they were built 
 
 - Live weather forecasts are off (see above)
 - No login, payments or database
-- Not deployed anywhere
+
+## Publishing on GitHub Pages
+
+The repository includes `.github/workflows/deploy-pages.yml`. **Every push to `main`** installs the packages, runs `npm run check` (lint, tests, build) and, only if everything passes, publishes the site to GitHub Pages.
+
+**One-time setup on GitHub:**
+
+1. Pages on a **private** repository needs **GitHub Pro**. Students get it free through the [GitHub Student Developer Pack](https://education.github.com/pack). The other option is to make the repository public.
+2. In the repository, go to **Settings → Pages → Build and deployment** and set **Source** to **GitHub Actions**.
+3. Push to `main`, or open the **Actions** tab, choose *Publish to GitHub Pages* and click *Run workflow*. When it finishes (a minute or two), the address appears in the run, for example `https://YOUR-USERNAME.github.io/birdquest/`.
+
+**Good to know:**
+
+- **The published website is public:** anyone with the link can open it, even if the repository is private.
+- **To take it down,** go to **Settings → Pages** and unpublish the site.
+- **To check the built site at a Pages-style address before pushing:**
+
+  ```bash
+  npm run build
+  ```
+
+  ```bash
+  npm run preview:pages
+  ```
+
+  Then open <http://localhost:4173/birdquest/>.
 
 ## Git
 
-This folder is a Git repository on the `main` branch. `.gitignore` keeps `node_modules/`, `dist/`, `.env` files, keys, `private/`, logs, `.DS_Store` and Claude Code's personal settings out of Git.
+This folder is a Git repository on the `main` branch, connected to a private GitHub repository (`origin`). `.gitignore` keeps `node_modules/`, `dist/`, `.env` files, keys, `private/`, logs, `.DS_Store` and Claude Code's personal settings out of Git.
 
 ### One-time setup: your name and email
 

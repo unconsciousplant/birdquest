@@ -12,6 +12,12 @@
       "runtimeExecutable": "npm",
       "runtimeArgs": ["run", "preview"],
       "port": 4173
+    },
+    {
+      "name": "birdquest-pages-preview",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["run", "preview:pages"],
+      "port": 4173
     }
   ]
 }
