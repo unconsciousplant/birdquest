@@ -3,9 +3,12 @@ import AssistantGuide from '../components/AssistantGuide.jsx'
 import ChatMessage from '../components/ChatMessage.jsx'
 import { askAssistant, getAssistantInfo, isSpeciesSupported } from '../services/assistantService.js'
 
+// Asks for the list of species the assistant covers.
+const LIST_QUESTION = 'Which birds do you know?'
+
 // Suggested questions before the chat starts, and when a bird has just been chosen.
 const STARTERS = [
-  'Which birds do you know?',
+  LIST_QUESTION,
   'Tell me about the Black-faced Spoonbill',
   'Where can I see the Pied Avocet?',
   'What does the Asian Koel eat?',
@@ -107,6 +110,14 @@ export default function AssistantScreen({ selectedSpecies, onSelectSpecies, mess
   if (selectedSpecies && lastReply?.species?.scientificName !== selectedSpecies.scientificName) {
     if (selectedSupported === true) suggestions = ABOUT_THE_CHOSEN_BIRD
     if (selectedSupported === false) suggestions = STARTERS
+  }
+  // No bird chosen (e.g. after Clear): questions about "it" can't be answered, so offer
+  // the species list first, then the starters. (Not when the assistant has just asked
+  // "which egret do you mean?", as those buttons are how you pick one, nor right after
+  // it has shown the list.)
+  if (!selectedSpecies && lastReply?.kind !== 'clarify' && lastReply?.kind !== 'list') {
+    const withoutIt = suggestions.filter((question) => !/\bit\b/i.test(question))
+    suggestions = [...new Set([LIST_QUESTION, ...withoutIt, ...STARTERS])].slice(0, 4)
   }
 
   return (
