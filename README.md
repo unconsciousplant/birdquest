@@ -189,6 +189,10 @@ The **Assistant** screen is a simple **rule-based chatbot**, not an AI. It finds
 
 Details, sources and how to add species: [docs/assistant/README.md](docs/assistant/README.md).
 
+## Q&A page
+
+The **Q&A** tab (`#/qa`) explains how the three parts work, why they were built that way, their limitations and assumptions, and the key findings. It also credits the team. The figures come from the documents in `docs/`, so update `src/screens/QAScreen.jsx` if those change. Team members' names go in `src/content/team.js`: names only, and only with each person's agreement.
+
 ## Not included yet
 
 - Live weather forecasts are off (see above)

@@ -35,7 +35,7 @@ Three features:
   - Hand-written text in `src/knowledge/speciesText.js` stays short and limited to well-established facts, with seasonal and status claims left to the data. Threatened statuses were checked against BirdLife; recheck any status before changing it.
   - For birds it doesn't cover, it must say: "This chatbot currently only supports N species of bird, and we expect to expand in the near future." Use the real count (`assistant.count`), never a hard-coded number.
   - Run `npm test` after changing its rules or knowledge.
-- No personal information or student IDs anywhere in the repo. Those go in `private/`, which Git ignores and code must never import.
+- No personal information or student IDs anywhere in the repo. Those go in `private/`, which Git ignores and code must never import. **One exception:** team members' names, on the Q&A page (`src/content/team.js`), shown only with each person's agreement. Never add student IDs, emails, phone numbers or other contact details.
 - Don't connect external APIs or deploy anything unless the owner asks.
 
 ## The owner is a beginner
@@ -57,6 +57,8 @@ Three features:
 | `docs/model/` | Model evaluation report and hand-over notes (Chinese) | Reference for what the model can and can't do. |
 | `public/classifier/` | Photo identifier: ONNX model, `species.json`, MIT `LICENSE.txt` | Made by `scripts/convert-classifier.py` and `scripts/build-classifier-species.mjs`; see `docs/classifier/README.md`. |
 | `src/knowledge/` | The assistant's facts: `speciesData.json` (generated) and `speciesText.js` (hand-written) | Only `assistantService.js` loads them. See `docs/assistant/README.md`. |
+| `src/content/team.js` | Team name and members, shown on the Q&A page | Names only (see the personal-information rule above). |
+| `src/screens/QAScreen.jsx` | The Q&A page: how each part works, its limitations and key findings | Every figure comes from `docs/`; update the page when those documents change. |
 | `src/services/assistantEngine.js` | The assistant's rules (pure logic, no fetching) | Tested by `scripts/test-assistant.mjs` (`npm test`). Add a test for every new rule. |
 | `src/navigation.js` | Screen list + `useCurrentRoute()` | Add a screen here **and** in the `switch` in `App.jsx`. |
 | `src/App.jsx` | Layout + state shared across screens | Shared state (e.g. `selectedSpecies`) lives here and is passed down as props. |

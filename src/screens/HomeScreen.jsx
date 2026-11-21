@@ -49,7 +49,8 @@ export default function HomeScreen({ onAskAboutSpecies }) {
         </p>
         <p className="prototype-note">
           University project prototype. Trip planning and photo identification use trained models,
-          and the assistant answers from checked facts about 61 Hong Kong species.
+          and the assistant answers from checked facts about 61 Hong Kong species. See the{' '}
+          <a href="#/qa">Q&amp;A</a> for how it works.
         </p>
       </section>
 

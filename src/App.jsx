@@ -4,6 +4,7 @@ import { goTo, useCurrentRoute } from './navigation.js'
 import AssistantScreen from './screens/AssistantScreen.jsx'
 import HomeScreen from './screens/HomeScreen.jsx'
 import IdentifyScreen from './screens/IdentifyScreen.jsx'
+import QAScreen from './screens/QAScreen.jsx'
 import TripPlannerScreen from './screens/TripPlannerScreen.jsx'
 
 // The navigation shell: header, nav bar, the current screen, and footer.
@@ -44,6 +45,9 @@ export default function App() {
       break
     case 'identify':
       screen = <IdentifyScreen onAskAboutSpecies={handleAskAboutSpecies} />
+      break
+    case 'qa':
+      screen = <QAScreen />
       break
     case 'assistant':
       screen = (

@@ -7,6 +7,7 @@ export const ROUTES = [
   { id: 'plan', hash: '#/plan', label: 'Plan a trip', icon: '🗺️' },
   { id: 'identify', hash: '#/identify', label: 'Identify', icon: '📷' },
   { id: 'assistant', hash: '#/assistant', label: 'Assistant', icon: '💬' },
+  { id: 'qa', hash: '#/qa', label: 'Q&A', icon: '❓' },
 ]
 
 // Finds the route for an address hash like "#/plan".
