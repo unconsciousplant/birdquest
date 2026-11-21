@@ -29,6 +29,14 @@ export default function App() {
     goTo('assistant')
   }
 
+  // Starts the whole demo from scratch: the chat, the chosen bird, every screen's
+  // results and the models loaded in memory. BirdQuest saves nothing in the
+  // browser, so reloading the page on the Home screen is a complete reset.
+  function handleResetDemo() {
+    window.location.hash = '#/'
+    window.location.reload()
+  }
+
   let screen
   switch (route.id) {
     case 'plan':
@@ -69,8 +77,13 @@ export default function App() {
       </main>
 
       <footer className="app-footer">
-        BirdQuest · University project prototype · Predictions, identifications and assistant answers are
-        estimates; check a field guide
+        <p>
+          BirdQuest · University project prototype · Predictions, identifications and assistant answers are
+          estimates; check a field guide
+        </p>
+        <button type="button" className="button button-secondary button-small" onClick={handleResetDemo}>
+          Reset demo
+        </button>
       </footer>
     </div>
   )

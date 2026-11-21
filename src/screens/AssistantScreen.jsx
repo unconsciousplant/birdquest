@@ -23,8 +23,7 @@ export default function AssistantScreen({ selectedSpecies, onSelectSpecies, mess
   const [busy, setBusy] = useState(false)
   const [speciesCount, setSpeciesCount] = useState(null)
   const [support, setSupport] = useState(null) // { scientificName, supported } for the selected bird
-  const logEndRef = useRef(null)
-  const previousMessageCount = useRef(messages.length)
+  const logRef = useRef(null) // the scrollable chat window
 
   useEffect(() => {
     let ignore = false
@@ -54,13 +53,22 @@ export default function AssistantScreen({ selectedSpecies, onSelectSpecies, mess
     }
   }, [selectedSpecies])
 
-  // Keep the newest message in view (but don't jump when you first open the screen).
+  // Scroll inside the chat window (never the whole page) so the latest question
+  // sits at the top: its answer, even a long one, then reads from the start.
   useEffect(() => {
-    if (messages.length > previousMessageCount.current) {
-      logEndRef.current?.scrollIntoView({ block: 'nearest' })
-    }
-    previousMessageCount.current = messages.length
-  }, [messages.length])
+    const log = logRef.current
+    if (!log) return
+    const questions = log.querySelectorAll('.chat-user')
+    const lastQuestion = questions[questions.length - 1]
+    log.scrollTop = lastQuestion ? lastQuestion.offsetTop - 8 : 0
+  }, [messages.length, busy])
+
+  // Empties the chat and forgets the bird being discussed.
+  function handleClearChat() {
+    onMessagesChange([])
+    onSelectSpecies(null)
+    setDraft('')
+  }
 
   const selectedSupported =
     selectedSpecies && support?.scientificName === selectedSpecies.scientificName ? support.supported : null
@@ -140,10 +148,21 @@ export default function AssistantScreen({ selectedSpecies, onSelectSpecies, mess
       </section>
 
       <section className="card chat" aria-labelledby={`${id}-chat-heading`}>
-        <h2 id={`${id}-chat-heading`} className="visually-hidden">
-          Chat
-        </h2>
-        <ol className="chat-log" role="log" aria-live="polite">
+        <div className="chat-header">
+          <h2 id={`${id}-chat-heading`} className="card-title">
+            Chat
+          </h2>
+          <button
+            type="button"
+            className="button button-secondary button-small"
+            disabled={busy || (messages.length === 0 && !selectedSpecies)}
+            onClick={handleClearChat}
+          >
+            Clear chat
+          </button>
+        </div>
+        {/* A fixed-height window that scrolls inside. tabIndex lets keyboard users scroll it. */}
+        <ol className="chat-log" role="log" aria-live="polite" aria-label="Chat messages" tabIndex={0} ref={logRef}>
           {messages.length === 0 && (
             <li className="chat-message chat-bot">
               <p className="chat-bubble">
@@ -162,7 +181,7 @@ export default function AssistantScreen({ selectedSpecies, onSelectSpecies, mess
           )}
         </ol>
 
-        <div className="chat-suggestions" role="group" aria-label="Suggested questions" ref={logEndRef}>
+        <div className="chat-suggestions" role="group" aria-label="Suggested questions">
           {suggestions.map((suggestion) => (
             <button
               key={suggestion}

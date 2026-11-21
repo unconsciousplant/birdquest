@@ -120,6 +120,13 @@ a {
   text-align: center;
   font-size: 0.85rem;
   color: var(--color-muted);
+  display: grid;
+  justify-items: center;
+  gap: 10px;
+}
+
+.app-footer p {
+  margin: 0;
 }
 
 /* ---------- Navigation (bottom tab bar on phones) ---------- */
@@ -211,6 +218,10 @@ a {
 
 .card-link .card-title {
   color: var(--color-accent-strong);
+}
+
+.card-icon {
+  margin-right: 8px;
 }
 
 .card-link:hover {
@@ -770,11 +781,31 @@ a {
   gap: 12px;
 }
 
+.chat-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.chat-header .card-title {
+  margin: 0;
+}
+
+/* The chat window: a fixed height (about half the screen, 320–520 px) that
+   scrolls inside, so the question box below never moves. */
 .chat-log {
+  position: relative; /* message positions are measured from here when scrolling */
   list-style: none;
   margin: 0;
-  padding: 0;
-  display: grid;
+  padding: 10px;
+  height: clamp(320px, 55vh, 520px);
+  overflow-y: auto;
+  overscroll-behavior: contain; /* scrolling the chat doesn't scroll the page */
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  display: flex;
+  flex-direction: column;
   gap: 10px;
 }
 
@@ -848,7 +879,6 @@ a {
   display: flex;
   flex-wrap: wrap;
   gap: 8px;
-  scroll-margin-bottom: 140px; /* keeps the question box in view above the phone nav bar */
 }
 
 .chat-form {

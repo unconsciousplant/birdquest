@@ -1,7 +1,11 @@
 import { useEffect, useState } from 'react'
 import MockDataNotice from '../components/MockDataNotice.jsx'
 import SpeciesCard from '../components/SpeciesCard.jsx'
+import { ROUTES } from '../navigation.js'
 import { listSpecies } from '../services/speciesService.js'
+
+// Same emoji as the nav bar, so each feature looks the same everywhere.
+const iconFor = (hash) => ROUTES.find((route) => route.hash === hash)?.icon
 
 const FEATURES = [
   {
@@ -56,7 +60,13 @@ export default function HomeScreen({ onAskAboutSpecies }) {
         <div className="grid">
           {FEATURES.map((feature) => (
             <a key={feature.hash} className="card card-link" href={feature.hash}>
-              <h3 className="card-title">{feature.title}</h3>
+              <h3 className="card-title">
+                {/* Decorative: screen readers just read the title. */}
+                <span className="card-icon" aria-hidden="true">
+                  {iconFor(feature.hash)}
+                </span>
+                {feature.title}
+              </h3>
               <p>{feature.text}</p>
             </a>
           ))}

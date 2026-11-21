@@ -182,6 +182,10 @@ The **Assistant** screen is a simple **rule-based chatbot**, not an AI. It finds
   - conservation status: the IUCN Red List, checked against BirdLife for the two threatened species
   - descriptions: short notes written for BirdQuest
 - **Privacy:** it runs in the browser, and nothing you type is sent anywhere or saved.
+- **Starting over:**
+  - **Clear chat**, above the chat window, empties the conversation and forgets the bird being discussed.
+  - **Reset demo**, in the footer of every screen, starts the whole demo fresh: chat, chosen bird, results, and the models loaded in memory. BirdQuest saves nothing in the browser, so this simply reloads the page on the Home screen.
+  - The browser still keeps its own download cache of the model files (about 60 MB), so the next visit loads faster. A web page can't delete that. To remove it, clear this site's data in your browser's settings.
 
 Details, sources and how to add species: [docs/assistant/README.md](docs/assistant/README.md).
 
